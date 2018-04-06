@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/ArchiveIntermediates/Eureka/BuildProductsPath/Release-iphoneos/Eureka.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Eureka-Swift.h",
+          'external-contents': "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/ArchiveIntermediates/Eureka/BuildProductsPath/Release-iphoneos/Eureka.framework/Headers/Eureka-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Eureka.h",
+          'external-contents': "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Source/Eureka.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/ArchiveIntermediates/Eureka/BuildProductsPath/Release-iphoneos/Eureka.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/ArchiveIntermediates/Eureka/IntermediateBuildFilesPath/Eureka.build/Release-iphoneos/Eureka.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

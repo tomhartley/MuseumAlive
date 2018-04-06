@@ -1,0 +1,1034 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomeViewController"
+- "Emoji"
+- "\U0001F466\U0001F3FC"
+- "\U0001F350"
+- "\U0001F481\U0001F3FB"
+- "\U0001F417"
+- "\U0001F43C"
+- "\U0001F43B"
+- "\U0001F416"
+- "\U0001F421"
+- "EurekaLogoView"
+provides-nominal:
+- "7Example18HomeViewControllerC"
+- "7Example14EurekaLogoViewC"
+provides-member:
+- ["7Example18HomeViewControllerC", ""]
+- ["7Example14EurekaLogoViewC", ""]
+provides-dynamic-lookup:
+- "showAlert"
+- "viewDidLoad"
+depends-top-level:
+- !private "+++"
+- !private "<<<"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "ButtonRow"
+- "CGRect"
+- "Emoji"
+- "EurekaLogoView"
+- "ExtendedGraphemeClusterType"
+- "FormViewController"
+- !private "HeaderFooterView"
+- "HomeViewController"
+- !private "ImageRow"
+- "NSCoder"
+- !private "Section"
+- "String"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- !private "UIImage"
+- !private "UIImageView"
+- "UIView"
+- "UnicodeScalarType"
+- !private "Void"
+- !private "fatalError"
+- "\U0001F350"
+- "\U0001F416"
+- "\U0001F417"
+- "\U0001F421"
+- "\U0001F43B"
+- "\U0001F43C"
+- "\U0001F466\U0001F3FC"
+- "\U0001F481\U0001F3FB"
+depends-member:
+- !private ["6Eureka8BaseCellC", "accessoryView"]
+- !private ["6Eureka12BaseCellTypeP", "accessoryView"]
+- !private ["6Eureka7BaseRowC", "defaultCellUpdate"]
+- !private ["6Eureka7BaseRowC", "init"]
+- !private ["6Eureka7BaseRowC", "onCellSelection"]
+- !private ["6Eureka7BaseRowC", "presentationMode"]
+- !private ["6Eureka7BaseRowC", "tag"]
+- !private ["6Eureka7BaseRowC", "title"]
+- !private ["6Eureka11BaseRowTypeP", "defaultCellUpdate"]
+- !private ["6Eureka11BaseRowTypeP", "init"]
+- !private ["6Eureka11BaseRowTypeP", "onCellSelection"]
+- !private ["6Eureka11BaseRowTypeP", "presentationMode"]
+- !private ["6Eureka11BaseRowTypeP", "tag"]
+- !private ["6Eureka11BaseRowTypeP", "title"]
+- !private ["s23BidirectionalCollectionP", "header"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["6Eureka11ButtonRowOfC", "init"]
+- !private ["6Eureka11ButtonRowOfC", "onCellSelection"]
+- !private ["6Eureka11ButtonRowOfC", "presentationMode"]
+- !private ["6Eureka11ButtonRowOfC", "tag"]
+- !private ["6Eureka11ButtonRowOfC", "title"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "UIImageView"]
+- !private ["So15CALayerDelegateP", "accessoryView"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "autoresizingMask"]
+- !private ["So15CALayerDelegateP", "contentMode"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["SC6CGRectV", "init"]
+- !private ["s7CVarArgP", "ButtonRow"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "HeaderFooterView"]
+- !private ["s7CVarArgP", "ImageRow"]
+- !private ["s7CVarArgP", "Section"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIImageView"]
+- !private ["s7CVarArgP", "accessoryView"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "autoresizingMask"]
+- !private ["s7CVarArgP", "contentMode"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "form"]
+- !private ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "showAlert"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["6Eureka4CellC", "accessoryView"]
+- !private ["6Eureka8CellTypeP", "accessoryView"]
+- !private ["s10CollectionP", "header"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ButtonRow"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "HeaderFooterView"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageRow"]
+- !private ["s28CustomDebugStringConvertibleP", "Section"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "accessoryView"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "autoresizingMask"]
+- !private ["s28CustomDebugStringConvertibleP", "contentMode"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "form"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "segueName"]
+- !private ["s28CustomDebugStringConvertibleP", "showAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "segueName"]
+- !private ["s23CustomStringConvertibleP", "ButtonRow"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "HeaderFooterView"]
+- !private ["s23CustomStringConvertibleP", "ImageRow"]
+- !private ["s23CustomStringConvertibleP", "Section"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIImageView"]
+- !private ["s23CustomStringConvertibleP", "accessoryView"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "autoresizingMask"]
+- !private ["s23CustomStringConvertibleP", "contentMode"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "form"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "showAlert"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "segueName"]
+- !private ["6Eureka11DisableableP", "defaultCellUpdate"]
+- !private ["6Eureka11DisableableP", "init"]
+- !private ["6Eureka11DisableableP", "onCellSelection"]
+- !private ["6Eureka11DisableableP", "presentationMode"]
+- !private ["6Eureka11DisableableP", "tag"]
+- !private ["6Eureka11DisableableP", "title"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "segueName"]
+- !private ["s9EquatableP", "ButtonRow"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "HeaderFooterView"]
+- !private ["s9EquatableP", "ImageRow"]
+- !private ["s9EquatableP", "Section"]
+- !private ["s9EquatableP", "UIAlertAction"]
+- !private ["s9EquatableP", "UIAlertController"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UIImageView"]
+- !private ["s9EquatableP", "accessoryView"]
+- !private ["s9EquatableP", "addAction"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "alert"]
+- !private ["s9EquatableP", "autoresizingMask"]
+- !private ["s9EquatableP", "contentMode"]
+- !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "defaultCellUpdate"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "flexibleWidth"]
+- !private ["s9EquatableP", "form"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "header"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "onCellSelection"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "presentationMode"]
+- !private ["s9EquatableP", "scaleAspectFit"]
+- !private ["s9EquatableP", "showAlert"]
+- !private ["s9EquatableP", "tag"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- ["7Example14EurekaLogoViewC", "CGRect"]
+- ["7Example14EurekaLogoViewC", "NSCoder"]
+- !private ["7Example14EurekaLogoViewC", "UIImage"]
+- !private ["7Example14EurekaLogoViewC", "UIImageView"]
+- !private ["7Example14EurekaLogoViewC", "addSubview"]
+- ["7Example14EurekaLogoViewC", "deinit"]
+- !private ["7Example14EurekaLogoViewC", "fatalError"]
+- !private ["7Example14EurekaLogoViewC", "frame"]
+- ["7Example14EurekaLogoViewC", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "flexibleWidth"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "segueName"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["6Eureka12FormDelegateP", "ButtonRow"]
+- !private ["6Eureka12FormDelegateP", "CGRect"]
+- !private ["6Eureka12FormDelegateP", "HeaderFooterView"]
+- !private ["6Eureka12FormDelegateP", "ImageRow"]
+- !private ["6Eureka12FormDelegateP", "Section"]
+- !private ["6Eureka12FormDelegateP", "UIAlertAction"]
+- !private ["6Eureka12FormDelegateP", "UIAlertController"]
+- !private ["6Eureka12FormDelegateP", "form"]
+- !private ["6Eureka12FormDelegateP", "init"]
+- !private ["6Eureka12FormDelegateP", "present"]
+- !private ["6Eureka12FormDelegateP", "showAlert"]
+- !private ["6Eureka12FormDelegateP", "viewDidLoad"]
+- ["6Eureka12FormDelegateP", ""]
+- !private ["6Eureka18FormViewControllerC", "ButtonRow"]
+- !private ["6Eureka18FormViewControllerC", "CGRect"]
+- !private ["6Eureka18FormViewControllerC", "EurekaLogoView"]
+- !private ["6Eureka18FormViewControllerC", "HeaderFooterView"]
+- !private ["6Eureka18FormViewControllerC", "ImageRow"]
+- !private ["6Eureka18FormViewControllerC", "Section"]
+- !private ["6Eureka18FormViewControllerC", "UIAlertAction"]
+- !private ["6Eureka18FormViewControllerC", "UIAlertController"]
+- !private ["6Eureka18FormViewControllerC", "Void"]
+- !private ["6Eureka18FormViewControllerC", "form"]
+- ["6Eureka18FormViewControllerC", "init"]
+- !private ["6Eureka18FormViewControllerC", "present"]
+- ["6Eureka18FormViewControllerC", "showAlert"]
+- ["6Eureka18FormViewControllerC", "viewDidLoad"]
+- ["6Eureka18FormViewControllerC", ""]
+- !private ["6Eureka26FormViewControllerProtocolP", "ButtonRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "CGRect"]
+- !private ["6Eureka26FormViewControllerProtocolP", "HeaderFooterView"]
+- !private ["6Eureka26FormViewControllerProtocolP", "ImageRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "Section"]
+- !private ["6Eureka26FormViewControllerProtocolP", "UIAlertAction"]
+- !private ["6Eureka26FormViewControllerProtocolP", "UIAlertController"]
+- !private ["6Eureka26FormViewControllerProtocolP", "form"]
+- !private ["6Eureka26FormViewControllerProtocolP", "init"]
+- !private ["6Eureka26FormViewControllerProtocolP", "present"]
+- !private ["6Eureka26FormViewControllerProtocolP", "showAlert"]
+- !private ["6Eureka26FormViewControllerProtocolP", "viewDidLoad"]
+- ["6Eureka26FormViewControllerProtocolP", ""]
+- !private ["s8HashableP", "ButtonRow"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "HeaderFooterView"]
+- !private ["s8HashableP", "ImageRow"]
+- !private ["s8HashableP", "Section"]
+- !private ["s8HashableP", "UIAlertAction"]
+- !private ["s8HashableP", "UIAlertController"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UIImageView"]
+- !private ["s8HashableP", "accessoryView"]
+- !private ["s8HashableP", "addAction"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "alert"]
+- !private ["s8HashableP", "autoresizingMask"]
+- !private ["s8HashableP", "contentMode"]
+- !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "form"]
+- !private ["s8HashableP", "frame"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "scaleAspectFit"]
+- !private ["s8HashableP", "showAlert"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["6Eureka20HeaderFooterProviderO", "class"]
+- !private ["6Eureka16HeaderFooterViewV", "init"]
+- !private ["6Eureka29HeaderFooterViewRepresentableP", "init"]
+- !private ["6Eureka7HidableP", "defaultCellUpdate"]
+- !private ["6Eureka7HidableP", "header"]
+- !private ["6Eureka7HidableP", "init"]
+- !private ["6Eureka7HidableP", "onCellSelection"]
+- !private ["6Eureka7HidableP", "presentationMode"]
+- !private ["6Eureka7HidableP", "tag"]
+- !private ["6Eureka7HidableP", "title"]
+- !private ["7Example18HomeViewControllerC", "ButtonRow"]
+- !private ["7Example18HomeViewControllerC", "CGRect"]
+- !private ["7Example18HomeViewControllerC", "EurekaLogoView"]
+- !private ["7Example18HomeViewControllerC", "HeaderFooterView"]
+- !private ["7Example18HomeViewControllerC", "ImageRow"]
+- !private ["7Example18HomeViewControllerC", "Section"]
+- !private ["7Example18HomeViewControllerC", "UIAlertAction"]
+- !private ["7Example18HomeViewControllerC", "UIAlertController"]
+- !private ["7Example18HomeViewControllerC", "Void"]
+- ["7Example18HomeViewControllerC", "deinit"]
+- !private ["7Example18HomeViewControllerC", "form"]
+- ["7Example18HomeViewControllerC", "init"]
+- !private ["7Example18HomeViewControllerC", "present"]
+- ["7Example18HomeViewControllerC", "showAlert"]
+- ["7Example18HomeViewControllerC", "viewDidLoad"]
+- !private ["7Example8ImageRowC", "defaultCellUpdate"]
+- !private ["7Example8ImageRowC", "deinit"]
+- ["6Eureka18InputTypeInitiableP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "header"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "ButtonRow"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "HeaderFooterView"]
+- !private ["So8NSCodingP", "ImageRow"]
+- !private ["So8NSCodingP", "Section"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIImageView"]
+- !private ["So8NSCodingP", "accessoryView"]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "autoresizingMask"]
+- !private ["So8NSCodingP", "contentMode"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "form"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "showAlert"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "ButtonRow"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "HeaderFooterView"]
+- !private ["So26NSExtensionRequestHandlingP", "ImageRow"]
+- !private ["So26NSExtensionRequestHandlingP", "Section"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "form"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "showAlert"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "ButtonRow"]
+- ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "EurekaLogoView"]
+- !private ["So8NSObjectC", "HeaderFooterView"]
+- !private ["So8NSObjectC", "ImageRow"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "Section"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImageView"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "accessoryView"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "autoresizingMask"]
+- !private ["So8NSObjectC", "contentMode"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "form"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "showAlert"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "ButtonRow"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "HeaderFooterView"]
+- !private ["So16NSObjectProtocolP", "ImageRow"]
+- !private ["So16NSObjectProtocolP", "Section"]
+- !private ["So16NSObjectProtocolP", "UIAlertAction"]
+- !private ["So16NSObjectProtocolP", "UIAlertController"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UIImageView"]
+- !private ["So16NSObjectProtocolP", "accessoryView"]
+- !private ["So16NSObjectProtocolP", "addAction"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "autoresizingMask"]
+- !private ["So16NSObjectProtocolP", "contentMode"]
+- !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "form"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "showAlert"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "defaultCellUpdate"]
+- !private ["s9OptionSetP", "flexibleWidth"]
+- !private ["Sq", "segueName"]
+- !private ["6Eureka18OptionsProviderRowP", "defaultCellUpdate"]
+- !private ["6Eureka10OptionsRowC", "defaultCellUpdate"]
+- !private ["6Eureka16PresentationModeO", "segueName"]
+- !private ["6Eureka16PresenterRowTypeP", "defaultCellUpdate"]
+- !private ["6Eureka16PushSelectorCellC", "accessoryView"]
+- !private ["s26RangeReplaceableCollectionP", "header"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "default"]
+- !private ["s16RawRepresentableP", "flexibleWidth"]
+- !private ["s16RawRepresentableP", "scaleAspectFit"]
+- !private ["6Eureka3RowC", "defaultCellUpdate"]
+- !private ["6Eureka3RowC", "init"]
+- !private ["6Eureka3RowC", "onCellSelection"]
+- !private ["6Eureka3RowC", "presentationMode"]
+- !private ["6Eureka3RowC", "tag"]
+- !private ["6Eureka3RowC", "title"]
+- !private ["6Eureka5RowOfC", "defaultCellUpdate"]
+- !private ["6Eureka5RowOfC", "init"]
+- !private ["6Eureka5RowOfC", "onCellSelection"]
+- !private ["6Eureka5RowOfC", "presentationMode"]
+- !private ["6Eureka5RowOfC", "tag"]
+- !private ["6Eureka5RowOfC", "title"]
+- !private ["6Eureka7RowTypeP", "defaultCellUpdate"]
+- !private ["6Eureka7RowTypeP", "init"]
+- !private ["6Eureka7RowTypeP", "onCellSelection"]
+- !private ["6Eureka7RowTypeP", "presentationMode"]
+- !private ["6Eureka7RowTypeP", "tag"]
+- !private ["6Eureka7RowTypeP", "title"]
+- !private ["6Eureka7SectionC", "header"]
+- !private ["6Eureka7SectionC", "init"]
+- !private ["6Eureka15SectionDelegateP", "header"]
+- !private ["6Eureka15SectionDelegateP", "init"]
+- !private ["s8SequenceP", "header"]
+- ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "flexibleWidth"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- !private ["6Eureka8TaggableP", "defaultCellUpdate"]
+- !private ["6Eureka8TaggableP", "header"]
+- !private ["6Eureka8TaggableP", "init"]
+- !private ["6Eureka8TaggableP", "onCellSelection"]
+- !private ["6Eureka8TaggableP", "presentationMode"]
+- !private ["6Eureka8TaggableP", "tag"]
+- !private ["6Eureka8TaggableP", "title"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["6Eureka13TypedCellTypeP", "accessoryView"]
+- !private ["6Eureka12TypedRowTypeP", "defaultCellUpdate"]
+- !private ["6Eureka12TypedRowTypeP", "init"]
+- !private ["6Eureka12TypedRowTypeP", "onCellSelection"]
+- !private ["6Eureka12TypedRowTypeP", "presentationMode"]
+- !private ["6Eureka12TypedRowTypeP", "tag"]
+- !private ["6Eureka12TypedRowTypeP", "title"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "autoresizingMask"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentMode"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "accessoryView"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "autoresizingMask"]
+- !private ["So29UIAccessibilityIdentificationP", "contentMode"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["SC18UIAlertActionStyleO", "default"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["SC22UIAlertControllerStyleO", "alert"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "UIImageView"]
+- !private ["So12UIAppearanceP", "accessoryView"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "autoresizingMask"]
+- !private ["So12UIAppearanceP", "contentMode"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "ButtonRow"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "HeaderFooterView"]
+- !private ["So21UIAppearanceContainerP", "ImageRow"]
+- !private ["So21UIAppearanceContainerP", "Section"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UIImageView"]
+- !private ["So21UIAppearanceContainerP", "accessoryView"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "autoresizingMask"]
+- !private ["So21UIAppearanceContainerP", "contentMode"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "form"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "showAlert"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "ButtonRow"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "HeaderFooterView"]
+- !private ["So18UIContentContainerP", "ImageRow"]
+- !private ["So18UIContentContainerP", "Section"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "form"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "showAlert"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "UIImageView"]
+- !private ["So17UICoordinateSpaceP", "accessoryView"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "autoresizingMask"]
+- !private ["So17UICoordinateSpaceP", "contentMode"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "UIImageView"]
+- !private ["So13UIDynamicItemP", "accessoryView"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "autoresizingMask"]
+- !private ["So13UIDynamicItemP", "contentMode"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "ButtonRow"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "HeaderFooterView"]
+- !private ["So18UIFocusEnvironmentP", "ImageRow"]
+- !private ["So18UIFocusEnvironmentP", "Section"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UIImageView"]
+- !private ["So18UIFocusEnvironmentP", "accessoryView"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "autoresizingMask"]
+- !private ["So18UIFocusEnvironmentP", "contentMode"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "form"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "showAlert"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "UIImageView"]
+- !private ["So11UIFocusItemP", "accessoryView"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "autoresizingMask"]
+- !private ["So11UIFocusItemP", "contentMode"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "accessoryView"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "autoresizingMask"]
+- !private ["So11UIImageViewC", "contentMode"]
+- !private ["So11UIImageViewC", "frame"]
+- !private ["So11UIImageViewC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "ButtonRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "HeaderFooterView"]
+- !private ["So30UIPasteConfigurationSupportingP", "ImageRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "Section"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "accessoryView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "autoresizingMask"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "form"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "showAlert"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "ButtonRow"]
+- ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "EurekaLogoView"]
+- !private ["So11UIResponderC", "HeaderFooterView"]
+- !private ["So11UIResponderC", "ImageRow"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "Section"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UIImageView"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "accessoryView"]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "autoresizingMask"]
+- !private ["So11UIResponderC", "contentMode"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "form"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "showAlert"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ButtonRow"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "HeaderFooterView"]
+- !private ["So30UIResponderStandardEditActionsP", "ImageRow"]
+- !private ["So30UIResponderStandardEditActionsP", "Section"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "accessoryView"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "autoresizingMask"]
+- !private ["So30UIResponderStandardEditActionsP", "contentMode"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "form"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "showAlert"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "ButtonRow"]
+- !private ["So20UIScrollViewDelegateP", "CGRect"]
+- !private ["So20UIScrollViewDelegateP", "HeaderFooterView"]
+- !private ["So20UIScrollViewDelegateP", "ImageRow"]
+- !private ["So20UIScrollViewDelegateP", "Section"]
+- !private ["So20UIScrollViewDelegateP", "UIAlertAction"]
+- !private ["So20UIScrollViewDelegateP", "UIAlertController"]
+- !private ["So20UIScrollViewDelegateP", "form"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "present"]
+- !private ["So20UIScrollViewDelegateP", "showAlert"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "ButtonRow"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "HeaderFooterView"]
+- !private ["So16UIStateRestoringP", "ImageRow"]
+- !private ["So16UIStateRestoringP", "Section"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "form"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "showAlert"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITableViewCellC", "accessoryView"]
+- !private ["So21UITableViewDataSourceP", "ButtonRow"]
+- !private ["So21UITableViewDataSourceP", "CGRect"]
+- !private ["So21UITableViewDataSourceP", "HeaderFooterView"]
+- !private ["So21UITableViewDataSourceP", "ImageRow"]
+- !private ["So21UITableViewDataSourceP", "Section"]
+- !private ["So21UITableViewDataSourceP", "UIAlertAction"]
+- !private ["So21UITableViewDataSourceP", "UIAlertController"]
+- !private ["So21UITableViewDataSourceP", "form"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "present"]
+- !private ["So21UITableViewDataSourceP", "showAlert"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "ButtonRow"]
+- !private ["So19UITableViewDelegateP", "CGRect"]
+- !private ["So19UITableViewDelegateP", "HeaderFooterView"]
+- !private ["So19UITableViewDelegateP", "ImageRow"]
+- !private ["So19UITableViewDelegateP", "Section"]
+- !private ["So19UITableViewDelegateP", "UIAlertAction"]
+- !private ["So19UITableViewDelegateP", "UIAlertController"]
+- !private ["So19UITableViewDelegateP", "form"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "present"]
+- !private ["So19UITableViewDelegateP", "showAlert"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "ButtonRow"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "HeaderFooterView"]
+- !private ["So18UITraitEnvironmentP", "ImageRow"]
+- !private ["So18UITraitEnvironmentP", "Section"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UIImageView"]
+- !private ["So18UITraitEnvironmentP", "accessoryView"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "autoresizingMask"]
+- !private ["So18UITraitEnvironmentP", "contentMode"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "form"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "showAlert"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "UIImage"]
+- !private ["So6UIViewC", "UIImageView"]
+- !private ["So6UIViewC", "accessoryView"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "autoresizingMask"]
+- !private ["So6UIViewC", "contentMode"]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", ""]
+- !private ["SC18UIViewAutoresizingV", "flexibleWidth"]
+- !private ["SC17UIViewContentModeO", "scaleAspectFit"]
+- !private ["So16UIViewControllerC", "ButtonRow"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- !private ["So16UIViewControllerC", "EurekaLogoView"]
+- !private ["So16UIViewControllerC", "HeaderFooterView"]
+- !private ["So16UIViewControllerC", "ImageRow"]
+- !private ["So16UIViewControllerC", "Section"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- !private ["So16UIViewControllerC", "Void"]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- !private ["So16UIViewControllerC", "form"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "showAlert"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "header"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["6Eureka12_ButtonRowOfC", "init"]
+- !private ["6Eureka12_ButtonRowOfC", "onCellSelection"]
+- !private ["6Eureka12_ButtonRowOfC", "presentationMode"]
+- !private ["6Eureka12_ButtonRowOfC", "tag"]
+- !private ["6Eureka12_ButtonRowOfC", "title"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "accessoryView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "autoresizingMask"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentMode"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["7Example9_ImageRowC", "defaultCellUpdate"]
+- !private ["s10_IndexableP", "header"]
+- ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "header"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ButtonRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HeaderFooterView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Section"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessoryView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoresizingMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "form"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "header"]
+- !private ["s17_MutableIndexableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "segueName"]
+- !private ["s26_RangeReplaceableIndexableP", "header"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "6Eureka8BaseCellC"
+- !private "6Eureka12BaseCellTypeP"
+- !private "6Eureka7BaseRowC"
+- !private "6Eureka11BaseRowTypeP"
+- "s23BidirectionalCollectionP"
+- !private "6Eureka11ButtonRowOfC"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "6Eureka4CellC"
+- !private "6Eureka8CellTypeP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "6Eureka11DisableableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "7Example14EurekaLogoViewC"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "6Eureka12FormDelegateP"
+- "6Eureka18FormViewControllerC"
+- "6Eureka26FormViewControllerProtocolP"
+- "s8HashableP"
+- !private "6Eureka20HeaderFooterProviderO"
+- !private "6Eureka16HeaderFooterViewV"
+- !private "6Eureka29HeaderFooterViewRepresentableP"
+- !private "6Eureka7HidableP"
+- "7Example18HomeViewControllerC"
+- !private "7Example8ImageRowC"
+- "6Eureka18InputTypeInitiableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "6Eureka29NoValueDisplayTextConformanceP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "6Eureka18OptionsProviderRowP"
+- !private "6Eureka10OptionsRowC"
+- !private "6Eureka16PresentationModeO"
+- !private "6Eureka16PresenterRowTypeP"
+- !private "6Eureka16PushSelectorCellC"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "6Eureka3RowC"
+- !private "6Eureka5RowOfC"
+- !private "6Eureka7RowTypeP"
+- !private "6Eureka7SectionC"
+- !private "6Eureka15SectionDelegateP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- !private "6Eureka8TaggableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "6Eureka13TypedCellTypeP"
+- !private "6Eureka12TypedRowTypeP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "SC18UIAlertActionStyleO"
+- !private "So17UIAlertControllerC"
+- !private "SC22UIAlertControllerStyleO"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So15UITableViewCellC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "SC18UIViewAutoresizingV"
+- !private "SC17UIViewContentModeO"
+- "So16UIViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "6Eureka12_ButtonRowOfC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "7Example9_ImageRowC"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+interface-hash: "ce8595e2ed6c208e548308dbf46d3321"

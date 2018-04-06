@@ -1,0 +1,725 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomCellsController"
+- "EurekaLogoViewNib"
+provides-nominal:
+- "7Example21CustomCellsControllerC"
+- "7Example17EurekaLogoViewNibC"
+provides-member:
+- ["7Example21CustomCellsControllerC", ""]
+- ["7Example17EurekaLogoViewNibC", ""]
+provides-dynamic-lookup:
+- "imageView"
+- "viewDidLoad"
+depends-top-level:
+- !private "+++"
+- !private "<<<"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "CATransform3DIdentity"
+- !private "CATransform3DMakeScale"
+- "CustomCellsController"
+- "EurekaLogoViewNib"
+- "FormViewController"
+- !private "HeaderFooterView"
+- !private "IntFloatLabelRow"
+- "NSCoder"
+- !private "Section"
+- !private "StringLiteralType"
+- !private "TextFloatLabelRow"
+- "UIImageView"
+- "UIView"
+- !private "WeekDayRow"
+depends-member:
+- !private ["6Eureka7BaseRowC", "init"]
+- !private ["6Eureka7BaseRowC", "title"]
+- !private ["6Eureka7BaseRowC", "value"]
+- !private ["6Eureka11BaseRowTypeP", "init"]
+- !private ["6Eureka11BaseRowTypeP", "title"]
+- !private ["6Eureka11BaseRowTypeP", "value"]
+- !private ["s23BidirectionalCollectionP", "header"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So7CALayerC", "transform"]
+- !private ["So15CALayerDelegateP", "alpha"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "imageView"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So13CAMediaTimingP", "transform"]
+- !private ["s7CVarArgP", "CATransform3DIdentity"]
+- !private ["s7CVarArgP", "CATransform3DMakeScale"]
+- !private ["s7CVarArgP", "HeaderFooterView"]
+- !private ["s7CVarArgP", "IntFloatLabelRow"]
+- !private ["s7CVarArgP", "Section"]
+- !private ["s7CVarArgP", "TextFloatLabelRow"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "WeekDayRow"]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "form"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "header"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["7Example21CustomCellsControllerC", "CATransform3DIdentity"]
+- !private ["7Example21CustomCellsControllerC", "CATransform3DMakeScale"]
+- !private ["7Example21CustomCellsControllerC", "EurekaLogoViewNib"]
+- !private ["7Example21CustomCellsControllerC", "HeaderFooterView"]
+- !private ["7Example21CustomCellsControllerC", "IntFloatLabelRow"]
+- !private ["7Example21CustomCellsControllerC", "Section"]
+- !private ["7Example21CustomCellsControllerC", "TextFloatLabelRow"]
+- !private ["7Example21CustomCellsControllerC", "UIView"]
+- !private ["7Example21CustomCellsControllerC", "WeekDayRow"]
+- ["7Example21CustomCellsControllerC", "deinit"]
+- !private ["7Example21CustomCellsControllerC", "form"]
+- ["7Example21CustomCellsControllerC", "init"]
+- ["7Example21CustomCellsControllerC", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "CATransform3DIdentity"]
+- !private ["s28CustomDebugStringConvertibleP", "CATransform3DMakeScale"]
+- !private ["s28CustomDebugStringConvertibleP", "HeaderFooterView"]
+- !private ["s28CustomDebugStringConvertibleP", "IntFloatLabelRow"]
+- !private ["s28CustomDebugStringConvertibleP", "Section"]
+- !private ["s28CustomDebugStringConvertibleP", "TextFloatLabelRow"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "WeekDayRow"]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "form"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CATransform3DIdentity"]
+- !private ["s23CustomStringConvertibleP", "CATransform3DMakeScale"]
+- !private ["s23CustomStringConvertibleP", "HeaderFooterView"]
+- !private ["s23CustomStringConvertibleP", "IntFloatLabelRow"]
+- !private ["s23CustomStringConvertibleP", "Section"]
+- !private ["s23CustomStringConvertibleP", "TextFloatLabelRow"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "WeekDayRow"]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "form"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["6Eureka11DisableableP", "init"]
+- !private ["6Eureka11DisableableP", "title"]
+- !private ["6Eureka11DisableableP", "value"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CATransform3DIdentity"]
+- !private ["s9EquatableP", "CATransform3DMakeScale"]
+- !private ["s9EquatableP", "HeaderFooterView"]
+- !private ["s9EquatableP", "IntFloatLabelRow"]
+- !private ["s9EquatableP", "Section"]
+- !private ["s9EquatableP", "TextFloatLabelRow"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "WeekDayRow"]
+- !private ["s9EquatableP", "alpha"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "form"]
+- !private ["s9EquatableP", "friday"]
+- !private ["s9EquatableP", "header"]
+- !private ["s9EquatableP", "imageView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "monday"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "transform"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "wednesday"]
+- ["s9EquatableP", ""]
+- ["7Example17EurekaLogoViewNibC", "NSCoder"]
+- ["7Example17EurekaLogoViewNibC", "UIImageView"]
+- ["7Example17EurekaLogoViewNibC", "deinit"]
+- ["7Example17EurekaLogoViewNibC", "imageView"]
+- ["7Example17EurekaLogoViewNibC", "init"]
+- !private ["7Example17EurekaLogoViewNibC", "layer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "onSetupView"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "onSetupView"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "onSetupView"]
+- !private ["7Example13FloatFieldRowC", "init"]
+- !private ["7Example13FloatFieldRowC", "title"]
+- !private ["6Eureka12FormDelegateP", "CATransform3DIdentity"]
+- !private ["6Eureka12FormDelegateP", "CATransform3DMakeScale"]
+- !private ["6Eureka12FormDelegateP", "HeaderFooterView"]
+- !private ["6Eureka12FormDelegateP", "IntFloatLabelRow"]
+- !private ["6Eureka12FormDelegateP", "Section"]
+- !private ["6Eureka12FormDelegateP", "TextFloatLabelRow"]
+- !private ["6Eureka12FormDelegateP", "UIView"]
+- !private ["6Eureka12FormDelegateP", "WeekDayRow"]
+- !private ["6Eureka12FormDelegateP", "form"]
+- !private ["6Eureka12FormDelegateP", "init"]
+- !private ["6Eureka12FormDelegateP", "viewDidLoad"]
+- ["6Eureka12FormDelegateP", ""]
+- !private ["6Eureka18FormViewControllerC", "CATransform3DIdentity"]
+- !private ["6Eureka18FormViewControllerC", "CATransform3DMakeScale"]
+- !private ["6Eureka18FormViewControllerC", "EurekaLogoViewNib"]
+- !private ["6Eureka18FormViewControllerC", "HeaderFooterView"]
+- !private ["6Eureka18FormViewControllerC", "IntFloatLabelRow"]
+- !private ["6Eureka18FormViewControllerC", "Section"]
+- !private ["6Eureka18FormViewControllerC", "TextFloatLabelRow"]
+- !private ["6Eureka18FormViewControllerC", "UIView"]
+- !private ["6Eureka18FormViewControllerC", "WeekDayRow"]
+- !private ["6Eureka18FormViewControllerC", "form"]
+- ["6Eureka18FormViewControllerC", "init"]
+- ["6Eureka18FormViewControllerC", "viewDidLoad"]
+- ["6Eureka18FormViewControllerC", ""]
+- !private ["6Eureka26FormViewControllerProtocolP", "CATransform3DIdentity"]
+- !private ["6Eureka26FormViewControllerProtocolP", "CATransform3DMakeScale"]
+- !private ["6Eureka26FormViewControllerProtocolP", "HeaderFooterView"]
+- !private ["6Eureka26FormViewControllerProtocolP", "IntFloatLabelRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "Section"]
+- !private ["6Eureka26FormViewControllerProtocolP", "TextFloatLabelRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "UIView"]
+- !private ["6Eureka26FormViewControllerProtocolP", "WeekDayRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "form"]
+- !private ["6Eureka26FormViewControllerProtocolP", "init"]
+- !private ["6Eureka26FormViewControllerProtocolP", "viewDidLoad"]
+- ["6Eureka26FormViewControllerProtocolP", ""]
+- !private ["6Eureka15FormatteableRowC", "init"]
+- !private ["6Eureka15FormatteableRowC", "title"]
+- !private ["6Eureka20FormatterConformanceP", "init"]
+- !private ["6Eureka20FormatterConformanceP", "title"]
+- !private ["s8HashableP", "CATransform3DIdentity"]
+- !private ["s8HashableP", "CATransform3DMakeScale"]
+- !private ["s8HashableP", "HeaderFooterView"]
+- !private ["s8HashableP", "IntFloatLabelRow"]
+- !private ["s8HashableP", "Section"]
+- !private ["s8HashableP", "TextFloatLabelRow"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "WeekDayRow"]
+- !private ["s8HashableP", "alpha"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "form"]
+- !private ["s8HashableP", "friday"]
+- !private ["s8HashableP", "imageView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "monday"]
+- !private ["s8HashableP", "transform"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "wednesday"]
+- ["s8HashableP", ""]
+- !private ["6Eureka20HeaderFooterProviderO", "nibFile"]
+- !private ["6Eureka16HeaderFooterViewV", "init"]
+- !private ["6Eureka16HeaderFooterViewV", "onSetupView"]
+- !private ["6Eureka29HeaderFooterViewRepresentableP", "init"]
+- !private ["6Eureka29HeaderFooterViewRepresentableP", "onSetupView"]
+- !private ["6Eureka7HidableP", "header"]
+- !private ["6Eureka7HidableP", "init"]
+- !private ["6Eureka7HidableP", "title"]
+- !private ["6Eureka7HidableP", "value"]
+- !private ["6Eureka18InputTypeInitiableP", "init"]
+- !private ["7Example16IntFloatLabelRowC", "deinit"]
+- !private ["7Example16IntFloatLabelRowC", "init"]
+- !private ["7Example16IntFloatLabelRowC", "title"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "header"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "CATransform3DIdentity"]
+- !private ["So8NSCodingP", "CATransform3DMakeScale"]
+- !private ["So8NSCodingP", "HeaderFooterView"]
+- !private ["So8NSCodingP", "IntFloatLabelRow"]
+- !private ["So8NSCodingP", "Section"]
+- !private ["So8NSCodingP", "TextFloatLabelRow"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "WeekDayRow"]
+- !private ["So8NSCodingP", "alpha"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "form"]
+- !private ["So8NSCodingP", "imageView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "CATransform3DIdentity"]
+- !private ["So26NSExtensionRequestHandlingP", "CATransform3DMakeScale"]
+- !private ["So26NSExtensionRequestHandlingP", "HeaderFooterView"]
+- !private ["So26NSExtensionRequestHandlingP", "IntFloatLabelRow"]
+- !private ["So26NSExtensionRequestHandlingP", "Section"]
+- !private ["So26NSExtensionRequestHandlingP", "TextFloatLabelRow"]
+- !private ["So26NSExtensionRequestHandlingP", "UIView"]
+- !private ["So26NSExtensionRequestHandlingP", "WeekDayRow"]
+- !private ["So26NSExtensionRequestHandlingP", "form"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "CATransform3DIdentity"]
+- !private ["So8NSObjectC", "CATransform3DMakeScale"]
+- !private ["So8NSObjectC", "EurekaLogoViewNib"]
+- !private ["So8NSObjectC", "HeaderFooterView"]
+- !private ["So8NSObjectC", "IntFloatLabelRow"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "Section"]
+- !private ["So8NSObjectC", "TextFloatLabelRow"]
+- ["So8NSObjectC", "UIImageView"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "WeekDayRow"]
+- !private ["So8NSObjectC", "alpha"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "form"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "transform"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CATransform3DIdentity"]
+- !private ["So16NSObjectProtocolP", "CATransform3DMakeScale"]
+- !private ["So16NSObjectProtocolP", "HeaderFooterView"]
+- !private ["So16NSObjectProtocolP", "IntFloatLabelRow"]
+- !private ["So16NSObjectProtocolP", "Section"]
+- !private ["So16NSObjectProtocolP", "TextFloatLabelRow"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "WeekDayRow"]
+- !private ["So16NSObjectProtocolP", "alpha"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "form"]
+- !private ["So16NSObjectProtocolP", "imageView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "transform"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "transform"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "header"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["6Eureka3RowC", "init"]
+- !private ["6Eureka3RowC", "title"]
+- !private ["6Eureka3RowC", "value"]
+- !private ["6Eureka5RowOfC", "init"]
+- !private ["6Eureka5RowOfC", "title"]
+- !private ["6Eureka5RowOfC", "value"]
+- !private ["6Eureka7RowTypeP", "init"]
+- !private ["6Eureka7RowTypeP", "title"]
+- !private ["6Eureka7RowTypeP", "value"]
+- !private ["6Eureka7SectionC", "header"]
+- !private ["6Eureka7SectionC", "init"]
+- !private ["6Eureka15SectionDelegateP", "header"]
+- !private ["6Eureka15SectionDelegateP", "init"]
+- !private ["s8SequenceP", "header"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["6Eureka8TaggableP", "header"]
+- !private ["6Eureka8TaggableP", "init"]
+- !private ["6Eureka8TaggableP", "title"]
+- !private ["6Eureka8TaggableP", "value"]
+- !private ["7Example17TextFloatLabelRowC", "deinit"]
+- !private ["7Example17TextFloatLabelRowC", "init"]
+- !private ["7Example17TextFloatLabelRowC", "title"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6Eureka12TypedRowTypeP", "init"]
+- !private ["6Eureka12TypedRowTypeP", "title"]
+- !private ["6Eureka12TypedRowTypeP", "value"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "alpha"]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "imageView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "alpha"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "imageView"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "CATransform3DIdentity"]
+- !private ["So21UIAppearanceContainerP", "CATransform3DMakeScale"]
+- !private ["So21UIAppearanceContainerP", "HeaderFooterView"]
+- !private ["So21UIAppearanceContainerP", "IntFloatLabelRow"]
+- !private ["So21UIAppearanceContainerP", "Section"]
+- !private ["So21UIAppearanceContainerP", "TextFloatLabelRow"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "WeekDayRow"]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "form"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "CATransform3DIdentity"]
+- !private ["So18UIContentContainerP", "CATransform3DMakeScale"]
+- !private ["So18UIContentContainerP", "HeaderFooterView"]
+- !private ["So18UIContentContainerP", "IntFloatLabelRow"]
+- !private ["So18UIContentContainerP", "Section"]
+- !private ["So18UIContentContainerP", "TextFloatLabelRow"]
+- !private ["So18UIContentContainerP", "UIView"]
+- !private ["So18UIContentContainerP", "WeekDayRow"]
+- !private ["So18UIContentContainerP", "form"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "imageView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "alpha"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "imageView"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "CATransform3DIdentity"]
+- !private ["So18UIFocusEnvironmentP", "CATransform3DMakeScale"]
+- !private ["So18UIFocusEnvironmentP", "HeaderFooterView"]
+- !private ["So18UIFocusEnvironmentP", "IntFloatLabelRow"]
+- !private ["So18UIFocusEnvironmentP", "Section"]
+- !private ["So18UIFocusEnvironmentP", "TextFloatLabelRow"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "WeekDayRow"]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "form"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "alpha"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "imageView"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIImageViewC", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "CATransform3DIdentity"]
+- !private ["So30UIPasteConfigurationSupportingP", "CATransform3DMakeScale"]
+- !private ["So30UIPasteConfigurationSupportingP", "HeaderFooterView"]
+- !private ["So30UIPasteConfigurationSupportingP", "IntFloatLabelRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "Section"]
+- !private ["So30UIPasteConfigurationSupportingP", "TextFloatLabelRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "WeekDayRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "form"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "CATransform3DIdentity"]
+- !private ["So11UIResponderC", "CATransform3DMakeScale"]
+- !private ["So11UIResponderC", "EurekaLogoViewNib"]
+- !private ["So11UIResponderC", "HeaderFooterView"]
+- !private ["So11UIResponderC", "IntFloatLabelRow"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "Section"]
+- !private ["So11UIResponderC", "TextFloatLabelRow"]
+- ["So11UIResponderC", "UIImageView"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "WeekDayRow"]
+- !private ["So11UIResponderC", "alpha"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "form"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CATransform3DIdentity"]
+- !private ["So30UIResponderStandardEditActionsP", "CATransform3DMakeScale"]
+- !private ["So30UIResponderStandardEditActionsP", "HeaderFooterView"]
+- !private ["So30UIResponderStandardEditActionsP", "IntFloatLabelRow"]
+- !private ["So30UIResponderStandardEditActionsP", "Section"]
+- !private ["So30UIResponderStandardEditActionsP", "TextFloatLabelRow"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "WeekDayRow"]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "form"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "CATransform3DIdentity"]
+- !private ["So20UIScrollViewDelegateP", "CATransform3DMakeScale"]
+- !private ["So20UIScrollViewDelegateP", "HeaderFooterView"]
+- !private ["So20UIScrollViewDelegateP", "IntFloatLabelRow"]
+- !private ["So20UIScrollViewDelegateP", "Section"]
+- !private ["So20UIScrollViewDelegateP", "TextFloatLabelRow"]
+- !private ["So20UIScrollViewDelegateP", "UIView"]
+- !private ["So20UIScrollViewDelegateP", "WeekDayRow"]
+- !private ["So20UIScrollViewDelegateP", "form"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So16UIStateRestoringP", "CATransform3DIdentity"]
+- !private ["So16UIStateRestoringP", "CATransform3DMakeScale"]
+- !private ["So16UIStateRestoringP", "HeaderFooterView"]
+- !private ["So16UIStateRestoringP", "IntFloatLabelRow"]
+- !private ["So16UIStateRestoringP", "Section"]
+- !private ["So16UIStateRestoringP", "TextFloatLabelRow"]
+- !private ["So16UIStateRestoringP", "UIView"]
+- !private ["So16UIStateRestoringP", "WeekDayRow"]
+- !private ["So16UIStateRestoringP", "form"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So21UITableViewDataSourceP", "CATransform3DIdentity"]
+- !private ["So21UITableViewDataSourceP", "CATransform3DMakeScale"]
+- !private ["So21UITableViewDataSourceP", "HeaderFooterView"]
+- !private ["So21UITableViewDataSourceP", "IntFloatLabelRow"]
+- !private ["So21UITableViewDataSourceP", "Section"]
+- !private ["So21UITableViewDataSourceP", "TextFloatLabelRow"]
+- !private ["So21UITableViewDataSourceP", "UIView"]
+- !private ["So21UITableViewDataSourceP", "WeekDayRow"]
+- !private ["So21UITableViewDataSourceP", "form"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "CATransform3DIdentity"]
+- !private ["So19UITableViewDelegateP", "CATransform3DMakeScale"]
+- !private ["So19UITableViewDelegateP", "HeaderFooterView"]
+- !private ["So19UITableViewDelegateP", "IntFloatLabelRow"]
+- !private ["So19UITableViewDelegateP", "Section"]
+- !private ["So19UITableViewDelegateP", "TextFloatLabelRow"]
+- !private ["So19UITableViewDelegateP", "UIView"]
+- !private ["So19UITableViewDelegateP", "WeekDayRow"]
+- !private ["So19UITableViewDelegateP", "form"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "CATransform3DIdentity"]
+- !private ["So18UITraitEnvironmentP", "CATransform3DMakeScale"]
+- !private ["So18UITraitEnvironmentP", "HeaderFooterView"]
+- !private ["So18UITraitEnvironmentP", "IntFloatLabelRow"]
+- !private ["So18UITraitEnvironmentP", "Section"]
+- !private ["So18UITraitEnvironmentP", "TextFloatLabelRow"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "WeekDayRow"]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "form"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UIImageView"]
+- !private ["So6UIViewC", "alpha"]
+- !private ["So6UIViewC", "animate"]
+- ["So6UIViewC", "imageView"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", ""]
+- !private ["So16UIViewControllerC", "CATransform3DIdentity"]
+- !private ["So16UIViewControllerC", "CATransform3DMakeScale"]
+- !private ["So16UIViewControllerC", "EurekaLogoViewNib"]
+- !private ["So16UIViewControllerC", "HeaderFooterView"]
+- !private ["So16UIViewControllerC", "IntFloatLabelRow"]
+- !private ["So16UIViewControllerC", "Section"]
+- !private ["So16UIViewControllerC", "TextFloatLabelRow"]
+- !private ["So16UIViewControllerC", "UIView"]
+- !private ["So16UIViewControllerC", "WeekDayRow"]
+- !private ["So16UIViewControllerC", "form"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["7Example7WeekDayO", "deinit"]
+- !private ["7Example7WeekDayO", "friday"]
+- !private ["7Example7WeekDayO", "monday"]
+- !private ["7Example7WeekDayO", "wednesday"]
+- !private ["7Example10WeekDayRowC", "deinit"]
+- !private ["7Example10WeekDayRowC", "init"]
+- !private ["7Example10WeekDayRowC", "value"]
+- !private ["s23_BidirectionalIndexableP", "header"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "imageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "header"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "header"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransform3DIdentity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransform3DMakeScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HeaderFooterView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IntFloatLabelRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Section"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextFloatLabelRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WeekDayRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "form"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "header"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "header"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "6Eureka7BaseRowC"
+- !private "6Eureka11BaseRowTypeP"
+- !private "s23BidirectionalCollectionP"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "7Example21CustomCellsControllerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "6Eureka11DisableableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "7Example17EurekaLogoViewNibC"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Example13FloatFieldRowC"
+- "6Eureka12FormDelegateP"
+- "6Eureka18FormViewControllerC"
+- "6Eureka26FormViewControllerProtocolP"
+- !private "6Eureka15FormatteableRowC"
+- !private "6Eureka20FormatterConformanceP"
+- "s8HashableP"
+- !private "6Eureka20HeaderFooterProviderO"
+- !private "6Eureka16HeaderFooterViewV"
+- !private "6Eureka29HeaderFooterViewRepresentableP"
+- !private "6Eureka7HidableP"
+- !private "6Eureka18InputTypeInitiableP"
+- !private "7Example16IntFloatLabelRowC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "6Eureka3RowC"
+- !private "6Eureka5RowOfC"
+- !private "6Eureka7RowTypeP"
+- !private "6Eureka7SectionC"
+- !private "6Eureka15SectionDelegateP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "6Eureka8TaggableP"
+- !private "7Example17TextFloatLabelRowC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6Eureka12TypedRowTypeP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "7Example7WeekDayO"
+- !private "7Example10WeekDayRowC"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+interface-hash: "42752216f12778798439fcbaf1830244"

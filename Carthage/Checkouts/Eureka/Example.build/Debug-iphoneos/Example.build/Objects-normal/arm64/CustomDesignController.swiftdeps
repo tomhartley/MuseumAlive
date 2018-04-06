@@ -1,0 +1,727 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomDesignController"
+provides-nominal:
+- "7Example22CustomDesignControllerC"
+provides-member:
+- ["7Example22CustomDesignControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "+++"
+- !private "<<<"
+- !private "AssignmentPrecedence"
+- !private "Bundle"
+- !private "CastingPrecedence"
+- !private "CellProvider"
+- "CustomDesignController"
+- !private "DatePickerCell"
+- !private "DatePickerRow"
+- "FormViewController"
+- !private "Section"
+- "StringLiteralType"
+- !private "SwitchCell"
+- !private "SwitchRow"
+- !private "TextCell"
+- !private "TextRow"
+- !private "UITextView"
+depends-member:
+- !private ["6Eureka8BaseCellC", "height"]
+- !private ["6Eureka8BaseCellC", "textField"]
+- !private ["6Eureka8BaseCellC", "viewWithTag"]
+- !private ["6Eureka12BaseCellTypeP", "height"]
+- !private ["6Eureka12BaseCellTypeP", "textField"]
+- !private ["6Eureka12BaseCellTypeP", "viewWithTag"]
+- !private ["6Eureka7BaseRowC", "cell"]
+- !private ["6Eureka7BaseRowC", "cellProvider"]
+- !private ["6Eureka7BaseRowC", "init"]
+- !private ["6Eureka7BaseRowC", "onChange"]
+- !private ["6Eureka11BaseRowTypeP", "cell"]
+- !private ["6Eureka11BaseRowTypeP", "cellProvider"]
+- !private ["6Eureka11BaseRowTypeP", "init"]
+- !private ["6Eureka11BaseRowTypeP", "onChange"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So6BundleC", "main"]
+- !private ["So15CALayerDelegateP", "height"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textField"]
+- !private ["So15CALayerDelegateP", "viewWithTag"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CellProvider"]
+- !private ["s7CVarArgP", "DatePickerRow"]
+- !private ["s7CVarArgP", "Section"]
+- !private ["s7CVarArgP", "SwitchRow"]
+- !private ["s7CVarArgP", "TextRow"]
+- !private ["s7CVarArgP", "form"]
+- !private ["s7CVarArgP", "height"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textField"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWithTag"]
+- ["s7CVarArgP", ""]
+- !private ["6Eureka4CellC", "height"]
+- !private ["6Eureka4CellC", "textField"]
+- !private ["6Eureka4CellC", "viewWithTag"]
+- !private ["6Eureka12CellProviderV", "init"]
+- !private ["6Eureka8CellTypeP", "height"]
+- !private ["6Eureka8CellTypeP", "textField"]
+- !private ["6Eureka8CellTypeP", "viewWithTag"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CellProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "DatePickerRow"]
+- !private ["s28CustomDebugStringConvertibleP", "Section"]
+- !private ["s28CustomDebugStringConvertibleP", "SwitchRow"]
+- !private ["s28CustomDebugStringConvertibleP", "TextRow"]
+- !private ["s28CustomDebugStringConvertibleP", "form"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textField"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWithTag"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["7Example22CustomDesignControllerC", "Bundle"]
+- !private ["7Example22CustomDesignControllerC", "CellProvider"]
+- !private ["7Example22CustomDesignControllerC", "DatePickerCell"]
+- !private ["7Example22CustomDesignControllerC", "DatePickerRow"]
+- !private ["7Example22CustomDesignControllerC", "Section"]
+- !private ["7Example22CustomDesignControllerC", "SwitchCell"]
+- !private ["7Example22CustomDesignControllerC", "SwitchRow"]
+- !private ["7Example22CustomDesignControllerC", "TextCell"]
+- !private ["7Example22CustomDesignControllerC", "TextRow"]
+- !private ["7Example22CustomDesignControllerC", "UITextView"]
+- ["7Example22CustomDesignControllerC", "deinit"]
+- !private ["7Example22CustomDesignControllerC", "form"]
+- ["7Example22CustomDesignControllerC", "init"]
+- ["7Example22CustomDesignControllerC", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CellProvider"]
+- !private ["s23CustomStringConvertibleP", "DatePickerRow"]
+- !private ["s23CustomStringConvertibleP", "Section"]
+- !private ["s23CustomStringConvertibleP", "SwitchRow"]
+- !private ["s23CustomStringConvertibleP", "TextRow"]
+- !private ["s23CustomStringConvertibleP", "form"]
+- !private ["s23CustomStringConvertibleP", "height"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textField"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWithTag"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["6Eureka14DatePickerCellC", "height"]
+- !private ["6Eureka13DatePickerRowC", "cell"]
+- !private ["6Eureka13DatePickerRowC", "cellProvider"]
+- !private ["6Eureka13DatePickerRowC", "init"]
+- !private ["6Eureka21DatePickerRowProtocolP", "cell"]
+- !private ["6Eureka21DatePickerRowProtocolP", "cellProvider"]
+- !private ["6Eureka21DatePickerRowProtocolP", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["6Eureka11DisableableP", "cell"]
+- !private ["6Eureka11DisableableP", "cellProvider"]
+- !private ["6Eureka11DisableableP", "init"]
+- !private ["6Eureka11DisableableP", "onChange"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "CellProvider"]
+- !private ["s9EquatableP", "DatePickerRow"]
+- !private ["s9EquatableP", "Section"]
+- !private ["s9EquatableP", "SwitchRow"]
+- !private ["s9EquatableP", "TextRow"]
+- !private ["s9EquatableP", "cell"]
+- !private ["s9EquatableP", "cellProvider"]
+- !private ["s9EquatableP", "form"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "onChange"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textField"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWithTag"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["6Eureka8FieldRowC", "cell"]
+- !private ["6Eureka8FieldRowC", "cellProvider"]
+- !private ["6Eureka8FieldRowC", "init"]
+- !private ["6Eureka8FieldRowC", "onChange"]
+- !private ["6Eureka19FieldRowConformanceP", "cell"]
+- !private ["6Eureka19FieldRowConformanceP", "cellProvider"]
+- !private ["6Eureka19FieldRowConformanceP", "init"]
+- !private ["6Eureka19FieldRowConformanceP", "onChange"]
+- !private ["6Eureka12FormDelegateP", "Bundle"]
+- !private ["6Eureka12FormDelegateP", "CellProvider"]
+- !private ["6Eureka12FormDelegateP", "DatePickerRow"]
+- !private ["6Eureka12FormDelegateP", "Section"]
+- !private ["6Eureka12FormDelegateP", "SwitchRow"]
+- !private ["6Eureka12FormDelegateP", "TextRow"]
+- !private ["6Eureka12FormDelegateP", "form"]
+- !private ["6Eureka12FormDelegateP", "init"]
+- !private ["6Eureka12FormDelegateP", "viewDidLoad"]
+- ["6Eureka12FormDelegateP", ""]
+- !private ["6Eureka18FormViewControllerC", "Bundle"]
+- !private ["6Eureka18FormViewControllerC", "CellProvider"]
+- !private ["6Eureka18FormViewControllerC", "DatePickerCell"]
+- !private ["6Eureka18FormViewControllerC", "DatePickerRow"]
+- !private ["6Eureka18FormViewControllerC", "Section"]
+- !private ["6Eureka18FormViewControllerC", "SwitchCell"]
+- !private ["6Eureka18FormViewControllerC", "SwitchRow"]
+- !private ["6Eureka18FormViewControllerC", "TextCell"]
+- !private ["6Eureka18FormViewControllerC", "TextRow"]
+- !private ["6Eureka18FormViewControllerC", "UITextView"]
+- !private ["6Eureka18FormViewControllerC", "form"]
+- ["6Eureka18FormViewControllerC", "init"]
+- ["6Eureka18FormViewControllerC", "viewDidLoad"]
+- ["6Eureka18FormViewControllerC", ""]
+- !private ["6Eureka26FormViewControllerProtocolP", "Bundle"]
+- !private ["6Eureka26FormViewControllerProtocolP", "CellProvider"]
+- !private ["6Eureka26FormViewControllerProtocolP", "DatePickerRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "Section"]
+- !private ["6Eureka26FormViewControllerProtocolP", "SwitchRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "TextRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "form"]
+- !private ["6Eureka26FormViewControllerProtocolP", "init"]
+- !private ["6Eureka26FormViewControllerProtocolP", "viewDidLoad"]
+- ["6Eureka26FormViewControllerProtocolP", ""]
+- !private ["6Eureka15FormatteableRowC", "cell"]
+- !private ["6Eureka15FormatteableRowC", "cellProvider"]
+- !private ["6Eureka15FormatteableRowC", "init"]
+- !private ["6Eureka15FormatteableRowC", "onChange"]
+- !private ["6Eureka20FormatterConformanceP", "cell"]
+- !private ["6Eureka20FormatterConformanceP", "cellProvider"]
+- !private ["6Eureka20FormatterConformanceP", "init"]
+- !private ["6Eureka20FormatterConformanceP", "onChange"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "CellProvider"]
+- !private ["s8HashableP", "DatePickerRow"]
+- !private ["s8HashableP", "Section"]
+- !private ["s8HashableP", "SwitchRow"]
+- !private ["s8HashableP", "TextRow"]
+- !private ["s8HashableP", "form"]
+- !private ["s8HashableP", "height"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textField"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWithTag"]
+- ["s8HashableP", ""]
+- !private ["6Eureka7HidableP", "cell"]
+- !private ["6Eureka7HidableP", "cellProvider"]
+- !private ["6Eureka7HidableP", "init"]
+- !private ["6Eureka7HidableP", "onChange"]
+- !private ["6Eureka18InputTypeInitiableP", "init"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "cell"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "cellProvider"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "init"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "onChange"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "CellProvider"]
+- !private ["So8NSCodingP", "DatePickerRow"]
+- !private ["So8NSCodingP", "Section"]
+- !private ["So8NSCodingP", "SwitchRow"]
+- !private ["So8NSCodingP", "TextRow"]
+- !private ["So8NSCodingP", "form"]
+- !private ["So8NSCodingP", "height"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textField"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWithTag"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Bundle"]
+- !private ["So26NSExtensionRequestHandlingP", "CellProvider"]
+- !private ["So26NSExtensionRequestHandlingP", "DatePickerRow"]
+- !private ["So26NSExtensionRequestHandlingP", "Section"]
+- !private ["So26NSExtensionRequestHandlingP", "SwitchRow"]
+- !private ["So26NSExtensionRequestHandlingP", "TextRow"]
+- !private ["So26NSExtensionRequestHandlingP", "form"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "CellProvider"]
+- !private ["So8NSObjectC", "DatePickerCell"]
+- !private ["So8NSObjectC", "DatePickerRow"]
+- !private ["So8NSObjectC", "Section"]
+- !private ["So8NSObjectC", "SwitchCell"]
+- !private ["So8NSObjectC", "SwitchRow"]
+- !private ["So8NSObjectC", "TextCell"]
+- !private ["So8NSObjectC", "TextRow"]
+- !private ["So8NSObjectC", "UITextView"]
+- !private ["So8NSObjectC", "form"]
+- !private ["So8NSObjectC", "height"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textField"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "viewWithTag"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "CellProvider"]
+- !private ["So16NSObjectProtocolP", "DatePickerRow"]
+- !private ["So16NSObjectProtocolP", "Section"]
+- !private ["So16NSObjectProtocolP", "SwitchRow"]
+- !private ["So16NSObjectProtocolP", "TextRow"]
+- !private ["So16NSObjectProtocolP", "form"]
+- !private ["So16NSObjectProtocolP", "height"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textField"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWithTag"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["6Eureka3RowC", "cell"]
+- !private ["6Eureka3RowC", "cellProvider"]
+- !private ["6Eureka3RowC", "init"]
+- !private ["6Eureka3RowC", "onChange"]
+- !private ["6Eureka5RowOfC", "cell"]
+- !private ["6Eureka5RowOfC", "cellProvider"]
+- !private ["6Eureka5RowOfC", "init"]
+- !private ["6Eureka5RowOfC", "onChange"]
+- !private ["6Eureka7RowTypeP", "cell"]
+- !private ["6Eureka7RowTypeP", "cellProvider"]
+- !private ["6Eureka7RowTypeP", "init"]
+- !private ["6Eureka7RowTypeP", "onChange"]
+- !private ["6Eureka7SectionC", "init"]
+- !private ["6Eureka15SectionDelegateP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["6Eureka10SwitchCellC", "height"]
+- !private ["6Eureka9SwitchRowC", "cell"]
+- !private ["6Eureka9SwitchRowC", "cellProvider"]
+- !private ["6Eureka9SwitchRowC", "init"]
+- !private ["6Eureka8TaggableP", "cell"]
+- !private ["6Eureka8TaggableP", "cellProvider"]
+- !private ["6Eureka8TaggableP", "init"]
+- !private ["6Eureka8TaggableP", "onChange"]
+- !private ["6Eureka8TextCellC", "height"]
+- !private ["6Eureka8TextCellC", "textField"]
+- !private ["6Eureka8TextCellC", "viewWithTag"]
+- !private ["6Eureka13TextFieldCellP", "height"]
+- !private ["6Eureka13TextFieldCellP", "textField"]
+- !private ["6Eureka13TextFieldCellP", "viewWithTag"]
+- !private ["6Eureka13TextInputCellP", "height"]
+- !private ["6Eureka13TextInputCellP", "textField"]
+- !private ["6Eureka13TextInputCellP", "viewWithTag"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6Eureka7TextRowC", "cell"]
+- !private ["6Eureka7TextRowC", "cellProvider"]
+- !private ["6Eureka7TextRowC", "init"]
+- !private ["6Eureka7TextRowC", "onChange"]
+- !private ["6Eureka13TypedCellTypeP", "height"]
+- !private ["6Eureka13TypedCellTypeP", "textField"]
+- !private ["6Eureka13TypedCellTypeP", "viewWithTag"]
+- !private ["6Eureka12TypedRowTypeP", "cell"]
+- !private ["6Eureka12TypedRowTypeP", "cellProvider"]
+- !private ["6Eureka12TypedRowTypeP", "init"]
+- !private ["6Eureka12TypedRowTypeP", "onChange"]
+- !private ["So29UIAccessibilityIdentificationP", "height"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textField"]
+- !private ["So29UIAccessibilityIdentificationP", "viewWithTag"]
+- !private ["So12UIAppearanceP", "height"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textField"]
+- !private ["So12UIAppearanceP", "viewWithTag"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- !private ["So21UIAppearanceContainerP", "CellProvider"]
+- !private ["So21UIAppearanceContainerP", "DatePickerRow"]
+- !private ["So21UIAppearanceContainerP", "Section"]
+- !private ["So21UIAppearanceContainerP", "SwitchRow"]
+- !private ["So21UIAppearanceContainerP", "TextRow"]
+- !private ["So21UIAppearanceContainerP", "form"]
+- !private ["So21UIAppearanceContainerP", "height"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textField"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWithTag"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "Bundle"]
+- !private ["So18UIContentContainerP", "CellProvider"]
+- !private ["So18UIContentContainerP", "DatePickerRow"]
+- !private ["So18UIContentContainerP", "Section"]
+- !private ["So18UIContentContainerP", "SwitchRow"]
+- !private ["So18UIContentContainerP", "TextRow"]
+- !private ["So18UIContentContainerP", "form"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "height"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textField"]
+- !private ["So17UICoordinateSpaceP", "viewWithTag"]
+- !private ["So13UIDynamicItemP", "height"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textField"]
+- !private ["So13UIDynamicItemP", "viewWithTag"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- !private ["So18UIFocusEnvironmentP", "CellProvider"]
+- !private ["So18UIFocusEnvironmentP", "DatePickerRow"]
+- !private ["So18UIFocusEnvironmentP", "Section"]
+- !private ["So18UIFocusEnvironmentP", "SwitchRow"]
+- !private ["So18UIFocusEnvironmentP", "TextRow"]
+- !private ["So18UIFocusEnvironmentP", "form"]
+- !private ["So18UIFocusEnvironmentP", "height"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textField"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWithTag"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "height"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textField"]
+- !private ["So11UIFocusItemP", "viewWithTag"]
+- !private ["So27UIGestureRecognizerDelegateP", "height"]
+- !private ["So27UIGestureRecognizerDelegateP", "textField"]
+- !private ["So27UIGestureRecognizerDelegateP", "viewWithTag"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "CellProvider"]
+- !private ["So30UIPasteConfigurationSupportingP", "DatePickerRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "Section"]
+- !private ["So30UIPasteConfigurationSupportingP", "SwitchRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "TextRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "form"]
+- !private ["So30UIPasteConfigurationSupportingP", "height"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textField"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWithTag"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Bundle"]
+- !private ["So11UIResponderC", "CellProvider"]
+- !private ["So11UIResponderC", "DatePickerCell"]
+- !private ["So11UIResponderC", "DatePickerRow"]
+- !private ["So11UIResponderC", "Section"]
+- !private ["So11UIResponderC", "SwitchCell"]
+- !private ["So11UIResponderC", "SwitchRow"]
+- !private ["So11UIResponderC", "TextCell"]
+- !private ["So11UIResponderC", "TextRow"]
+- !private ["So11UIResponderC", "UITextView"]
+- !private ["So11UIResponderC", "form"]
+- !private ["So11UIResponderC", "height"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textField"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So11UIResponderC", "viewWithTag"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "CellProvider"]
+- !private ["So30UIResponderStandardEditActionsP", "DatePickerRow"]
+- !private ["So30UIResponderStandardEditActionsP", "Section"]
+- !private ["So30UIResponderStandardEditActionsP", "SwitchRow"]
+- !private ["So30UIResponderStandardEditActionsP", "TextRow"]
+- !private ["So30UIResponderStandardEditActionsP", "form"]
+- !private ["So30UIResponderStandardEditActionsP", "height"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textField"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWithTag"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So20UIScrollViewDelegateP", "Bundle"]
+- !private ["So20UIScrollViewDelegateP", "CellProvider"]
+- !private ["So20UIScrollViewDelegateP", "DatePickerRow"]
+- !private ["So20UIScrollViewDelegateP", "Section"]
+- !private ["So20UIScrollViewDelegateP", "SwitchRow"]
+- !private ["So20UIScrollViewDelegateP", "TextRow"]
+- !private ["So20UIScrollViewDelegateP", "form"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So16UIStateRestoringP", "Bundle"]
+- !private ["So16UIStateRestoringP", "CellProvider"]
+- !private ["So16UIStateRestoringP", "DatePickerRow"]
+- !private ["So16UIStateRestoringP", "Section"]
+- !private ["So16UIStateRestoringP", "SwitchRow"]
+- !private ["So16UIStateRestoringP", "TextRow"]
+- !private ["So16UIStateRestoringP", "form"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITableViewCellC", "height"]
+- !private ["So15UITableViewCellC", "textField"]
+- !private ["So15UITableViewCellC", "viewWithTag"]
+- !private ["So21UITableViewDataSourceP", "Bundle"]
+- !private ["So21UITableViewDataSourceP", "CellProvider"]
+- !private ["So21UITableViewDataSourceP", "DatePickerRow"]
+- !private ["So21UITableViewDataSourceP", "Section"]
+- !private ["So21UITableViewDataSourceP", "SwitchRow"]
+- !private ["So21UITableViewDataSourceP", "TextRow"]
+- !private ["So21UITableViewDataSourceP", "form"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "Bundle"]
+- !private ["So19UITableViewDelegateP", "CellProvider"]
+- !private ["So19UITableViewDelegateP", "DatePickerRow"]
+- !private ["So19UITableViewDelegateP", "Section"]
+- !private ["So19UITableViewDelegateP", "SwitchRow"]
+- !private ["So19UITableViewDelegateP", "TextRow"]
+- !private ["So19UITableViewDelegateP", "form"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So19UITextFieldDelegateP", "height"]
+- !private ["So19UITextFieldDelegateP", "textField"]
+- !private ["So19UITextFieldDelegateP", "viewWithTag"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- !private ["So18UITraitEnvironmentP", "CellProvider"]
+- !private ["So18UITraitEnvironmentP", "DatePickerRow"]
+- !private ["So18UITraitEnvironmentP", "Section"]
+- !private ["So18UITraitEnvironmentP", "SwitchRow"]
+- !private ["So18UITraitEnvironmentP", "TextRow"]
+- !private ["So18UITraitEnvironmentP", "form"]
+- !private ["So18UITraitEnvironmentP", "height"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textField"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWithTag"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "height"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textField"]
+- !private ["So6UIViewC", "viewWithTag"]
+- !private ["So16UIViewControllerC", "Bundle"]
+- !private ["So16UIViewControllerC", "CellProvider"]
+- !private ["So16UIViewControllerC", "DatePickerCell"]
+- !private ["So16UIViewControllerC", "DatePickerRow"]
+- !private ["So16UIViewControllerC", "Section"]
+- !private ["So16UIViewControllerC", "SwitchCell"]
+- !private ["So16UIViewControllerC", "SwitchRow"]
+- !private ["So16UIViewControllerC", "TextCell"]
+- !private ["So16UIViewControllerC", "TextRow"]
+- !private ["So16UIViewControllerC", "UITextView"]
+- !private ["So16UIViewControllerC", "form"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["6Eureka14_DatePickerRowC", "cell"]
+- !private ["6Eureka14_DatePickerRowC", "cellProvider"]
+- !private ["6Eureka14_DatePickerRowC", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "height"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textField"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "viewWithTag"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["6Eureka10_FieldCellC", "height"]
+- !private ["6Eureka10_FieldCellC", "textField"]
+- !private ["6Eureka10_FieldCellC", "viewWithTag"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CellProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DatePickerRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Section"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwitchRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "form"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "height"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWithTag"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["6Eureka10_SwitchRowC", "cell"]
+- !private ["6Eureka10_SwitchRowC", "cellProvider"]
+- !private ["6Eureka10_SwitchRowC", "init"]
+- !private ["6Eureka8_TextRowC", "cell"]
+- !private ["6Eureka8_TextRowC", "cellProvider"]
+- !private ["6Eureka8_TextRowC", "init"]
+- !private ["6Eureka8_TextRowC", "onChange"]
+depends-nominal:
+- !private "6Eureka8BaseCellC"
+- !private "6Eureka12BaseCellTypeP"
+- !private "6Eureka7BaseRowC"
+- !private "6Eureka11BaseRowTypeP"
+- !private "s23BidirectionalCollectionP"
+- !private "So6BundleC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "6Eureka4CellC"
+- !private "6Eureka12CellProviderV"
+- !private "6Eureka8CellTypeP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "7Example22CustomDesignControllerC"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "6Eureka14DatePickerCellC"
+- !private "6Eureka13DatePickerRowC"
+- !private "6Eureka21DatePickerRowProtocolP"
+- !private "s9DecodableP"
+- !private "6Eureka11DisableableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6Eureka8FieldRowC"
+- !private "6Eureka19FieldRowConformanceP"
+- "6Eureka12FormDelegateP"
+- "6Eureka18FormViewControllerC"
+- "6Eureka26FormViewControllerProtocolP"
+- !private "6Eureka15FormatteableRowC"
+- !private "6Eureka20FormatterConformanceP"
+- "s8HashableP"
+- !private "6Eureka7HidableP"
+- !private "6Eureka18InputTypeInitiableP"
+- !private "6Eureka21KeyboardReturnHandlerP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "6Eureka3RowC"
+- !private "6Eureka5RowOfC"
+- !private "6Eureka7RowTypeP"
+- !private "6Eureka7SectionC"
+- !private "6Eureka15SectionDelegateP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "6Eureka10SwitchCellC"
+- !private "6Eureka9SwitchRowC"
+- !private "6Eureka8TaggableP"
+- !private "6Eureka8TextCellC"
+- !private "6Eureka13TextFieldCellP"
+- !private "6Eureka13TextInputCellP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6Eureka7TextRowC"
+- !private "6Eureka13TypedCellTypeP"
+- !private "6Eureka12TypedRowTypeP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So15UITableViewCellC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So19UITextFieldDelegateP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "6Eureka14_DatePickerRowC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "6Eureka10_FieldCellC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+- !private "6Eureka10_SwitchRowC"
+- !private "6Eureka8_TextRowC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+interface-hash: "6e0ba1e7635b08999fd00b1bfe391430"

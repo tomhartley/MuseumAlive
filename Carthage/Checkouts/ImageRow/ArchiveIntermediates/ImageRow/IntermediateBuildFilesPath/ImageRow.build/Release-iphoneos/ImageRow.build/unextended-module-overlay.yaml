@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/ImageRow/ArchiveIntermediates/ImageRow/BuildProductsPath/Release-iphoneos/ImageRow.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/ImageRow/ArchiveIntermediates/ImageRow/IntermediateBuildFilesPath/ImageRow.build/Release-iphoneos/ImageRow.build/unextended-module.modulemap',
+    }]
+  }]
+}

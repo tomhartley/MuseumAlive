@@ -1,0 +1,766 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FieldRowCustomizationController"
+provides-nominal:
+- "7Example31FieldRowCustomizationControllerC"
+provides-member:
+- ["7Example31FieldRowCustomizationControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "+++"
+- !private "<<<"
+- !private "AssignmentPrecedence"
+- "FieldRowCustomizationController"
+- "FormViewController"
+- !private "NameRow"
+- !private "Section"
+- !private "StringLiteralType"
+- !private "TextAreaRow"
+- !private "UIImage"
+depends-member:
+- !private ["6Eureka7AreaRowC", "init"]
+- !private ["6Eureka7AreaRowC", "placeholder"]
+- !private ["6Eureka7AreaRowC", "textAreaHeight"]
+- !private ["6Eureka8BaseCellC", "imageView"]
+- !private ["6Eureka8BaseCellC", "textField"]
+- !private ["6Eureka8BaseCellC", "textLabel"]
+- !private ["6Eureka12BaseCellTypeP", "imageView"]
+- !private ["6Eureka12BaseCellTypeP", "textField"]
+- !private ["6Eureka12BaseCellTypeP", "textLabel"]
+- !private ["6Eureka7BaseRowC", "cell"]
+- !private ["6Eureka7BaseRowC", "cellSetup"]
+- !private ["6Eureka7BaseRowC", "cellUpdate"]
+- !private ["6Eureka7BaseRowC", "init"]
+- !private ["6Eureka7BaseRowC", "placeholder"]
+- !private ["6Eureka7BaseRowC", "textAreaHeight"]
+- !private ["6Eureka7BaseRowC", "title"]
+- !private ["6Eureka7BaseRowC", "titlePercentage"]
+- !private ["6Eureka11BaseRowTypeP", "cell"]
+- !private ["6Eureka11BaseRowTypeP", "cellSetup"]
+- !private ["6Eureka11BaseRowTypeP", "cellUpdate"]
+- !private ["6Eureka11BaseRowTypeP", "init"]
+- !private ["6Eureka11BaseRowTypeP", "placeholder"]
+- !private ["6Eureka11BaseRowTypeP", "textAreaHeight"]
+- !private ["6Eureka11BaseRowTypeP", "title"]
+- !private ["6Eureka11BaseRowTypeP", "titlePercentage"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "imageView"]
+- !private ["So15CALayerDelegateP", "placeholder"]
+- !private ["So15CALayerDelegateP", "textAlignment"]
+- !private ["So15CALayerDelegateP", "textField"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- !private ["s7CVarArgP", "NameRow"]
+- !private ["s7CVarArgP", "Section"]
+- !private ["s7CVarArgP", "TextAreaRow"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "form"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "placeholder"]
+- !private ["s7CVarArgP", "textAlignment"]
+- !private ["s7CVarArgP", "textField"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["6Eureka4CellC", "imageView"]
+- !private ["6Eureka4CellC", "textField"]
+- !private ["6Eureka4CellC", "textLabel"]
+- !private ["6Eureka8CellTypeP", "imageView"]
+- !private ["6Eureka8CellTypeP", "textField"]
+- !private ["6Eureka8CellTypeP", "textLabel"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NameRow"]
+- !private ["s28CustomDebugStringConvertibleP", "Section"]
+- !private ["s28CustomDebugStringConvertibleP", "TextAreaRow"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "form"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "placeholder"]
+- !private ["s28CustomDebugStringConvertibleP", "textAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "textField"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NameRow"]
+- !private ["s23CustomStringConvertibleP", "Section"]
+- !private ["s23CustomStringConvertibleP", "TextAreaRow"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "form"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "placeholder"]
+- !private ["s23CustomStringConvertibleP", "textAlignment"]
+- !private ["s23CustomStringConvertibleP", "textField"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["6Eureka11DisableableP", "cell"]
+- !private ["6Eureka11DisableableP", "cellSetup"]
+- !private ["6Eureka11DisableableP", "cellUpdate"]
+- !private ["6Eureka11DisableableP", "init"]
+- !private ["6Eureka11DisableableP", "placeholder"]
+- !private ["6Eureka11DisableableP", "textAreaHeight"]
+- !private ["6Eureka11DisableableP", "title"]
+- !private ["6Eureka11DisableableP", "titlePercentage"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NameRow"]
+- !private ["s9EquatableP", "Section"]
+- !private ["s9EquatableP", "TextAreaRow"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "cell"]
+- !private ["s9EquatableP", "cellSetup"]
+- !private ["s9EquatableP", "cellUpdate"]
+- !private ["s9EquatableP", "form"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imageView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "left"]
+- !private ["s9EquatableP", "placeholder"]
+- !private ["s9EquatableP", "right"]
+- !private ["s9EquatableP", "textAlignment"]
+- !private ["s9EquatableP", "textAreaHeight"]
+- !private ["s9EquatableP", "textField"]
+- !private ["s9EquatableP", "textLabel"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "titlePercentage"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["6Eureka8FieldRowC", "cell"]
+- !private ["6Eureka8FieldRowC", "cellSetup"]
+- !private ["6Eureka8FieldRowC", "cellUpdate"]
+- !private ["6Eureka8FieldRowC", "init"]
+- !private ["6Eureka8FieldRowC", "placeholder"]
+- !private ["6Eureka8FieldRowC", "title"]
+- !private ["6Eureka8FieldRowC", "titlePercentage"]
+- !private ["6Eureka19FieldRowConformanceP", "cell"]
+- !private ["6Eureka19FieldRowConformanceP", "cellSetup"]
+- !private ["6Eureka19FieldRowConformanceP", "cellUpdate"]
+- !private ["6Eureka19FieldRowConformanceP", "init"]
+- !private ["6Eureka19FieldRowConformanceP", "placeholder"]
+- !private ["6Eureka19FieldRowConformanceP", "title"]
+- !private ["6Eureka19FieldRowConformanceP", "titlePercentage"]
+- !private ["7Example31FieldRowCustomizationControllerC", "NameRow"]
+- !private ["7Example31FieldRowCustomizationControllerC", "Section"]
+- !private ["7Example31FieldRowCustomizationControllerC", "TextAreaRow"]
+- !private ["7Example31FieldRowCustomizationControllerC", "UIImage"]
+- ["7Example31FieldRowCustomizationControllerC", "deinit"]
+- !private ["7Example31FieldRowCustomizationControllerC", "form"]
+- ["7Example31FieldRowCustomizationControllerC", "init"]
+- ["7Example31FieldRowCustomizationControllerC", "viewDidLoad"]
+- !private ["6Eureka12FormDelegateP", "NameRow"]
+- !private ["6Eureka12FormDelegateP", "Section"]
+- !private ["6Eureka12FormDelegateP", "TextAreaRow"]
+- !private ["6Eureka12FormDelegateP", "UIImage"]
+- !private ["6Eureka12FormDelegateP", "form"]
+- !private ["6Eureka12FormDelegateP", "init"]
+- !private ["6Eureka12FormDelegateP", "viewDidLoad"]
+- ["6Eureka12FormDelegateP", ""]
+- !private ["6Eureka18FormViewControllerC", "NameRow"]
+- !private ["6Eureka18FormViewControllerC", "Section"]
+- !private ["6Eureka18FormViewControllerC", "TextAreaRow"]
+- !private ["6Eureka18FormViewControllerC", "UIImage"]
+- !private ["6Eureka18FormViewControllerC", "form"]
+- ["6Eureka18FormViewControllerC", "init"]
+- ["6Eureka18FormViewControllerC", "viewDidLoad"]
+- ["6Eureka18FormViewControllerC", ""]
+- !private ["6Eureka26FormViewControllerProtocolP", "NameRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "Section"]
+- !private ["6Eureka26FormViewControllerProtocolP", "TextAreaRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "UIImage"]
+- !private ["6Eureka26FormViewControllerProtocolP", "form"]
+- !private ["6Eureka26FormViewControllerProtocolP", "init"]
+- !private ["6Eureka26FormViewControllerProtocolP", "viewDidLoad"]
+- ["6Eureka26FormViewControllerProtocolP", ""]
+- !private ["6Eureka15FormatteableRowC", "cell"]
+- !private ["6Eureka15FormatteableRowC", "cellSetup"]
+- !private ["6Eureka15FormatteableRowC", "cellUpdate"]
+- !private ["6Eureka15FormatteableRowC", "init"]
+- !private ["6Eureka15FormatteableRowC", "placeholder"]
+- !private ["6Eureka15FormatteableRowC", "textAreaHeight"]
+- !private ["6Eureka15FormatteableRowC", "title"]
+- !private ["6Eureka15FormatteableRowC", "titlePercentage"]
+- !private ["6Eureka20FormatterConformanceP", "cell"]
+- !private ["6Eureka20FormatterConformanceP", "cellSetup"]
+- !private ["6Eureka20FormatterConformanceP", "cellUpdate"]
+- !private ["6Eureka20FormatterConformanceP", "init"]
+- !private ["6Eureka20FormatterConformanceP", "placeholder"]
+- !private ["6Eureka20FormatterConformanceP", "textAreaHeight"]
+- !private ["6Eureka20FormatterConformanceP", "title"]
+- !private ["6Eureka20FormatterConformanceP", "titlePercentage"]
+- !private ["s8HashableP", "NameRow"]
+- !private ["s8HashableP", "Section"]
+- !private ["s8HashableP", "TextAreaRow"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "form"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "imageView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "left"]
+- !private ["s8HashableP", "placeholder"]
+- !private ["s8HashableP", "right"]
+- !private ["s8HashableP", "textAlignment"]
+- !private ["s8HashableP", "textField"]
+- !private ["s8HashableP", "textLabel"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["6Eureka7HidableP", "cell"]
+- !private ["6Eureka7HidableP", "cellSetup"]
+- !private ["6Eureka7HidableP", "cellUpdate"]
+- !private ["6Eureka7HidableP", "init"]
+- !private ["6Eureka7HidableP", "placeholder"]
+- !private ["6Eureka7HidableP", "textAreaHeight"]
+- !private ["6Eureka7HidableP", "title"]
+- !private ["6Eureka7HidableP", "titlePercentage"]
+- !private ["6Eureka18InputTypeInitiableP", "init"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "cell"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "cellSetup"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "cellUpdate"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "init"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "placeholder"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "title"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "titlePercentage"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "NameRow"]
+- !private ["So8NSCodingP", "Section"]
+- !private ["So8NSCodingP", "TextAreaRow"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "form"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imageView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "placeholder"]
+- !private ["So8NSCodingP", "textAlignment"]
+- !private ["So8NSCodingP", "textField"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "NameRow"]
+- !private ["So26NSExtensionRequestHandlingP", "Section"]
+- !private ["So26NSExtensionRequestHandlingP", "TextAreaRow"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "form"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "NameRow"]
+- !private ["So8NSObjectC", "Section"]
+- !private ["So8NSObjectC", "TextAreaRow"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "form"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "placeholder"]
+- !private ["So8NSObjectC", "textAlignment"]
+- !private ["So8NSObjectC", "textField"]
+- !private ["So8NSObjectC", "textLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "NameRow"]
+- !private ["So16NSObjectProtocolP", "Section"]
+- !private ["So16NSObjectProtocolP", "TextAreaRow"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "form"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imageView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "placeholder"]
+- !private ["So16NSObjectProtocolP", "textAlignment"]
+- !private ["So16NSObjectProtocolP", "textField"]
+- !private ["So16NSObjectProtocolP", "textLabel"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["SC15NSTextAlignmentO", "left"]
+- !private ["SC15NSTextAlignmentO", "right"]
+- !private ["6Eureka8NameCellC", "imageView"]
+- !private ["6Eureka8NameCellC", "textField"]
+- !private ["6Eureka8NameCellC", "textLabel"]
+- !private ["6Eureka7NameRowC", "cell"]
+- !private ["6Eureka7NameRowC", "cellSetup"]
+- !private ["6Eureka7NameRowC", "cellUpdate"]
+- !private ["6Eureka7NameRowC", "init"]
+- !private ["6Eureka7NameRowC", "placeholder"]
+- !private ["6Eureka7NameRowC", "title"]
+- !private ["6Eureka7NameRowC", "titlePercentage"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "left"]
+- !private ["s16RawRepresentableP", "right"]
+- !private ["6Eureka3RowC", "cell"]
+- !private ["6Eureka3RowC", "cellSetup"]
+- !private ["6Eureka3RowC", "cellUpdate"]
+- !private ["6Eureka3RowC", "init"]
+- !private ["6Eureka3RowC", "placeholder"]
+- !private ["6Eureka3RowC", "textAreaHeight"]
+- !private ["6Eureka3RowC", "title"]
+- !private ["6Eureka3RowC", "titlePercentage"]
+- !private ["6Eureka5RowOfC", "cell"]
+- !private ["6Eureka5RowOfC", "cellSetup"]
+- !private ["6Eureka5RowOfC", "cellUpdate"]
+- !private ["6Eureka5RowOfC", "init"]
+- !private ["6Eureka5RowOfC", "placeholder"]
+- !private ["6Eureka5RowOfC", "textAreaHeight"]
+- !private ["6Eureka5RowOfC", "title"]
+- !private ["6Eureka5RowOfC", "titlePercentage"]
+- !private ["6Eureka7RowTypeP", "cell"]
+- !private ["6Eureka7RowTypeP", "cellSetup"]
+- !private ["6Eureka7RowTypeP", "cellUpdate"]
+- !private ["6Eureka7RowTypeP", "init"]
+- !private ["6Eureka7RowTypeP", "placeholder"]
+- !private ["6Eureka7RowTypeP", "textAreaHeight"]
+- !private ["6Eureka7RowTypeP", "title"]
+- !private ["6Eureka7RowTypeP", "titlePercentage"]
+- !private ["6Eureka7SectionC", "init"]
+- !private ["6Eureka15SectionDelegateP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["6Eureka8TaggableP", "cell"]
+- !private ["6Eureka8TaggableP", "cellSetup"]
+- !private ["6Eureka8TaggableP", "cellUpdate"]
+- !private ["6Eureka8TaggableP", "init"]
+- !private ["6Eureka8TaggableP", "placeholder"]
+- !private ["6Eureka8TaggableP", "textAreaHeight"]
+- !private ["6Eureka8TaggableP", "title"]
+- !private ["6Eureka8TaggableP", "titlePercentage"]
+- !private ["6Eureka19TextAreaConformanceP", "init"]
+- !private ["6Eureka19TextAreaConformanceP", "placeholder"]
+- !private ["6Eureka19TextAreaConformanceP", "textAreaHeight"]
+- !private ["6Eureka14TextAreaHeightO", "dynamic"]
+- !private ["6Eureka11TextAreaRowC", "init"]
+- !private ["6Eureka11TextAreaRowC", "placeholder"]
+- !private ["6Eureka11TextAreaRowC", "textAreaHeight"]
+- !private ["6Eureka13TextFieldCellP", "imageView"]
+- !private ["6Eureka13TextFieldCellP", "textField"]
+- !private ["6Eureka13TextFieldCellP", "textLabel"]
+- !private ["6Eureka13TextInputCellP", "imageView"]
+- !private ["6Eureka13TextInputCellP", "textField"]
+- !private ["6Eureka13TextInputCellP", "textLabel"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6Eureka13TypedCellTypeP", "imageView"]
+- !private ["6Eureka13TypedCellTypeP", "textField"]
+- !private ["6Eureka13TypedCellTypeP", "textLabel"]
+- !private ["6Eureka12TypedRowTypeP", "cell"]
+- !private ["6Eureka12TypedRowTypeP", "cellSetup"]
+- !private ["6Eureka12TypedRowTypeP", "cellUpdate"]
+- !private ["6Eureka12TypedRowTypeP", "init"]
+- !private ["6Eureka12TypedRowTypeP", "placeholder"]
+- !private ["6Eureka12TypedRowTypeP", "textAreaHeight"]
+- !private ["6Eureka12TypedRowTypeP", "title"]
+- !private ["6Eureka12TypedRowTypeP", "titlePercentage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "imageView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "placeholder"]
+- !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
+- !private ["So29UIAccessibilityIdentificationP", "textField"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "imageView"]
+- !private ["So12UIAppearanceP", "placeholder"]
+- !private ["So12UIAppearanceP", "textAlignment"]
+- !private ["So12UIAppearanceP", "textField"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "NameRow"]
+- !private ["So21UIAppearanceContainerP", "Section"]
+- !private ["So21UIAppearanceContainerP", "TextAreaRow"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "form"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "placeholder"]
+- !private ["So21UIAppearanceContainerP", "textAlignment"]
+- !private ["So21UIAppearanceContainerP", "textField"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "NameRow"]
+- !private ["So18UIContentContainerP", "Section"]
+- !private ["So18UIContentContainerP", "TextAreaRow"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "form"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "placeholder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
+- !private ["So9UIControlC", "placeholder"]
+- !private ["So9UIControlC", "textAlignment"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "imageView"]
+- !private ["So17UICoordinateSpaceP", "placeholder"]
+- !private ["So17UICoordinateSpaceP", "textAlignment"]
+- !private ["So17UICoordinateSpaceP", "textField"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "imageView"]
+- !private ["So13UIDynamicItemP", "placeholder"]
+- !private ["So13UIDynamicItemP", "textAlignment"]
+- !private ["So13UIDynamicItemP", "textField"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "NameRow"]
+- !private ["So18UIFocusEnvironmentP", "Section"]
+- !private ["So18UIFocusEnvironmentP", "TextAreaRow"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "form"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "placeholder"]
+- !private ["So18UIFocusEnvironmentP", "textAlignment"]
+- !private ["So18UIFocusEnvironmentP", "textField"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "imageView"]
+- !private ["So11UIFocusItemP", "placeholder"]
+- !private ["So11UIFocusItemP", "textAlignment"]
+- !private ["So11UIFocusItemP", "textField"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "imageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "textField"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So10UIKeyInputP", "placeholder"]
+- !private ["So10UIKeyInputP", "textAlignment"]
+- !private ["So7UILabelC", "textAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "NameRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "Section"]
+- !private ["So30UIPasteConfigurationSupportingP", "TextAreaRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "form"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "placeholder"]
+- !private ["So30UIPasteConfigurationSupportingP", "textAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "textField"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "NameRow"]
+- !private ["So11UIResponderC", "Section"]
+- !private ["So11UIResponderC", "TextAreaRow"]
+- !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "form"]
+- !private ["So11UIResponderC", "image"]
+- !private ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "placeholder"]
+- !private ["So11UIResponderC", "textAlignment"]
+- !private ["So11UIResponderC", "textField"]
+- !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "NameRow"]
+- !private ["So30UIResponderStandardEditActionsP", "Section"]
+- !private ["So30UIResponderStandardEditActionsP", "TextAreaRow"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "form"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "placeholder"]
+- !private ["So30UIResponderStandardEditActionsP", "textAlignment"]
+- !private ["So30UIResponderStandardEditActionsP", "textField"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "NameRow"]
+- !private ["So20UIScrollViewDelegateP", "Section"]
+- !private ["So20UIScrollViewDelegateP", "TextAreaRow"]
+- !private ["So20UIScrollViewDelegateP", "UIImage"]
+- !private ["So20UIScrollViewDelegateP", "form"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So16UIStateRestoringP", "NameRow"]
+- !private ["So16UIStateRestoringP", "Section"]
+- !private ["So16UIStateRestoringP", "TextAreaRow"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "form"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITableViewCellC", "imageView"]
+- !private ["So15UITableViewCellC", "textField"]
+- !private ["So15UITableViewCellC", "textLabel"]
+- !private ["So21UITableViewDataSourceP", "NameRow"]
+- !private ["So21UITableViewDataSourceP", "Section"]
+- !private ["So21UITableViewDataSourceP", "TextAreaRow"]
+- !private ["So21UITableViewDataSourceP", "UIImage"]
+- !private ["So21UITableViewDataSourceP", "form"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "NameRow"]
+- !private ["So19UITableViewDelegateP", "Section"]
+- !private ["So19UITableViewDelegateP", "TextAreaRow"]
+- !private ["So19UITableViewDelegateP", "UIImage"]
+- !private ["So19UITableViewDelegateP", "form"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So15UITextDraggableP", "placeholder"]
+- !private ["So15UITextDraggableP", "textAlignment"]
+- !private ["So15UITextDroppableP", "placeholder"]
+- !private ["So15UITextDroppableP", "textAlignment"]
+- !private ["So11UITextFieldC", "placeholder"]
+- !private ["So11UITextFieldC", "textAlignment"]
+- !private ["So19UITextFieldDelegateP", "imageView"]
+- !private ["So19UITextFieldDelegateP", "textField"]
+- !private ["So19UITextFieldDelegateP", "textLabel"]
+- !private ["So11UITextInputP", "placeholder"]
+- !private ["So11UITextInputP", "textAlignment"]
+- !private ["So17UITextInputTraitsP", "placeholder"]
+- !private ["So17UITextInputTraitsP", "textAlignment"]
+- !private ["So34UITextPasteConfigurationSupportingP", "placeholder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "textAlignment"]
+- !private ["So18UITraitEnvironmentP", "NameRow"]
+- !private ["So18UITraitEnvironmentP", "Section"]
+- !private ["So18UITraitEnvironmentP", "TextAreaRow"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "form"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "placeholder"]
+- !private ["So18UITraitEnvironmentP", "textAlignment"]
+- !private ["So18UITraitEnvironmentP", "textField"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "imageView"]
+- !private ["So6UIViewC", "placeholder"]
+- !private ["So6UIViewC", "textAlignment"]
+- !private ["So6UIViewC", "textField"]
+- !private ["So6UIViewC", "textLabel"]
+- !private ["So16UIViewControllerC", "NameRow"]
+- !private ["So16UIViewControllerC", "Section"]
+- !private ["So16UIViewControllerC", "TextAreaRow"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- !private ["So16UIViewControllerC", "form"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "imageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "placeholder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textAlignment"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textField"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["6Eureka10_FieldCellC", "imageView"]
+- !private ["6Eureka10_FieldCellC", "textField"]
+- !private ["6Eureka10_FieldCellC", "textLabel"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NameRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Section"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextAreaRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "form"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["6Eureka8_NameRowC", "cell"]
+- !private ["6Eureka8_NameRowC", "cellSetup"]
+- !private ["6Eureka8_NameRowC", "cellUpdate"]
+- !private ["6Eureka8_NameRowC", "init"]
+- !private ["6Eureka8_NameRowC", "placeholder"]
+- !private ["6Eureka8_NameRowC", "title"]
+- !private ["6Eureka8_NameRowC", "titlePercentage"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["6Eureka12_TextAreaRowC", "init"]
+- !private ["6Eureka12_TextAreaRowC", "placeholder"]
+- !private ["6Eureka12_TextAreaRowC", "textAreaHeight"]
+depends-nominal:
+- !private "6Eureka7AreaRowC"
+- !private "6Eureka8BaseCellC"
+- !private "6Eureka12BaseCellTypeP"
+- !private "6Eureka7BaseRowC"
+- !private "6Eureka11BaseRowTypeP"
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "6Eureka4CellC"
+- !private "6Eureka8CellTypeP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "6Eureka11DisableableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6Eureka8FieldRowC"
+- !private "6Eureka19FieldRowConformanceP"
+- "7Example31FieldRowCustomizationControllerC"
+- "6Eureka12FormDelegateP"
+- "6Eureka18FormViewControllerC"
+- "6Eureka26FormViewControllerProtocolP"
+- !private "6Eureka15FormatteableRowC"
+- !private "6Eureka20FormatterConformanceP"
+- "s8HashableP"
+- !private "6Eureka7HidableP"
+- !private "6Eureka18InputTypeInitiableP"
+- !private "6Eureka21KeyboardReturnHandlerP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "SC15NSTextAlignmentO"
+- !private "6Eureka8NameCellC"
+- !private "6Eureka7NameRowC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "6Eureka3RowC"
+- !private "6Eureka5RowOfC"
+- !private "6Eureka7RowTypeP"
+- !private "6Eureka7SectionC"
+- !private "6Eureka15SectionDelegateP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "6Eureka8TaggableP"
+- !private "6Eureka19TextAreaConformanceP"
+- !private "6Eureka14TextAreaHeightO"
+- !private "6Eureka11TextAreaRowC"
+- !private "6Eureka13TextFieldCellP"
+- !private "6Eureka13TextInputCellP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6Eureka13TypedCellTypeP"
+- !private "6Eureka12TypedRowTypeP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So15UITableViewCellC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So19UITextFieldDelegateP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "6Eureka10_FieldCellC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "6Eureka8_NameRowC"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+- !private "6Eureka12_TextAreaRowC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Debug-iphoneos/Eureka.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+interface-hash: "f9d08524f0c8553285d51c4ed3d72b1f"

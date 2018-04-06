@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "f6677914e2ddc6528a90735fbd250208"
+build_time: [1522894754, 605001000]
+inputs:
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ScaleAspectFitImageView.swift": [1522738653, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/MAData.swift": [9223372036, 854775807]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ViewController.swift": [1522892733, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/AppDelegate.swift": [1522850709, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/FormController.swift": [1522817358, 0]

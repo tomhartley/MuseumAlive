@@ -1,0 +1,490 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScaleAspectFitImageView"
+provides-nominal:
+- "11MuseumAlive23ScaleAspectFitImageViewC"
+provides-member:
+- ["11MuseumAlive23ScaleAspectFitImageViewC", ""]
+provides-dynamic-lookup:
+- "image"
+depends-top-level:
+- !private "!="
+- !private "/"
+- !private "AssignmentPrecedence"
+- "CGRect"
+- "NSCoder"
+- "NSLayoutConstraint"
+- "ScaleAspectFitImageView"
+- "UIImage"
+- "UIImageView"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "NSLayoutConstraint"]
+- !private ["So15CALayerDelegateP", "addConstraint"]
+- !private ["So15CALayerDelegateP", "aspectRatioConstraint"]
+- !private ["So15CALayerDelegateP", "contentMode"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "removeConstraint"]
+- !private ["So15CALayerDelegateP", "setup"]
+- !private ["So15CALayerDelegateP", "updateAspectRatioConstraint"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", "addConstraint"]
+- !private ["s7CVarArgP", "aspectRatioConstraint"]
+- !private ["s7CVarArgP", "contentMode"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "priority"]
+- !private ["s7CVarArgP", "removeConstraint"]
+- !private ["s7CVarArgP", "setup"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "updateAspectRatioConstraint"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "aspectRatioConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "contentMode"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "priority"]
+- !private ["s28CustomDebugStringConvertibleP", "removeConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "setup"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "updateAspectRatioConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addConstraint"]
+- !private ["s23CustomStringConvertibleP", "aspectRatioConstraint"]
+- !private ["s23CustomStringConvertibleP", "contentMode"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "priority"]
+- !private ["s23CustomStringConvertibleP", "removeConstraint"]
+- !private ["s23CustomStringConvertibleP", "setup"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "updateAspectRatioConstraint"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "NSLayoutConstraint"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addConstraint"]
+- !private ["s9EquatableP", "aspectRatioConstraint"]
+- !private ["s9EquatableP", "contentMode"]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "priority"]
+- !private ["s9EquatableP", "removeConstraint"]
+- !private ["s9EquatableP", "scaleAspectFit"]
+- !private ["s9EquatableP", "setup"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "updateAspectRatioConstraint"]
+- !private ["s9EquatableP", "width"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "NSLayoutConstraint"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addConstraint"]
+- !private ["s8HashableP", "aspectRatioConstraint"]
+- !private ["s8HashableP", "contentMode"]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "height"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "priority"]
+- !private ["s8HashableP", "removeConstraint"]
+- !private ["s8HashableP", "scaleAspectFit"]
+- !private ["s8HashableP", "setup"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "updateAspectRatioConstraint"]
+- !private ["s8HashableP", "width"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "NSLayoutConstraint"]
+- !private ["So8NSCodingP", "addConstraint"]
+- !private ["So8NSCodingP", "aspectRatioConstraint"]
+- !private ["So8NSCodingP", "contentMode"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "removeConstraint"]
+- !private ["So8NSCodingP", "setup"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "updateAspectRatioConstraint"]
+- ["So8NSCodingP", ""]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- !private ["SC17NSLayoutAttributeO", "height"]
+- !private ["SC17NSLayoutAttributeO", "width"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- !private ["So18NSLayoutConstraintC", "priority"]
+- !private ["SC16NSLayoutRelationO", "equal"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "addConstraint"]
+- ["So8NSObjectC", "aspectRatioConstraint"]
+- !private ["So8NSObjectC", "contentMode"]
+- ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "priority"]
+- !private ["So8NSObjectC", "removeConstraint"]
+- ["So8NSObjectC", "setup"]
+- !private ["So8NSObjectC", "size"]
+- ["So8NSObjectC", "updateAspectRatioConstraint"]
+- !private ["So16NSObjectProtocolP", "NSLayoutConstraint"]
+- !private ["So16NSObjectProtocolP", "addConstraint"]
+- !private ["So16NSObjectProtocolP", "aspectRatioConstraint"]
+- !private ["So16NSObjectProtocolP", "contentMode"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "priority"]
+- !private ["So16NSObjectProtocolP", "removeConstraint"]
+- !private ["So16NSObjectProtocolP", "setup"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So16NSObjectProtocolP", "updateAspectRatioConstraint"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["s16RawRepresentableP", "equal"]
+- !private ["s16RawRepresentableP", "height"]
+- !private ["s16RawRepresentableP", "scaleAspectFit"]
+- !private ["s16RawRepresentableP", "width"]
+- ["11MuseumAlive23ScaleAspectFitImageViewC", "CGRect"]
+- ["11MuseumAlive23ScaleAspectFitImageViewC", "NSCoder"]
+- ["11MuseumAlive23ScaleAspectFitImageViewC", "NSLayoutConstraint"]
+- ["11MuseumAlive23ScaleAspectFitImageViewC", "UIImage"]
+- !private ["11MuseumAlive23ScaleAspectFitImageViewC", "addConstraint"]
+- !private ["11MuseumAlive23ScaleAspectFitImageViewC", "aspectRatioConstraint"]
+- !private ["11MuseumAlive23ScaleAspectFitImageViewC", "contentMode"]
+- ["11MuseumAlive23ScaleAspectFitImageViewC", "deinit"]
+- ["11MuseumAlive23ScaleAspectFitImageViewC", "image"]
+- ["11MuseumAlive23ScaleAspectFitImageViewC", "init"]
+- !private ["11MuseumAlive23ScaleAspectFitImageViewC", "removeConstraint"]
+- !private ["11MuseumAlive23ScaleAspectFitImageViewC", "setup"]
+- !private ["11MuseumAlive23ScaleAspectFitImageViewC", "updateAspectRatioConstraint"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "NSLayoutConstraint"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addConstraint"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "aspectRatioConstraint"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentMode"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "removeConstraint"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setup"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "updateAspectRatioConstraint"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "aspectRatioConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "contentMode"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "removeConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "setup"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So29UIAccessibilityIdentificationP", "updateAspectRatioConstraint"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "NSLayoutConstraint"]
+- !private ["So12UIAppearanceP", "addConstraint"]
+- !private ["So12UIAppearanceP", "aspectRatioConstraint"]
+- !private ["So12UIAppearanceP", "contentMode"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "removeConstraint"]
+- !private ["So12UIAppearanceP", "setup"]
+- !private ["So12UIAppearanceP", "updateAspectRatioConstraint"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- !private ["So21UIAppearanceContainerP", "addConstraint"]
+- !private ["So21UIAppearanceContainerP", "aspectRatioConstraint"]
+- !private ["So21UIAppearanceContainerP", "contentMode"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "removeConstraint"]
+- !private ["So21UIAppearanceContainerP", "setup"]
+- !private ["So21UIAppearanceContainerP", "updateAspectRatioConstraint"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
+- !private ["So17UICoordinateSpaceP", "addConstraint"]
+- !private ["So17UICoordinateSpaceP", "aspectRatioConstraint"]
+- !private ["So17UICoordinateSpaceP", "contentMode"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "removeConstraint"]
+- !private ["So17UICoordinateSpaceP", "setup"]
+- !private ["So17UICoordinateSpaceP", "updateAspectRatioConstraint"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "NSLayoutConstraint"]
+- !private ["So13UIDynamicItemP", "addConstraint"]
+- !private ["So13UIDynamicItemP", "aspectRatioConstraint"]
+- !private ["So13UIDynamicItemP", "contentMode"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "removeConstraint"]
+- !private ["So13UIDynamicItemP", "setup"]
+- !private ["So13UIDynamicItemP", "updateAspectRatioConstraint"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UIFocusEnvironmentP", "addConstraint"]
+- !private ["So18UIFocusEnvironmentP", "aspectRatioConstraint"]
+- !private ["So18UIFocusEnvironmentP", "contentMode"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "removeConstraint"]
+- !private ["So18UIFocusEnvironmentP", "setup"]
+- !private ["So18UIFocusEnvironmentP", "updateAspectRatioConstraint"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "NSLayoutConstraint"]
+- !private ["So11UIFocusItemP", "addConstraint"]
+- !private ["So11UIFocusItemP", "aspectRatioConstraint"]
+- !private ["So11UIFocusItemP", "contentMode"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "removeConstraint"]
+- !private ["So11UIFocusItemP", "setup"]
+- !private ["So11UIFocusItemP", "updateAspectRatioConstraint"]
+- ["So11UIFocusItemP", ""]
+- !private ["So7UIImageC", "size"]
+- ["So11UIImageViewC", "CGRect"]
+- ["So11UIImageViewC", "NSCoder"]
+- ["So11UIImageViewC", "NSLayoutConstraint"]
+- ["So11UIImageViewC", "UIImage"]
+- !private ["So11UIImageViewC", "addConstraint"]
+- ["So11UIImageViewC", "aspectRatioConstraint"]
+- !private ["So11UIImageViewC", "contentMode"]
+- ["So11UIImageViewC", "image"]
+- ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "removeConstraint"]
+- ["So11UIImageViewC", "setup"]
+- ["So11UIImageViewC", "updateAspectRatioConstraint"]
+- ["So11UIImageViewC", ""]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "aspectRatioConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "setup"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateAspectRatioConstraint"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "addConstraint"]
+- ["So11UIResponderC", "aspectRatioConstraint"]
+- !private ["So11UIResponderC", "contentMode"]
+- ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "removeConstraint"]
+- ["So11UIResponderC", "setup"]
+- ["So11UIResponderC", "updateAspectRatioConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "aspectRatioConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "contentMode"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "removeConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "setup"]
+- !private ["So30UIResponderStandardEditActionsP", "updateAspectRatioConstraint"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UITraitEnvironmentP", "addConstraint"]
+- !private ["So18UITraitEnvironmentP", "aspectRatioConstraint"]
+- !private ["So18UITraitEnvironmentP", "contentMode"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "removeConstraint"]
+- !private ["So18UITraitEnvironmentP", "setup"]
+- !private ["So18UITraitEnvironmentP", "updateAspectRatioConstraint"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- ["So6UIViewC", "UIImage"]
+- !private ["So6UIViewC", "addConstraint"]
+- ["So6UIViewC", "aspectRatioConstraint"]
+- !private ["So6UIViewC", "contentMode"]
+- ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "removeConstraint"]
+- ["So6UIViewC", "setup"]
+- ["So6UIViewC", "updateAspectRatioConstraint"]
+- !private ["SC17UIViewContentModeO", "scaleAspectFit"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "aspectRatioConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentMode"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setup"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateAspectRatioConstraint"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "aspectRatioConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "priority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateAspectRatioConstraint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- !private "Sb"
+- "So15CALayerDelegateP"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "SC17NSLayoutAttributeO"
+- !private "So18NSLayoutConstraintC"
+- !private "SC16NSLayoutRelationO"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s16RawRepresentableP"
+- "11MuseumAlive23ScaleAspectFitImageViewC"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So7UIImageC"
+- "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "SC17UIViewContentModeO"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/Eureka.swiftmodule/arm.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/ImageRow.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/vuforia-sdk-ios-7-0-47/build/include/Vuforia/UIGLViewProtocol.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaSampleSwift-Bridging-Header.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaManager.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaObjects.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaEAGLView.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
+interface-hash: "f15daf89e38ffed727665276b7f04163"

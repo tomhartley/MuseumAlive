@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/ArchiveIntermediates/Eureka/BuildProductsPath/Release-iphoneos/Eureka.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/ArchiveIntermediates/Eureka/IntermediateBuildFilesPath/Eureka.build/Release-iphoneos/Eureka.build/unextended-module.modulemap',
+    }]
+  }]
+}

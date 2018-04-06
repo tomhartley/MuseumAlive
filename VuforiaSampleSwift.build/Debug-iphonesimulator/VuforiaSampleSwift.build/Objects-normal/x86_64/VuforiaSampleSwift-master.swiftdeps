@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "67fb8efd0b1d7594973bac1353f7af1d"
-build_time: [1522571957, 361806000]
+build_time: [1522572374, 252790000]
 inputs:
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/VuforiaSampleSwift/ViewController.swift": [1521638063, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/VuforiaSampleSwift/ViewController.swift": [1522572248, 0]
   "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/VuforiaSampleSwift/AppDelegate.swift": [1520373364, 0]

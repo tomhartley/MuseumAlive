@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "6b428b39c90672dc9b61e97883661160"
+build_time: [1522808981, 151982000]
+inputs:
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/ImageRow/Sources/ImageRow.swift": [9223372036, 854775807]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/ImageRow/Sources/ImagePickerController.swift": [9223372036, 854775807]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/ImageRow/Sources/ImageCell.swift": [9223372036, 854775807]

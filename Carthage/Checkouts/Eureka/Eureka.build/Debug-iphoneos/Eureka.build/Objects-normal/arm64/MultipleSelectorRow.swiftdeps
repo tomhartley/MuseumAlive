@@ -1,0 +1,98 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_MultipleSelectorRow"
+- "MultipleSelectorRow"
+provides-nominal:
+- "6Eureka20_MultipleSelectorRowC"
+- "6Eureka19MultipleSelectorRowC"
+provides-member:
+- ["6Eureka20_MultipleSelectorRowC", ""]
+- ["6Eureka19MultipleSelectorRowC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BaseCell"
+- "CellType"
+- "GenericMultipleSelectorRow"
+- "Hashable"
+- "MultipleSelectorRow"
+- "PushSelectorCell"
+- "RowType"
+- "Set"
+- "String"
+- "_MultipleSelectorRow"
+depends-member:
+- ["6Eureka8BaseCellC", "deinit"]
+- ["6Eureka7BaseRowC", "String"]
+- ["6Eureka7BaseRowC", "init"]
+- ["6Eureka11BaseRowTypeP", "init"]
+- ["6Eureka11BaseRowTypeP", ""]
+- ["6Eureka11DisableableP", "init"]
+- ["6Eureka11DisableableP", ""]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- ["6Eureka26GenericMultipleSelectorRowC", "String"]
+- ["6Eureka26GenericMultipleSelectorRowC", "init"]
+- ["6Eureka26GenericMultipleSelectorRowC", ""]
+- ["6Eureka7HidableP", "init"]
+- ["6Eureka7HidableP", ""]
+- ["6Eureka19MultipleSelectorRowC", "String"]
+- ["6Eureka19MultipleSelectorRowC", "deinit"]
+- ["6Eureka19MultipleSelectorRowC", "init"]
+- ["6Eureka29NoValueDisplayTextConformanceP", "init"]
+- ["6Eureka29NoValueDisplayTextConformanceP", ""]
+- ["6Eureka18OptionsProviderRowP", "init"]
+- ["6Eureka18OptionsProviderRowP", ""]
+- ["6Eureka16PresenterRowTypeP", "init"]
+- ["6Eureka16PresenterRowTypeP", ""]
+- ["6Eureka16PushSelectorCellC", "deinit"]
+- ["6Eureka3RowC", "String"]
+- ["6Eureka3RowC", "init"]
+- ["6Eureka5RowOfC", "String"]
+- ["6Eureka5RowOfC", "init"]
+- ["6Eureka7RowTypeP", "init"]
+- ["6Eureka7RowTypeP", ""]
+- ["6Eureka8TaggableP", "init"]
+- ["6Eureka8TaggableP", ""]
+- ["6Eureka12TypedRowTypeP", "init"]
+- ["6Eureka12TypedRowTypeP", ""]
+- ["6Eureka20_MultipleSelectorRowC", "String"]
+- ["6Eureka20_MultipleSelectorRowC", "deinit"]
+- ["6Eureka20_MultipleSelectorRowC", "init"]
+- ["6Eureka20_MultipleSelectorRowC", ""]
+depends-nominal:
+- "6Eureka8BaseCellC"
+- "6Eureka7BaseRowC"
+- "6Eureka11BaseRowTypeP"
+- "6Eureka11DisableableP"
+- "s9EquatableP"
+- "6Eureka26GenericMultipleSelectorRowC"
+- "6Eureka7HidableP"
+- "6Eureka19MultipleSelectorRowC"
+- "6Eureka29NoValueDisplayTextConformanceP"
+- "6Eureka18OptionsProviderRowP"
+- "6Eureka16PresenterRowTypeP"
+- "6Eureka16PushSelectorCellC"
+- "6Eureka3RowC"
+- "6Eureka5RowOfC"
+- "6Eureka7RowTypeP"
+- "6Eureka8TaggableP"
+- "6Eureka12TypedRowTypeP"
+- "6Eureka20_MultipleSelectorRowC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Source/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Checkouts/Eureka/Eureka.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+interface-hash: "e010113a7ac243a59a96723e8890b22a"

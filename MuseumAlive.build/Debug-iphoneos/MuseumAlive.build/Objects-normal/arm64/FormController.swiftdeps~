@@ -1,0 +1,1081 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FormController"
+provides-nominal:
+- "11MuseumAlive14FormControllerC"
+provides-member:
+- ["11MuseumAlive14FormControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+++"
+- !private "<<<"
+- !private "??"
+- "Array"
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "FormController"
+- "FormViewController"
+- !private "ImageRow"
+- !private "Section"
+- !private "StringLiteralType"
+- !private "TextAreaRow"
+- !private "TextRow"
+- !private "UIFont"
+- !private "UIFontTextStyle"
+- !private "print"
+depends-member:
+- !private ["6Eureka7AreaRowC", "cellUpdate"]
+- !private ["6Eureka7AreaRowC", "init"]
+- !private ["6Eureka7AreaRowC", "placeholder"]
+- !private ["6Eureka7AreaRowC", "tag"]
+- !private ["6Eureka7AreaRowC", "value"]
+- !private ["6Eureka8BaseCellC", "textLabel"]
+- !private ["6Eureka8BaseCellC", "titleLabel"]
+- !private ["6Eureka12BaseCellTypeP", "textLabel"]
+- !private ["6Eureka12BaseCellTypeP", "titleLabel"]
+- !private ["6Eureka7BaseRowC", "allowEditor"]
+- !private ["6Eureka7BaseRowC", "cell"]
+- !private ["6Eureka7BaseRowC", "cellUpdate"]
+- !private ["6Eureka7BaseRowC", "clearAction"]
+- !private ["6Eureka7BaseRowC", "init"]
+- !private ["6Eureka7BaseRowC", "placeholder"]
+- !private ["6Eureka7BaseRowC", "sourceTypes"]
+- !private ["6Eureka7BaseRowC", "tag"]
+- !private ["6Eureka7BaseRowC", "title"]
+- !private ["6Eureka7BaseRowC", "useEditedImage"]
+- !private ["6Eureka7BaseRowC", "value"]
+- !private ["6Eureka11BaseRowTypeP", "allowEditor"]
+- !private ["6Eureka11BaseRowTypeP", "cell"]
+- !private ["6Eureka11BaseRowTypeP", "cellUpdate"]
+- !private ["6Eureka11BaseRowTypeP", "clearAction"]
+- !private ["6Eureka11BaseRowTypeP", "init"]
+- !private ["6Eureka11BaseRowTypeP", "placeholder"]
+- !private ["6Eureka11BaseRowTypeP", "sourceTypes"]
+- !private ["6Eureka11BaseRowTypeP", "tag"]
+- !private ["6Eureka11BaseRowTypeP", "title"]
+- !private ["6Eureka11BaseRowTypeP", "useEditedImage"]
+- !private ["6Eureka11BaseRowTypeP", "value"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- !private ["So15CALayerDelegateP", "titleLabel"]
+- !private ["s7CVarArgP", "ImageRow"]
+- !private ["s7CVarArgP", "Section"]
+- !private ["s7CVarArgP", "TextAreaRow"]
+- !private ["s7CVarArgP", "TextRow"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UIFontTextStyle"]
+- !private ["s7CVarArgP", "enableDone"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "form"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "preferredFont"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "rightBarButtonItem"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "titleLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["6Eureka4CellC", "textLabel"]
+- !private ["6Eureka4CellC", "titleLabel"]
+- !private ["6Eureka8CellTypeP", "textLabel"]
+- !private ["6Eureka8CellTypeP", "titleLabel"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "rowBy"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageRow"]
+- !private ["s28CustomDebugStringConvertibleP", "Section"]
+- !private ["s28CustomDebugStringConvertibleP", "TextAreaRow"]
+- !private ["s28CustomDebugStringConvertibleP", "TextRow"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFontTextStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "enableDone"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "form"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredFont"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ImageRow"]
+- !private ["s23CustomStringConvertibleP", "Section"]
+- !private ["s23CustomStringConvertibleP", "TextAreaRow"]
+- !private ["s23CustomStringConvertibleP", "TextRow"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UIFontTextStyle"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "enableDone"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "form"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "preferredFont"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["6Eureka11DisableableP", "allowEditor"]
+- !private ["6Eureka11DisableableP", "cell"]
+- !private ["6Eureka11DisableableP", "cellUpdate"]
+- !private ["6Eureka11DisableableP", "clearAction"]
+- !private ["6Eureka11DisableableP", "init"]
+- !private ["6Eureka11DisableableP", "placeholder"]
+- !private ["6Eureka11DisableableP", "sourceTypes"]
+- !private ["6Eureka11DisableableP", "tag"]
+- !private ["6Eureka11DisableableP", "title"]
+- !private ["6Eureka11DisableableP", "useEditedImage"]
+- !private ["6Eureka11DisableableP", "value"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ImageRow"]
+- !private ["s9EquatableP", "PhotoLibrary"]
+- !private ["s9EquatableP", "Section"]
+- !private ["s9EquatableP", "TextAreaRow"]
+- !private ["s9EquatableP", "TextRow"]
+- !private ["s9EquatableP", "UIFont"]
+- !private ["s9EquatableP", "UIFontTextStyle"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allowEditor"]
+- !private ["s9EquatableP", "cell"]
+- !private ["s9EquatableP", "cellUpdate"]
+- !private ["s9EquatableP", "clearAction"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "enableDone"]
+- !private ["s9EquatableP", "font"]
+- !private ["s9EquatableP", "form"]
+- !private ["s9EquatableP", "headline"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEnabled"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "placeholder"]
+- !private ["s9EquatableP", "preferredFont"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "rightBarButtonItem"]
+- !private ["s9EquatableP", "sourceTypes"]
+- !private ["s9EquatableP", "tag"]
+- !private ["s9EquatableP", "textLabel"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "titleLabel"]
+- !private ["s9EquatableP", "useEditedImage"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "PhotoLibrary"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["6Eureka8FieldRowC", "cell"]
+- !private ["6Eureka8FieldRowC", "cellUpdate"]
+- !private ["6Eureka8FieldRowC", "init"]
+- !private ["6Eureka8FieldRowC", "placeholder"]
+- !private ["6Eureka8FieldRowC", "tag"]
+- !private ["6Eureka8FieldRowC", "title"]
+- !private ["6Eureka8FieldRowC", "value"]
+- !private ["6Eureka19FieldRowConformanceP", "cell"]
+- !private ["6Eureka19FieldRowConformanceP", "cellUpdate"]
+- !private ["6Eureka19FieldRowConformanceP", "init"]
+- !private ["6Eureka19FieldRowConformanceP", "placeholder"]
+- !private ["6Eureka19FieldRowConformanceP", "tag"]
+- !private ["6Eureka19FieldRowConformanceP", "title"]
+- !private ["6Eureka19FieldRowConformanceP", "value"]
+- !private ["6Eureka4FormC", "rowBy"]
+- !private ["11MuseumAlive14FormControllerC", "ImageRow"]
+- !private ["11MuseumAlive14FormControllerC", "Section"]
+- !private ["11MuseumAlive14FormControllerC", "TextAreaRow"]
+- !private ["11MuseumAlive14FormControllerC", "TextRow"]
+- !private ["11MuseumAlive14FormControllerC", "UIFont"]
+- !private ["11MuseumAlive14FormControllerC", "UIFontTextStyle"]
+- ["11MuseumAlive14FormControllerC", "deinit"]
+- !private ["11MuseumAlive14FormControllerC", "enableDone"]
+- !private ["11MuseumAlive14FormControllerC", "form"]
+- ["11MuseumAlive14FormControllerC", "init"]
+- !private ["11MuseumAlive14FormControllerC", "navigationItem"]
+- !private ["11MuseumAlive14FormControllerC", "print"]
+- ["11MuseumAlive14FormControllerC", "viewDidLoad"]
+- !private ["6Eureka12FormDelegateP", "ImageRow"]
+- !private ["6Eureka12FormDelegateP", "Section"]
+- !private ["6Eureka12FormDelegateP", "TextAreaRow"]
+- !private ["6Eureka12FormDelegateP", "TextRow"]
+- !private ["6Eureka12FormDelegateP", "UIFont"]
+- !private ["6Eureka12FormDelegateP", "UIFontTextStyle"]
+- !private ["6Eureka12FormDelegateP", "enableDone"]
+- !private ["6Eureka12FormDelegateP", "form"]
+- !private ["6Eureka12FormDelegateP", "init"]
+- !private ["6Eureka12FormDelegateP", "navigationItem"]
+- !private ["6Eureka12FormDelegateP", "print"]
+- !private ["6Eureka12FormDelegateP", "viewDidLoad"]
+- ["6Eureka12FormDelegateP", ""]
+- !private ["6Eureka18FormViewControllerC", "ImageRow"]
+- !private ["6Eureka18FormViewControllerC", "Section"]
+- !private ["6Eureka18FormViewControllerC", "TextAreaRow"]
+- !private ["6Eureka18FormViewControllerC", "TextRow"]
+- !private ["6Eureka18FormViewControllerC", "UIFont"]
+- !private ["6Eureka18FormViewControllerC", "UIFontTextStyle"]
+- ["6Eureka18FormViewControllerC", "enableDone"]
+- !private ["6Eureka18FormViewControllerC", "form"]
+- ["6Eureka18FormViewControllerC", "init"]
+- !private ["6Eureka18FormViewControllerC", "navigationItem"]
+- !private ["6Eureka18FormViewControllerC", "print"]
+- ["6Eureka18FormViewControllerC", "viewDidLoad"]
+- ["6Eureka18FormViewControllerC", ""]
+- !private ["6Eureka26FormViewControllerProtocolP", "ImageRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "Section"]
+- !private ["6Eureka26FormViewControllerProtocolP", "TextAreaRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "TextRow"]
+- !private ["6Eureka26FormViewControllerProtocolP", "UIFont"]
+- !private ["6Eureka26FormViewControllerProtocolP", "UIFontTextStyle"]
+- !private ["6Eureka26FormViewControllerProtocolP", "enableDone"]
+- !private ["6Eureka26FormViewControllerProtocolP", "form"]
+- !private ["6Eureka26FormViewControllerProtocolP", "init"]
+- !private ["6Eureka26FormViewControllerProtocolP", "navigationItem"]
+- !private ["6Eureka26FormViewControllerProtocolP", "print"]
+- !private ["6Eureka26FormViewControllerProtocolP", "viewDidLoad"]
+- ["6Eureka26FormViewControllerProtocolP", ""]
+- !private ["6Eureka15FormatteableRowC", "cell"]
+- !private ["6Eureka15FormatteableRowC", "cellUpdate"]
+- !private ["6Eureka15FormatteableRowC", "init"]
+- !private ["6Eureka15FormatteableRowC", "placeholder"]
+- !private ["6Eureka15FormatteableRowC", "tag"]
+- !private ["6Eureka15FormatteableRowC", "title"]
+- !private ["6Eureka15FormatteableRowC", "value"]
+- !private ["6Eureka20FormatterConformanceP", "cell"]
+- !private ["6Eureka20FormatterConformanceP", "cellUpdate"]
+- !private ["6Eureka20FormatterConformanceP", "init"]
+- !private ["6Eureka20FormatterConformanceP", "placeholder"]
+- !private ["6Eureka20FormatterConformanceP", "tag"]
+- !private ["6Eureka20FormatterConformanceP", "title"]
+- !private ["6Eureka20FormatterConformanceP", "value"]
+- !private ["s8HashableP", "ImageRow"]
+- !private ["s8HashableP", "Section"]
+- !private ["s8HashableP", "TextAreaRow"]
+- !private ["s8HashableP", "TextRow"]
+- !private ["s8HashableP", "UIFont"]
+- !private ["s8HashableP", "UIFontTextStyle"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "enableDone"]
+- !private ["s8HashableP", "font"]
+- !private ["s8HashableP", "form"]
+- !private ["s8HashableP", "headline"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEnabled"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "preferredFont"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "rightBarButtonItem"]
+- !private ["s8HashableP", "textLabel"]
+- !private ["s8HashableP", "titleLabel"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["6Eureka7HidableP", "allowEditor"]
+- !private ["6Eureka7HidableP", "cell"]
+- !private ["6Eureka7HidableP", "cellUpdate"]
+- !private ["6Eureka7HidableP", "clearAction"]
+- !private ["6Eureka7HidableP", "init"]
+- !private ["6Eureka7HidableP", "placeholder"]
+- !private ["6Eureka7HidableP", "sourceTypes"]
+- !private ["6Eureka7HidableP", "tag"]
+- !private ["6Eureka7HidableP", "title"]
+- !private ["6Eureka7HidableP", "useEditedImage"]
+- !private ["6Eureka7HidableP", "value"]
+- !private ["8ImageRow0A4CellC", "textLabel"]
+- !private ["8ImageRow0A11ClearActionO", "yes"]
+- !private ["8ImageRowAAC", "allowEditor"]
+- !private ["8ImageRowAAC", "cell"]
+- !private ["8ImageRowAAC", "clearAction"]
+- !private ["8ImageRowAAC", "init"]
+- !private ["8ImageRowAAC", "sourceTypes"]
+- !private ["8ImageRowAAC", "tag"]
+- !private ["8ImageRowAAC", "title"]
+- !private ["8ImageRowAAC", "useEditedImage"]
+- !private ["8ImageRow0aB8ProtocolP", "allowEditor"]
+- !private ["8ImageRow0aB8ProtocolP", "cell"]
+- !private ["8ImageRow0aB8ProtocolP", "clearAction"]
+- !private ["8ImageRow0aB8ProtocolP", "init"]
+- !private ["8ImageRow0aB8ProtocolP", "sourceTypes"]
+- !private ["8ImageRow0aB8ProtocolP", "tag"]
+- !private ["8ImageRow0aB8ProtocolP", "title"]
+- !private ["8ImageRow0aB8ProtocolP", "useEditedImage"]
+- !private ["8ImageRow0aB11SourceTypesV", "PhotoLibrary"]
+- !private ["6Eureka18InputTypeInitiableP", "init"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "cell"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "cellUpdate"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "init"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "placeholder"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "tag"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "title"]
+- !private ["6Eureka21KeyboardReturnHandlerP", "value"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "rowBy"]
+- !private ["So8NSCodingP", "ImageRow"]
+- !private ["So8NSCodingP", "Section"]
+- !private ["So8NSCodingP", "TextAreaRow"]
+- !private ["So8NSCodingP", "TextRow"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UIFontTextStyle"]
+- !private ["So8NSCodingP", "enableDone"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "form"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEnabled"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "rightBarButtonItem"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "titleLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "preferredFont"]
+- !private ["So26NSExtensionRequestHandlingP", "ImageRow"]
+- !private ["So26NSExtensionRequestHandlingP", "Section"]
+- !private ["So26NSExtensionRequestHandlingP", "TextAreaRow"]
+- !private ["So26NSExtensionRequestHandlingP", "TextRow"]
+- !private ["So26NSExtensionRequestHandlingP", "UIFont"]
+- !private ["So26NSExtensionRequestHandlingP", "UIFontTextStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "enableDone"]
+- !private ["So26NSExtensionRequestHandlingP", "form"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "ImageRow"]
+- !private ["So8NSObjectC", "Section"]
+- !private ["So8NSObjectC", "TextAreaRow"]
+- !private ["So8NSObjectC", "TextRow"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "UIFontTextStyle"]
+- ["So8NSObjectC", "enableDone"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "form"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEnabled"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "preferredFont"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "rightBarButtonItem"]
+- !private ["So8NSObjectC", "textLabel"]
+- !private ["So8NSObjectC", "titleLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "ImageRow"]
+- !private ["So16NSObjectProtocolP", "Section"]
+- !private ["So16NSObjectProtocolP", "TextAreaRow"]
+- !private ["So16NSObjectProtocolP", "TextRow"]
+- !private ["So16NSObjectProtocolP", "UIFont"]
+- !private ["So16NSObjectProtocolP", "UIFontTextStyle"]
+- !private ["So16NSObjectProtocolP", "enableDone"]
+- !private ["So16NSObjectProtocolP", "font"]
+- !private ["So16NSObjectProtocolP", "form"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEnabled"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "preferredFont"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "rightBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "textLabel"]
+- !private ["So16NSObjectProtocolP", "titleLabel"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "allowEditor"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "cell"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "clearAction"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "init"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "sourceTypes"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "tag"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "title"]
+- !private ["6Eureka29NoValueDisplayTextConformanceP", "useEditedImage"]
+- !private ["s9OptionSetP", "PhotoLibrary"]
+- !private ["6Eureka18OptionsProviderRowP", "allowEditor"]
+- !private ["6Eureka18OptionsProviderRowP", "cell"]
+- !private ["6Eureka18OptionsProviderRowP", "clearAction"]
+- !private ["6Eureka18OptionsProviderRowP", "init"]
+- !private ["6Eureka18OptionsProviderRowP", "sourceTypes"]
+- !private ["6Eureka18OptionsProviderRowP", "tag"]
+- !private ["6Eureka18OptionsProviderRowP", "title"]
+- !private ["6Eureka18OptionsProviderRowP", "useEditedImage"]
+- !private ["6Eureka10OptionsRowC", "allowEditor"]
+- !private ["6Eureka10OptionsRowC", "cell"]
+- !private ["6Eureka10OptionsRowC", "clearAction"]
+- !private ["6Eureka10OptionsRowC", "init"]
+- !private ["6Eureka10OptionsRowC", "sourceTypes"]
+- !private ["6Eureka10OptionsRowC", "tag"]
+- !private ["6Eureka10OptionsRowC", "title"]
+- !private ["6Eureka10OptionsRowC", "useEditedImage"]
+- !private ["6Eureka16PresenterRowTypeP", "allowEditor"]
+- !private ["6Eureka16PresenterRowTypeP", "cell"]
+- !private ["6Eureka16PresenterRowTypeP", "clearAction"]
+- !private ["6Eureka16PresenterRowTypeP", "init"]
+- !private ["6Eureka16PresenterRowTypeP", "sourceTypes"]
+- !private ["6Eureka16PresenterRowTypeP", "tag"]
+- !private ["6Eureka16PresenterRowTypeP", "title"]
+- !private ["6Eureka16PresenterRowTypeP", "useEditedImage"]
+- !private ["6Eureka16PushSelectorCellC", "textLabel"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "rowBy"]
+- !private ["s16RawRepresentableP", "PhotoLibrary"]
+- !private ["s16RawRepresentableP", "default"]
+- !private ["s16RawRepresentableP", "headline"]
+- !private ["6Eureka3RowC", "allowEditor"]
+- !private ["6Eureka3RowC", "cell"]
+- !private ["6Eureka3RowC", "cellUpdate"]
+- !private ["6Eureka3RowC", "clearAction"]
+- !private ["6Eureka3RowC", "init"]
+- !private ["6Eureka3RowC", "placeholder"]
+- !private ["6Eureka3RowC", "sourceTypes"]
+- !private ["6Eureka3RowC", "tag"]
+- !private ["6Eureka3RowC", "title"]
+- !private ["6Eureka3RowC", "useEditedImage"]
+- !private ["6Eureka3RowC", "value"]
+- !private ["6Eureka5RowOfC", "allowEditor"]
+- !private ["6Eureka5RowOfC", "cell"]
+- !private ["6Eureka5RowOfC", "cellUpdate"]
+- !private ["6Eureka5RowOfC", "clearAction"]
+- !private ["6Eureka5RowOfC", "init"]
+- !private ["6Eureka5RowOfC", "placeholder"]
+- !private ["6Eureka5RowOfC", "sourceTypes"]
+- !private ["6Eureka5RowOfC", "tag"]
+- !private ["6Eureka5RowOfC", "title"]
+- !private ["6Eureka5RowOfC", "useEditedImage"]
+- !private ["6Eureka5RowOfC", "value"]
+- !private ["6Eureka7RowTypeP", "allowEditor"]
+- !private ["6Eureka7RowTypeP", "cell"]
+- !private ["6Eureka7RowTypeP", "cellUpdate"]
+- !private ["6Eureka7RowTypeP", "clearAction"]
+- !private ["6Eureka7RowTypeP", "init"]
+- !private ["6Eureka7RowTypeP", "placeholder"]
+- !private ["6Eureka7RowTypeP", "sourceTypes"]
+- !private ["6Eureka7RowTypeP", "tag"]
+- !private ["6Eureka7RowTypeP", "title"]
+- !private ["6Eureka7RowTypeP", "useEditedImage"]
+- !private ["6Eureka7RowTypeP", "value"]
+- !private ["6Eureka7SectionC", "init"]
+- !private ["6Eureka15SectionDelegateP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "rowBy"]
+- !private ["s10SetAlgebraP", "PhotoLibrary"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["6Eureka8TaggableP", "allowEditor"]
+- !private ["6Eureka8TaggableP", "cell"]
+- !private ["6Eureka8TaggableP", "cellUpdate"]
+- !private ["6Eureka8TaggableP", "clearAction"]
+- !private ["6Eureka8TaggableP", "init"]
+- !private ["6Eureka8TaggableP", "placeholder"]
+- !private ["6Eureka8TaggableP", "sourceTypes"]
+- !private ["6Eureka8TaggableP", "tag"]
+- !private ["6Eureka8TaggableP", "title"]
+- !private ["6Eureka8TaggableP", "useEditedImage"]
+- !private ["6Eureka8TaggableP", "value"]
+- !private ["6Eureka19TextAreaConformanceP", "cellUpdate"]
+- !private ["6Eureka19TextAreaConformanceP", "init"]
+- !private ["6Eureka19TextAreaConformanceP", "placeholder"]
+- !private ["6Eureka19TextAreaConformanceP", "tag"]
+- !private ["6Eureka19TextAreaConformanceP", "value"]
+- !private ["6Eureka11TextAreaRowC", "cellUpdate"]
+- !private ["6Eureka11TextAreaRowC", "init"]
+- !private ["6Eureka11TextAreaRowC", "placeholder"]
+- !private ["6Eureka11TextAreaRowC", "tag"]
+- !private ["6Eureka11TextAreaRowC", "value"]
+- !private ["6Eureka8TextCellC", "titleLabel"]
+- !private ["6Eureka13TextFieldCellP", "titleLabel"]
+- !private ["6Eureka13TextInputCellP", "titleLabel"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6Eureka7TextRowC", "cell"]
+- !private ["6Eureka7TextRowC", "cellUpdate"]
+- !private ["6Eureka7TextRowC", "init"]
+- !private ["6Eureka7TextRowC", "placeholder"]
+- !private ["6Eureka7TextRowC", "tag"]
+- !private ["6Eureka7TextRowC", "title"]
+- !private ["6Eureka7TextRowC", "value"]
+- !private ["6Eureka13TypedCellTypeP", "textLabel"]
+- !private ["6Eureka13TypedCellTypeP", "titleLabel"]
+- !private ["6Eureka12TypedRowTypeP", "allowEditor"]
+- !private ["6Eureka12TypedRowTypeP", "cell"]
+- !private ["6Eureka12TypedRowTypeP", "cellUpdate"]
+- !private ["6Eureka12TypedRowTypeP", "clearAction"]
+- !private ["6Eureka12TypedRowTypeP", "init"]
+- !private ["6Eureka12TypedRowTypeP", "placeholder"]
+- !private ["6Eureka12TypedRowTypeP", "sourceTypes"]
+- !private ["6Eureka12TypedRowTypeP", "tag"]
+- !private ["6Eureka12TypedRowTypeP", "title"]
+- !private ["6Eureka12TypedRowTypeP", "useEditedImage"]
+- !private ["6Eureka12TypedRowTypeP", "value"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- !private ["SC18UIAlertActionStyleO", "default"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "isEnabled"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- !private ["So12UIAppearanceP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "ImageRow"]
+- !private ["So21UIAppearanceContainerP", "Section"]
+- !private ["So21UIAppearanceContainerP", "TextAreaRow"]
+- !private ["So21UIAppearanceContainerP", "TextRow"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UIFontTextStyle"]
+- !private ["So21UIAppearanceContainerP", "enableDone"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "form"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So15UIBarButtonItemC", "isEnabled"]
+- !private ["So9UIBarItemC", "isEnabled"]
+- !private ["So18UIContentContainerP", "ImageRow"]
+- !private ["So18UIContentContainerP", "Section"]
+- !private ["So18UIContentContainerP", "TextAreaRow"]
+- !private ["So18UIContentContainerP", "TextRow"]
+- !private ["So18UIContentContainerP", "UIFont"]
+- !private ["So18UIContentContainerP", "UIFontTextStyle"]
+- !private ["So18UIContentContainerP", "enableDone"]
+- !private ["So18UIContentContainerP", "form"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- !private ["So17UICoordinateSpaceP", "titleLabel"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- !private ["So13UIDynamicItemP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "ImageRow"]
+- !private ["So18UIFocusEnvironmentP", "Section"]
+- !private ["So18UIFocusEnvironmentP", "TextAreaRow"]
+- !private ["So18UIFocusEnvironmentP", "TextRow"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UIFontTextStyle"]
+- !private ["So18UIFocusEnvironmentP", "enableDone"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "form"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- !private ["So11UIFocusItemP", "titleLabel"]
+- !private ["So6UIFontC", "preferredFont"]
+- !private ["SC15UIFontTextStyleV", "headline"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "titleLabel"]
+- !private ["So7UILabelC", "font"]
+- !private ["So16UINavigationItemC", "rightBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "ImageRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "Section"]
+- !private ["So30UIPasteConfigurationSupportingP", "TextAreaRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "TextRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFontTextStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "enableDone"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "form"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "ImageRow"]
+- !private ["So11UIResponderC", "Section"]
+- !private ["So11UIResponderC", "TextAreaRow"]
+- !private ["So11UIResponderC", "TextRow"]
+- !private ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "UIFontTextStyle"]
+- ["So11UIResponderC", "enableDone"]
+- !private ["So11UIResponderC", "font"]
+- !private ["So11UIResponderC", "form"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "textLabel"]
+- !private ["So11UIResponderC", "titleLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ImageRow"]
+- !private ["So30UIResponderStandardEditActionsP", "Section"]
+- !private ["So30UIResponderStandardEditActionsP", "TextAreaRow"]
+- !private ["So30UIResponderStandardEditActionsP", "TextRow"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFontTextStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "enableDone"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "form"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "ImageRow"]
+- !private ["So20UIScrollViewDelegateP", "Section"]
+- !private ["So20UIScrollViewDelegateP", "TextAreaRow"]
+- !private ["So20UIScrollViewDelegateP", "TextRow"]
+- !private ["So20UIScrollViewDelegateP", "UIFont"]
+- !private ["So20UIScrollViewDelegateP", "UIFontTextStyle"]
+- !private ["So20UIScrollViewDelegateP", "enableDone"]
+- !private ["So20UIScrollViewDelegateP", "form"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isEnabled"]
+- !private ["So16UIStateRestoringP", "ImageRow"]
+- !private ["So16UIStateRestoringP", "Section"]
+- !private ["So16UIStateRestoringP", "TextAreaRow"]
+- !private ["So16UIStateRestoringP", "TextRow"]
+- !private ["So16UIStateRestoringP", "UIFont"]
+- !private ["So16UIStateRestoringP", "UIFontTextStyle"]
+- !private ["So16UIStateRestoringP", "enableDone"]
+- !private ["So16UIStateRestoringP", "form"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITableViewCellC", "textLabel"]
+- !private ["So15UITableViewCellC", "titleLabel"]
+- !private ["So21UITableViewDataSourceP", "ImageRow"]
+- !private ["So21UITableViewDataSourceP", "Section"]
+- !private ["So21UITableViewDataSourceP", "TextAreaRow"]
+- !private ["So21UITableViewDataSourceP", "TextRow"]
+- !private ["So21UITableViewDataSourceP", "UIFont"]
+- !private ["So21UITableViewDataSourceP", "UIFontTextStyle"]
+- !private ["So21UITableViewDataSourceP", "enableDone"]
+- !private ["So21UITableViewDataSourceP", "form"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "navigationItem"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "ImageRow"]
+- !private ["So19UITableViewDelegateP", "Section"]
+- !private ["So19UITableViewDelegateP", "TextAreaRow"]
+- !private ["So19UITableViewDelegateP", "TextRow"]
+- !private ["So19UITableViewDelegateP", "UIFont"]
+- !private ["So19UITableViewDelegateP", "UIFontTextStyle"]
+- !private ["So19UITableViewDelegateP", "enableDone"]
+- !private ["So19UITableViewDelegateP", "form"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "navigationItem"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So19UITextFieldDelegateP", "titleLabel"]
+- !private ["So18UITraitEnvironmentP", "ImageRow"]
+- !private ["So18UITraitEnvironmentP", "Section"]
+- !private ["So18UITraitEnvironmentP", "TextAreaRow"]
+- !private ["So18UITraitEnvironmentP", "TextRow"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UIFontTextStyle"]
+- !private ["So18UITraitEnvironmentP", "enableDone"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "form"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "titleLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "textLabel"]
+- !private ["So6UIViewC", "titleLabel"]
+- !private ["So16UIViewControllerC", "ImageRow"]
+- !private ["So16UIViewControllerC", "Section"]
+- !private ["So16UIViewControllerC", "TextAreaRow"]
+- !private ["So16UIViewControllerC", "TextRow"]
+- !private ["So16UIViewControllerC", "UIFont"]
+- !private ["So16UIViewControllerC", "UIFontTextStyle"]
+- ["So16UIViewControllerC", "enableDone"]
+- !private ["So16UIViewControllerC", "form"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["6Eureka10_FieldCellC", "titleLabel"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["8ImageRow01_aB0C", "allowEditor"]
+- !private ["8ImageRow01_aB0C", "cell"]
+- !private ["8ImageRow01_aB0C", "clearAction"]
+- !private ["8ImageRow01_aB0C", "init"]
+- !private ["8ImageRow01_aB0C", "sourceTypes"]
+- !private ["8ImageRow01_aB0C", "tag"]
+- !private ["8ImageRow01_aB0C", "title"]
+- !private ["8ImageRow01_aB0C", "useEditedImage"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "rowBy"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "rowBy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Section"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextAreaRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFontTextStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enableDone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "form"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "preferredFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "rowBy"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "headline"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "rowBy"]
+- !private ["s20_SwiftNewtypeWrapperP", "headline"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["6Eureka12_TextAreaRowC", "cellUpdate"]
+- !private ["6Eureka12_TextAreaRowC", "init"]
+- !private ["6Eureka12_TextAreaRowC", "placeholder"]
+- !private ["6Eureka12_TextAreaRowC", "tag"]
+- !private ["6Eureka12_TextAreaRowC", "value"]
+- !private ["6Eureka8_TextRowC", "cell"]
+- !private ["6Eureka8_TextRowC", "cellUpdate"]
+- !private ["6Eureka8_TextRowC", "init"]
+- !private ["6Eureka8_TextRowC", "placeholder"]
+- !private ["6Eureka8_TextRowC", "tag"]
+- !private ["6Eureka8_TextRowC", "title"]
+- !private ["6Eureka8_TextRowC", "value"]
+depends-nominal:
+- !private "6Eureka7AreaRowC"
+- !private "6Eureka8BaseCellC"
+- !private "6Eureka12BaseCellTypeP"
+- !private "6Eureka7BaseRowC"
+- !private "6Eureka11BaseRowTypeP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "6Eureka4CellC"
+- !private "6Eureka8CellTypeP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "6Eureka11DisableableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6Eureka8FieldRowC"
+- !private "6Eureka19FieldRowConformanceP"
+- !private "6Eureka4FormC"
+- "11MuseumAlive14FormControllerC"
+- "6Eureka12FormDelegateP"
+- "6Eureka18FormViewControllerC"
+- "6Eureka26FormViewControllerProtocolP"
+- !private "6Eureka15FormatteableRowC"
+- !private "6Eureka20FormatterConformanceP"
+- "s8HashableP"
+- !private "6Eureka7HidableP"
+- !private "8ImageRow0A4CellC"
+- !private "8ImageRow0A11ClearActionO"
+- !private "8ImageRowAAC"
+- !private "8ImageRow0aB8ProtocolP"
+- !private "8ImageRow0aB11SourceTypesV"
+- !private "6Eureka18InputTypeInitiableP"
+- !private "6Eureka21KeyboardReturnHandlerP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "6Eureka29NoValueDisplayTextConformanceP"
+- !private "s9OptionSetP"
+- !private "6Eureka18OptionsProviderRowP"
+- !private "6Eureka10OptionsRowC"
+- !private "6Eureka16PresenterRowTypeP"
+- !private "6Eureka16PushSelectorCellC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "6Eureka3RowC"
+- !private "6Eureka5RowOfC"
+- !private "6Eureka7RowTypeP"
+- !private "6Eureka7SectionC"
+- !private "6Eureka15SectionDelegateP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "6Eureka8TaggableP"
+- !private "6Eureka19TextAreaConformanceP"
+- !private "6Eureka11TextAreaRowC"
+- !private "6Eureka8TextCellC"
+- !private "6Eureka13TextFieldCellP"
+- !private "6Eureka13TextInputCellP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6Eureka7TextRowC"
+- !private "6Eureka13TypedCellTypeP"
+- !private "6Eureka12TypedRowTypeP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "SC18UIAlertActionStyleO"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "So9UIBarItemC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "SC15UIFontTextStyleV"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So15UITableViewCellC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- !private "So19UITextFieldDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "6Eureka10_FieldCellC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "8ImageRow01_aB0C"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+- !private "6Eureka12_TextAreaRowC"
+- !private "6Eureka8_TextRowC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/ImageRow.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FirebaseGoogleAuthUI.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FirebaseAuthUI.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FUIGoogleAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/vuforia-sdk-ios-7-0-47/build/include/Vuforia/UIGLViewProtocol.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaSampleSwift-Bridging-Header.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaManager.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthBaseViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordSignInViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordVerificationViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordSignUpViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthPickerViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordRecoveryViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIEmailEntryViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrorUtils.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSetOptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaObjects.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaEAGLView.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
+interface-hash: "0a53c5809f5578fe4d8f4524d4df68fd"
