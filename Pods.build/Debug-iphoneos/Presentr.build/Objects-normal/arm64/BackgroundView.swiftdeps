@@ -1,0 +1,240 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PassthroughBackgroundView"
+provides-nominal:
+- "8Presentr25PassthroughBackgroundViewC"
+provides-member:
+- ["8Presentr25PassthroughBackgroundViewC", ""]
+provides-dynamic-lookup:
+- "hitTest"
+- "passthroughViews"
+- "shouldPassthrough"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGPoint"
+- "PassthroughBackgroundView"
+- "UIEvent"
+- "UIView"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "convert"]
+- !private ["So15CALayerDelegateP", "hitTest"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "passthroughViews"]
+- !private ["So15CALayerDelegateP", "shouldPassthrough"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "convert"]
+- !private ["s7CVarArgP", "hitTest"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "passthroughViews"]
+- !private ["s7CVarArgP", "shouldPassthrough"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "convert"]
+- !private ["s28CustomDebugStringConvertibleP", "hitTest"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "passthroughViews"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldPassthrough"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "convert"]
+- !private ["s23CustomStringConvertibleP", "hitTest"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "passthroughViews"]
+- !private ["s23CustomStringConvertibleP", "shouldPassthrough"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "convert"]
+- !private ["s9EquatableP", "hitTest"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "passthroughViews"]
+- !private ["s9EquatableP", "shouldPassthrough"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "convert"]
+- !private ["s8HashableP", "hitTest"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "passthroughViews"]
+- !private ["s8HashableP", "shouldPassthrough"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "convert"]
+- !private ["So8NSCodingP", "hitTest"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "passthroughViews"]
+- !private ["So8NSCodingP", "shouldPassthrough"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "convert"]
+- ["So8NSObjectC", "hitTest"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "passthroughViews"]
+- ["So8NSObjectC", "shouldPassthrough"]
+- !private ["So16NSObjectProtocolP", "convert"]
+- !private ["So16NSObjectProtocolP", "hitTest"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "passthroughViews"]
+- !private ["So16NSObjectProtocolP", "shouldPassthrough"]
+- ["So16NSObjectProtocolP", ""]
+- ["8Presentr25PassthroughBackgroundViewC", "CGPoint"]
+- ["8Presentr25PassthroughBackgroundViewC", "UIEvent"]
+- ["8Presentr25PassthroughBackgroundViewC", "UIView"]
+- !private ["8Presentr25PassthroughBackgroundViewC", "convert"]
+- ["8Presentr25PassthroughBackgroundViewC", "deinit"]
+- ["8Presentr25PassthroughBackgroundViewC", "hitTest"]
+- ["8Presentr25PassthroughBackgroundViewC", "init"]
+- ["8Presentr25PassthroughBackgroundViewC", "passthroughViews"]
+- ["8Presentr25PassthroughBackgroundViewC", "shouldPassthrough"]
+- !private ["So29UIAccessibilityIdentificationP", "convert"]
+- !private ["So29UIAccessibilityIdentificationP", "hitTest"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "passthroughViews"]
+- !private ["So29UIAccessibilityIdentificationP", "shouldPassthrough"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "convert"]
+- !private ["So12UIAppearanceP", "hitTest"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "passthroughViews"]
+- !private ["So12UIAppearanceP", "shouldPassthrough"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "convert"]
+- !private ["So21UIAppearanceContainerP", "hitTest"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "passthroughViews"]
+- !private ["So21UIAppearanceContainerP", "shouldPassthrough"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "convert"]
+- !private ["So17UICoordinateSpaceP", "hitTest"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "passthroughViews"]
+- !private ["So17UICoordinateSpaceP", "shouldPassthrough"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "convert"]
+- !private ["So13UIDynamicItemP", "hitTest"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "passthroughViews"]
+- !private ["So13UIDynamicItemP", "shouldPassthrough"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "convert"]
+- !private ["So18UIFocusEnvironmentP", "hitTest"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "passthroughViews"]
+- !private ["So18UIFocusEnvironmentP", "shouldPassthrough"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "convert"]
+- !private ["So11UIFocusItemP", "hitTest"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "passthroughViews"]
+- !private ["So11UIFocusItemP", "shouldPassthrough"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "convert"]
+- !private ["So30UIPasteConfigurationSupportingP", "hitTest"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "passthroughViews"]
+- !private ["So30UIPasteConfigurationSupportingP", "shouldPassthrough"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "convert"]
+- ["So11UIResponderC", "hitTest"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "passthroughViews"]
+- ["So11UIResponderC", "shouldPassthrough"]
+- !private ["So30UIResponderStandardEditActionsP", "convert"]
+- !private ["So30UIResponderStandardEditActionsP", "hitTest"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "passthroughViews"]
+- !private ["So30UIResponderStandardEditActionsP", "shouldPassthrough"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "convert"]
+- !private ["So18UITraitEnvironmentP", "hitTest"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "passthroughViews"]
+- !private ["So18UITraitEnvironmentP", "shouldPassthrough"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "UIEvent"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "convert"]
+- ["So6UIViewC", "hitTest"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "passthroughViews"]
+- ["So6UIViewC", "shouldPassthrough"]
+- ["So6UIViewC", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "convert"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "hitTest"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "passthroughViews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "shouldPassthrough"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "convert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hitTest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passthroughViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldPassthrough"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "8Presentr25PassthroughBackgroundViewC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Target Support Files/Presentr/Presentr-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods.build/Debug-iphoneos/Presentr.build/unextended-module.modulemap"
+interface-hash: "4b832f21cf457d22a7db7e206bc3dbeb"

@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0f1a875b287e322dd29ce20bb404a97d"
+build_time: [1523430156, 313474000]
+inputs:
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/AlertViewController.swift": !dirty [1523430152, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/BackgroundView.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/CoverHorizontalAnimation.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/CoverVerticalAnimation.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/CoverVerticalFromTopAnimation.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/CrossDissolveAnimation.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/KeyboardTranslation.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/ModalCenterPosition.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/ModalSize.swift": !private [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/PresentationType.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/Presentr+Equatable.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/Presentr.swift": !dirty [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/PresentrAnimation.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/PresentrController.swift": !dirty [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/PresentrShadow.swift": [1523427839, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Presentr/Presentr/TransitionType.swift": [1523427839, 0]

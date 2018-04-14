@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController" customModule="MuseumAlive" customModuleProvider="target">
+            <connections>
+                <outlet property="curatorOnly" destination="tHc-WM-Rk1" id="26U-OA-Whw"/>
+                <outlet property="signInOut" destination="GdJ-QT-iBk" id="xXH-JO-ppJ"/>
+                <outlet property="signInOutText" destination="9OX-sA-U32" id="qlO-dE-sGX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are currently signed in as Tom Hartley" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OX-sA-U32">
+                    <rect key="frame" x="23" y="72" width="274" height="21.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="0.0" height="1"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="View only Curator notes:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aB6-dX-7Az">
+                    <rect key="frame" x="23" y="193.5" width="217" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="xGf-7o-VL9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdJ-QT-iBk" customClass="BackgroundHighlightedButton">
+                    <rect key="frame" x="53" y="111.5" width="214" height="52"/>
+                    <color key="backgroundColor" red="0.44332665205001831" green="0.35643273591995239" blue="0.75124263763427734" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="214" id="Exw-KB-ijD"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47" id="Mdq-Py-8VR"/>
+                        <constraint firstAttribute="height" constant="52" id="j1H-le-WeG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                    <state key="normal" title="Sign Out">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="highlightedBackgroundColor">
+                            <color key="value" red="0.31374779339999997" green="0.24892160299999999" blue="0.56080859900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="nonHighlightedBackgroundColor">
+                            <color key="value" red="0.43552112580000002" green="0.34885236619999999" blue="0.73534017799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="signInOutTapped:" destination="-1" eventType="primaryActionTriggered" id="M5Y-7J-TVh"/>
+                    </connections>
+                </button>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iWa-Zl-mAg">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <items>
+                        <navigationItem title="Settings" id="01x-VU-yCV">
+                            <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="8Hg-Hl-uZr">
+                                <connections>
+                                    <action selector="didTapDone:" destination="-1" id="JCr-sy-DfU"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tHc-WM-Rk1">
+                    <rect key="frame" x="248" y="200.5" width="51" height="31"/>
+                    <color key="onTintColor" red="0.45115524530410767" green="0.3641963005065918" blue="0.76313430070877075" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" white="0.92388237847222221" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iWa-Zl-mAg" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="1Kt-KI-YnD"/>
+                <constraint firstItem="tHc-WM-Rk1" firstAttribute="centerY" secondItem="aB6-dX-7Az" secondAttribute="centerY" id="3tm-yb-nEJ"/>
+                <constraint firstItem="tHc-WM-Rk1" firstAttribute="leading" secondItem="aB6-dX-7Az" secondAttribute="trailing" constant="8" id="AcV-wS-c6V"/>
+                <constraint firstItem="iWa-Zl-mAg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HiD-Yb-woK"/>
+                <constraint firstItem="GdJ-QT-iBk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HzL-vw-sUK"/>
+                <constraint firstItem="aB6-dX-7Az" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="23" id="Ida-vu-JMo"/>
+                <constraint firstItem="aB6-dX-7Az" firstAttribute="top" secondItem="GdJ-QT-iBk" secondAttribute="bottom" constant="30" id="TzP-co-tvh"/>
+                <constraint firstItem="9OX-sA-U32" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="23" id="cdX-da-nLN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9OX-sA-U32" secondAttribute="trailing" constant="23" id="eDm-eu-DIM"/>
+                <constraint firstItem="9OX-sA-U32" firstAttribute="top" secondItem="iWa-Zl-mAg" secondAttribute="bottom" constant="28" id="eLk-xW-pCi"/>
+                <constraint firstAttribute="trailing" secondItem="tHc-WM-Rk1" secondAttribute="trailing" constant="23" id="kFz-y1-5fB"/>
+                <constraint firstItem="GdJ-QT-iBk" firstAttribute="top" secondItem="9OX-sA-U32" secondAttribute="bottom" constant="18" id="kWh-Fo-ntW"/>
+                <constraint firstItem="iWa-Zl-mAg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="s1E-Hg-eJm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

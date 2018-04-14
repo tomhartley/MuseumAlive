@@ -11,6 +11,9 @@ PODS:
   - BoringSSL/Implementation (9.1):
     - BoringSSL/Interface (= 9.1)
   - BoringSSL/Interface (9.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
   - FBSDKCoreKit (4.27.1):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.27.1):
@@ -136,23 +139,38 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - Presentr (1.3)
   - Protobuf (3.4.0)
   - SDWebImage (4.2.2):
     - SDWebImage/Core (= 4.2.2)
   - SDWebImage/Core (4.2.2)
+  - SwiftMessages (4.0.0)
   - TwitterCore (3.0.2)
   - TwitterKit (3.2.1):
     - TwitterCore (>= 3.0.2)
 
 DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
   - FirebaseUI
+  - Presentr
+  - SwiftMessages
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   BoringSSL: 84318770d120503ab1a6aaf1df777c5ca053697e
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
   FBSDKLoginKit: 66ff53b73cffd967ab773e32fac39e90a60e6d46
   Firebase: d83d287bdb6b1c78320561482706d1fcfc8ddfc1
@@ -174,11 +192,13 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
   leveldb-library: 44ef425bfde64f5b41daef86b38db2d13edbbee1
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Presentr: 3f0825a42cb32ecd8fc6b6d0b0de87d7d0b42482
   Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SwiftMessages: cd565e0e7d095584be1770c012c6b5be4183b5ee
   TwitterCore: e0420b01e02e7d20e94690e37f43e75de219ab8d
   TwitterKit: 205ac89824bbfe9e85a16c420d30bb7bcbedac45
 
-PODFILE CHECKSUM: d6be3c85c09e2ab4198d1a4797719f41b09480ba
+PODFILE CHECKSUM: cc4b665c8fb58dd2b7123895e7cb6554edaacd52
 
 COCOAPODS: 1.3.1

@@ -174,9 +174,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import UIKit;
 @import Foundation;
+@import CoreGraphics;
 @import Eureka;
 @import SceneKit;
-@import CoreGraphics;
 @import FirebaseAuthUI;
 #endif
 
@@ -207,14 +207,40 @@ SWIFT_CLASS("_TtC11MuseumAlive11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
+@class UIColor;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC11MuseumAlive27BackgroundHighlightedButton")
+@interface BackgroundHighlightedButton : UIButton
+@property (nonatomic, strong) UIColor * _Nullable highlightedBackgroundColor;
+@property (nonatomic, strong) UIColor * _Nullable nonHighlightedBackgroundColor;
+@property (nonatomic, getter=isHighlighted) BOOL highlighted;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSBundle;
 
 SWIFT_CLASS("_TtC11MuseumAlive14FormController")
 @interface FormController : FormViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface NSAttributedString (SWIFT_EXTENSION(MuseumAlive))
+- (NSAttributedString * _Nonnull)censored SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface NSMutableString (SWIFT_EXTENSION(MuseumAlive))
+- (void)censor;
+@end
+
+
+@interface NSString (SWIFT_EXTENSION(MuseumAlive))
+- (NSString * _Nonnull)censored SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -267,18 +293,41 @@ SWIFT_CLASS("_TtC11MuseumAlive23ScaleAspectFitImageView")
 @property (nonatomic, strong) UIImage * _Nullable image;
 @end
 
-@class NSLayoutConstraint;
-@class UIVisualEffectView;
 @class UILabel;
-@class UIButton;
-@class VuforiaManager;
-@class SCNNode;
-@class UINavigationController;
+@class UISwitch;
+@class UIBarButtonItem;
 @class FUIAuth;
 @class FIRUser;
 
+SWIFT_CLASS("_TtC11MuseumAlive22SettingsViewController")
+@interface SettingsViewController : UIViewController <FUIAuthDelegate>
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified signInOutText;
+@property (nonatomic, strong) IBOutlet BackgroundHighlightedButton * _Null_unspecified signInOut;
+@property (nonatomic, strong) IBOutlet UISwitch * _Null_unspecified curatorOnly;
+@property (nonatomic) BOOL signedIn;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (IBAction)didTapDone:(UIBarButtonItem * _Nonnull)sender;
+- (IBAction)signInOutTapped:(id _Nonnull)sender;
+- (void)authUI:(FUIAuth * _Nonnull)authUI didSignInWithUser:(FIRUser * _Nullable)user error:(NSError * _Nullable)error;
+- (void)setupText;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIView;
+@class NSLayoutConstraint;
+@class UIVisualEffectView;
+@class VuforiaManager;
+@class SCNNode;
+@class UINavigationController;
+@class Presentr;
+
 SWIFT_CLASS("_TtC11MuseumAlive14ViewController")
 @interface ViewController : UIViewController <FUIAuthDelegate>
+@property (nonatomic, weak) IBOutlet BackgroundHighlightedButton * _Null_unspecified deleteButton;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified tapView;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified blurViewCentered;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified blurViewOffscreen;
 @property (nonatomic, weak) IBOutlet UIVisualEffectView * _Null_unspecified blurView;
@@ -294,6 +343,12 @@ SWIFT_CLASS("_TtC11MuseumAlive14ViewController")
 @property (nonatomic, strong) VuforiaManager * _Nullable vuforiaManager;
 @property (nonatomic, strong) SCNNode * _Nonnull picNode;
 @property (nonatomic, strong) UINavigationController * _Nullable nc;
+@property (nonatomic, readonly, strong) SettingsViewController * _Nonnull sc;
+@property (nonatomic) BOOL onlyCurator;
+@property (nonatomic, readonly, strong) Presentr * _Nonnull presenter;
+- (IBAction)deleteNote:(id _Nonnull)sender;
+- (IBAction)showSettings:(id _Nonnull)sender;
+- (void)hideSettings;
 - (void)updateData;
 - (void)authUI:(FUIAuth * _Nonnull)authUI didSignInWithUser:(FIRUser * _Nullable)user error:(NSError * _Nullable)error;
 - (IBAction)addButtonPressed:(id _Nonnull)sender;

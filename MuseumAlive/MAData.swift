@@ -15,8 +15,17 @@ class DataConnector {
 	private var ref: DatabaseReference!
 	private var refHandle: UInt = 0;
 	var paintings : [MAPainting] = []
+	var users : [String : Bool] = [:]
+	var target: AnyObject?
+	var selector: Selector?
 	
-	init (updateSel: Selector, target: AnyObject) {
+	convenience init () {
+		self.init(updateSel: nil, newtarget: nil)
+	}
+	
+	init (updateSel: Selector?, newtarget: AnyObject?) {
+		self.target = newtarget
+		self.selector = updateSel
 		ref = Database.database().reference()
 		var firstTime = true
 		//first fetch all the paintings
@@ -25,7 +34,9 @@ class DataConnector {
 			if (firstTime == true) {
 				firstTime = false
 			} else {
-				_ = target.perform(updateSel)
+				if (self.selector != nil && self.target != nil) {
+					_ = self.target!.perform(self.selector)
+				}
 			}
 		})
 
@@ -37,6 +48,14 @@ class DataConnector {
 	
 	func assignData (snapshot : DataSnapshot) {
 		let postDict = snapshot.value as? [String : AnyObject] ?? [:]
+		
+		for (id, d) in (postDict["users"] as? [String : AnyObject] ?? [:]) {
+			let details = d as? [String : AnyObject] ?? [:]
+			if let curator = details["curator"] as? Bool {
+				users[id]=curator
+			}
+		}
+		
 		var newpaintings : [MAPainting] = []
 		for (id, d) in (postDict["paintings"] as? [String : AnyObject] ?? [:]) {
 			let details = d as? [String : AnyObject] ?? [:]
@@ -44,7 +63,7 @@ class DataConnector {
 				let newpaint = MAPainting(id: id, width: width, height: height)
 				newpaint.artist = details["artist"] as? String
 				newpaint.name = details["name"] as? String
-				newpaint.year = details["year"] as? UInt
+				newpaint.year = details["year"] as? String
 				
 				for (note_id, note_d) in (details["notes"] as? [String : AnyObject] ?? [:]) {
 					let note_details = note_d as? [String : AnyObject] ?? [:]
@@ -118,6 +137,33 @@ class DataConnector {
 			}
 		}
 		return nil
+	}
+	
+	func deleteNote (_ note: MANote) {
+		if ((Auth.auth().currentUser?.uid != note.creator_id) && (!isCurator())) {
+			return
+		}
+		
+		if (note.hasImage) {
+			let storage = Storage.storage()
+			//remove the image first
+			let imref = storage.reference().child("note_images").child(note.creator_id!).child(note.id + ".jpg")
+			imref.delete()
+		}
+		self.ref.child("paintings").child(note.painting_id!).child("notes").child(note.id).removeValue()
+		
+	}
+
+	func isCurator() -> Bool {
+		if let cur_id = Auth.auth().currentUser?.uid {
+			if users[cur_id] ?? false == true {
+				return true
+			} else {
+				return false
+			}
+		} else {
+			return false
+		}
 	}
 	
 	func downloadImagesForPainting(_ painting : MAPainting) {
@@ -218,7 +264,7 @@ class MAPainting {
 	
 	var name : String?
 	var artist : String?
-	var year : UInt?
+	var year : String?
 	
 	var notes : [MANote] = []
 	

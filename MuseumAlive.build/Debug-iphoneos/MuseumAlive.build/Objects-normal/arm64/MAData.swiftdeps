@@ -15,6 +15,7 @@ provides-member:
 - ["11MuseumAlive10MAPaintingC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!"
 - !private "!="
 - !private "&&"
 - !private "*"
@@ -66,12 +67,14 @@ depends-member:
 - !private ["s7CVarArgP", "child"]
 - !private ["s7CVarArgP", "currentUser"]
 - !private ["s7CVarArgP", "database"]
+- !private ["s7CVarArgP", "delete"]
 - !private ["s7CVarArgP", "getData"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "observe"]
 - !private ["s7CVarArgP", "putData"]
 - !private ["s7CVarArgP", "reference"]
 - !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "removeValue"]
 - !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "size"]
 - !private ["s7CVarArgP", "storage"]
@@ -87,12 +90,14 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "child"]
 - !private ["s28CustomDebugStringConvertibleP", "currentUser"]
 - !private ["s28CustomDebugStringConvertibleP", "database"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
 - !private ["s28CustomDebugStringConvertibleP", "getData"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "observe"]
 - !private ["s28CustomDebugStringConvertibleP", "putData"]
 - !private ["s28CustomDebugStringConvertibleP", "reference"]
 - !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
 - !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "size"]
 - !private ["s28CustomDebugStringConvertibleP", "storage"]
@@ -116,12 +121,14 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "child"]
 - !private ["s23CustomStringConvertibleP", "currentUser"]
 - !private ["s23CustomStringConvertibleP", "database"]
+- !private ["s23CustomStringConvertibleP", "delete"]
 - !private ["s23CustomStringConvertibleP", "getData"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "observe"]
 - !private ["s23CustomStringConvertibleP", "putData"]
 - !private ["s23CustomStringConvertibleP", "reference"]
 - !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
 - !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "size"]
 - !private ["s23CustomStringConvertibleP", "storage"]
@@ -130,7 +137,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "uuidString"]
 - !private ["s23CustomStringConvertibleP", "value"]
 - ["11MuseumAlive13DataConnectorC", "AnyObject"]
-- !private ["11MuseumAlive13DataConnectorC", "Bool"]
+- !private ["11MuseumAlive13DataConnectorC", "Auth"]
+- ["11MuseumAlive13DataConnectorC", "Bool"]
 - !private ["11MuseumAlive13DataConnectorC", "CGFloat"]
 - !private ["11MuseumAlive13DataConnectorC", "DataEventType"]
 - ["11MuseumAlive13DataConnectorC", "DataSnapshot"]
@@ -148,13 +156,18 @@ depends-member:
 - ["11MuseumAlive13DataConnectorC", "addNoteToDB"]
 - ["11MuseumAlive13DataConnectorC", "assignData"]
 - ["11MuseumAlive13DataConnectorC", "deinit"]
+- ["11MuseumAlive13DataConnectorC", "deleteNote"]
 - ["11MuseumAlive13DataConnectorC", "downloadImagesForPainting"]
 - ["11MuseumAlive13DataConnectorC", "getPaintingForID"]
 - ["11MuseumAlive13DataConnectorC", "init"]
+- ["11MuseumAlive13DataConnectorC", "isCurator"]
 - ["11MuseumAlive13DataConnectorC", "paintings"]
 - !private ["11MuseumAlive13DataConnectorC", "print"]
 - !private ["11MuseumAlive13DataConnectorC", "ref"]
 - !private ["11MuseumAlive13DataConnectorC", "refHandle"]
+- ["11MuseumAlive13DataConnectorC", "selector"]
+- ["11MuseumAlive13DataConnectorC", "target"]
+- ["11MuseumAlive13DataConnectorC", "users"]
 - !private ["SC13DataEventTypeO", "value"]
 - !private ["So12DataSnapshotC", "value"]
 - !private ["So8DatabaseC", "database"]
@@ -162,10 +175,12 @@ depends-member:
 - !private ["So13DatabaseQueryC", "child"]
 - !private ["So13DatabaseQueryC", "observe"]
 - !private ["So13DatabaseQueryC", "removeObserver"]
+- !private ["So13DatabaseQueryC", "removeValue"]
 - !private ["So13DatabaseQueryC", "setValue"]
 - !private ["So17DatabaseReferenceC", "child"]
 - !private ["So17DatabaseReferenceC", "observe"]
 - !private ["So17DatabaseReferenceC", "removeObserver"]
+- !private ["So17DatabaseReferenceC", "removeValue"]
 - !private ["So17DatabaseReferenceC", "setValue"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
@@ -190,6 +205,7 @@ depends-member:
 - !private ["s9EquatableP", "creator_id"]
 - !private ["s9EquatableP", "currentUser"]
 - !private ["s9EquatableP", "database"]
+- !private ["s9EquatableP", "delete"]
 - !private ["s9EquatableP", "desc"]
 - !private ["s9EquatableP", "getData"]
 - !private ["s9EquatableP", "getNoteForID"]
@@ -205,6 +221,7 @@ depends-member:
 - !private ["s9EquatableP", "putData"]
 - !private ["s9EquatableP", "reference"]
 - !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "removeValue"]
 - !private ["s9EquatableP", "setValue"]
 - !private ["s9EquatableP", "size"]
 - !private ["s9EquatableP", "storage"]
@@ -231,12 +248,14 @@ depends-member:
 - !private ["s8HashableP", "child"]
 - !private ["s8HashableP", "currentUser"]
 - !private ["s8HashableP", "database"]
+- !private ["s8HashableP", "delete"]
 - !private ["s8HashableP", "getData"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "observe"]
 - !private ["s8HashableP", "putData"]
 - !private ["s8HashableP", "reference"]
 - !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "removeValue"]
 - !private ["s8HashableP", "setValue"]
 - !private ["s8HashableP", "size"]
 - !private ["s8HashableP", "storage"]
@@ -276,7 +295,6 @@ depends-member:
 - ["11MuseumAlive10MAPaintingC", "MANote"]
 - ["11MuseumAlive10MAPaintingC", "MAPainting"]
 - ["11MuseumAlive10MAPaintingC", "String"]
-- ["11MuseumAlive10MAPaintingC", "UInt"]
 - ["11MuseumAlive10MAPaintingC", "artist"]
 - ["11MuseumAlive10MAPaintingC", "deinit"]
 - ["11MuseumAlive10MAPaintingC", "getNoteForID"]
@@ -301,11 +319,13 @@ depends-member:
 - !private ["So8NSObjectC", "child"]
 - !private ["So8NSObjectC", "currentUser"]
 - !private ["So8NSObjectC", "database"]
+- !private ["So8NSObjectC", "delete"]
 - !private ["So8NSObjectC", "getData"]
 - !private ["So8NSObjectC", "observe"]
 - !private ["So8NSObjectC", "putData"]
 - !private ["So8NSObjectC", "reference"]
 - !private ["So8NSObjectC", "removeObserver"]
+- !private ["So8NSObjectC", "removeValue"]
 - !private ["So8NSObjectC", "setValue"]
 - !private ["So8NSObjectC", "size"]
 - !private ["So8NSObjectC", "storage"]
@@ -315,12 +335,14 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "child"]
 - !private ["So16NSObjectProtocolP", "currentUser"]
 - !private ["So16NSObjectProtocolP", "database"]
+- !private ["So16NSObjectProtocolP", "delete"]
 - !private ["So16NSObjectProtocolP", "getData"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "observe"]
 - !private ["So16NSObjectProtocolP", "putData"]
 - !private ["So16NSObjectProtocolP", "reference"]
 - !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "removeValue"]
 - !private ["So16NSObjectProtocolP", "setValue"]
 - !private ["So16NSObjectProtocolP", "size"]
 - !private ["So16NSObjectProtocolP", "storage"]
@@ -343,6 +365,7 @@ depends-member:
 - !private ["So7StorageC", "reference"]
 - !private ["So7StorageC", "storage"]
 - !private ["So16StorageReferenceC", "child"]
+- !private ["So16StorageReferenceC", "delete"]
 - !private ["So16StorageReferenceC", "getData"]
 - !private ["So16StorageReferenceC", "putData"]
 - !private ["s10StrideableP", "init"]
@@ -385,12 +408,14 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "putData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
@@ -505,6 +530,8 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/arm64.swiftmodule"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/ImageRow.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
@@ -528,6 +555,8 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FirebaseGoogleAuthUI.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FirebaseAuthUI.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
@@ -611,6 +640,8 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaObjects.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow-Swift.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
@@ -639,6 +670,8 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
-interface-hash: "d416e8de364b24b074a1af6f5d415174"
+interface-hash: "2f41e2d6989212705ec5b50d6bfe80de"

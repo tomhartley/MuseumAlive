@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "473df132072fb0eb8b8f58c1d4771f10"
+build_time: [1523527366, 181515000]
+inputs:
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [1523527250, 0]

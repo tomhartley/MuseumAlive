@@ -10,11 +10,21 @@ import UIKit
 import SpriteKit
 import FirebaseAuthUI
 import FirebaseGoogleAuthUI
+import SwiftMessages
+import Presentr
+import ChameleonFramework
 
 class ViewController: UIViewController, FUIAuthDelegate {
 	
+	@IBOutlet weak var deleteButton: BackgroundHighlightedButton!
+	
+	@IBOutlet weak var tapView: UIView!
+	
+	
 	@IBOutlet var blurViewCentered: NSLayoutConstraint!
+
 	@IBOutlet var blurViewOffscreen: NSLayoutConstraint!
+	
 	@IBOutlet weak var blurView: UIVisualEffectView!
 	@IBOutlet weak var titleLabel: UILabel!
 	@IBOutlet weak var descLabel: UILabel!
@@ -36,14 +46,36 @@ class ViewController: UIViewController, FUIAuthDelegate {
 	
 	var dataConn : DataConnector?
 	var currentPainting: MAPainting? = nil
-	
+	var currentNote: MANote? = nil
 	fileprivate var lastSceneName: String? = nil
 
 	var nc: UINavigationController? = nil
+	let sc = SettingsViewController()
+	var onlyCurator = false
+	
+	let presenter = Presentr(presentationType: .popup)
 	
     deinit {
         NotificationCenter.default.removeObserver(self)
     }
+	
+	@IBAction func deleteNote(_ sender: Any) {
+		if (self.currentNote != nil) {
+			dataConn?.deleteNote(self.currentNote!)
+		}
+		self.popupTapped(sender)
+	}
+	
+	@IBAction func showSettings(_ sender: Any) {
+		presenter.dismissOnTap = false;
+		NotificationCenter.default.addObserver(self, selector: #selector(self.hideSettings), name:NSNotification.Name(rawValue: "hideSettingsNotification"), object: nil)
+		customPresentViewController(presenter, viewController: sc, animated: true, completion: nil)
+	}
+	
+	func hideSettings() {
+		onlyCurator = sc.curatorOnly.isOn
+		vuforiaManager?.eaglView.setNeedsChangeSceneWithUserInfo(["scene" : currentPainting!.id])
+	}
 	
 	func updateData() {
 		//do something
@@ -117,12 +149,18 @@ class ViewController: UIViewController, FUIAuthDelegate {
 	
 	override func viewDidLoad() {
         super.viewDidLoad()
-		dataConn = DataConnector(updateSel: #selector(updateData), target: self as AnyObject)
+		let appDelegate = UIApplication.shared.delegate as! AppDelegate
+		dataConn = appDelegate.dataConn
+		dataConn!.target = self as AnyObject
+		dataConn!.selector = #selector(updateData)
+		//dataConn = DataConnector(updateSel: #selector(updateData), target: self as AnyObject)
         prepare()
     }
 
 	@IBAction func popupTapped(_ sender: Any) {
 		//hide popup
+		self.currentNote = nil
+		self.tapView.isHidden = true;
 		UIView.animate(withDuration: 0.22, delay: 0.0, options:.curveLinear, animations: {
 			self.blurViewCentered.isActive=false
 			self.blurViewOffscreen.isActive=true
@@ -295,14 +333,31 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
 		picNode.scale = SCNVector3Make(Float(view.objectScale),Float(view.objectScale),Float(view.objectScale))
 		
 		for note in currentPainting!.notes {
-			var im = UIImage(named: "blue_pin.png")
+			var imname = "blue_pin.png"
+			var isNormalNote = true;
+			if (Auth.auth().currentUser?.uid == note.creator_id) {
+				imname = "red_pin.png"
+				isNormalNote = false;
+			} else if (note.viewCount>0) {
+				imname = "noshadow_pin.png"
+			} else if let creator=note.creator_id {
+				if (dataConn?.users[creator] ?? false == true) {
+					imname = "yellow_pin.png"
+					isNormalNote = false
+				}
+			}
+			if (isNormalNote && onlyCurator) {
+				continue
+			}
+			
+			var im = UIImage(named: imname)
 			im = im?.withRenderingMode(.alwaysTemplate)
 			
 			let markerNode = SCNNode()
 			markerNode.name=note.id
 			
 			let markerGeo = SCNPlane(width:im!.size.width/3.5, height:im!.size.height/3.5)
-			markerNode.eulerAngles = SCNVector3Make(GLKMathDegreesToRadians(0), 0.0, GLKMathDegreesToRadians(-38))
+			markerNode.eulerAngles = SCNVector3Make(GLKMathDegreesToRadians(0), 0.0, GLKMathDegreesToRadians(Float(note.id.hashValue)))
 			let markerMat = SCNMaterial()
 			markerMat.diffuse.contents = im
 			markerGeo.firstMaterial = markerMat
@@ -324,8 +379,20 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
 	
 	func doneVC() {//copy contents out of it
 		let fc : FormController? = nc?.visibleViewController as? FormController
-		self.nc?.dismiss(animated: true, completion: nil)
 		let vals = fc?.form.values()
+		
+		if let title = vals?["title"] as? String,
+			let desc = vals?["desc"] as? String {
+			if (title != title.censored() || desc != desc.censored()) {
+				let view = MessageView.viewFromNib(layout: .messageView)
+				view.configureTheme(.error)
+				view.configureContent(title: "Error adding note", body: "Please remove profanity from your note before uploading")
+				SwiftMessages.show(view: view)
+				return
+			}
+		}
+		
+		self.nc?.dismiss(animated: true, completion: nil)
 		
 		if let title = vals?["title"] as? String,
 		    let point = savedPoint {
@@ -347,7 +414,34 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
 		self.nc?.dismiss(animated: true, completion: nil)
 	}
 
-
+	func presentNote(note : MANote) {
+		titleLabel.text = note.title
+		descLabel.text = note.desc
+		imView.image = note.img
+		self.blurView.isHidden = false
+		self.view.layoutIfNeeded()
+		self.leaveAddMode()
+		self.tapView.isHidden = false
+		tapView.superview?.bringSubview(toFront: tapView)
+		tapView.superview?.bringSubview(toFront: blurView) //blur view in front with tap view behind
+		if (note.creator_id == Auth.auth().currentUser?.uid || dataConn!.isCurator()) {
+			deleteButton.isHidden = false
+		} else {
+			deleteButton.isHidden = true
+		}
+		self.currentNote = note
+		note.viewCount+=1
+		vuforiaManager?.eaglView.setNeedsChangeSceneWithUserInfo(["scene" : currentPainting!.id])
+		UIView.animate(withDuration: 0.22, delay: 0.0, options:.curveLinear, animations: {
+			self.blurViewCentered.isActive=true
+			self.blurViewOffscreen.isActive=false
+			self.addButton.alpha = 0.0
+			self.view.layoutIfNeeded()
+		} , completion: { (finished: Bool) in
+			self.addButton.isHidden = true
+		})
+	}
+	
     func vuforiaEAGLView(_ view: VuforiaEAGLView!, didTouchUp res: SCNHitTestResult!) {
         //print("touch up \(res.node.name ?? "")\n")
 		
@@ -364,29 +458,18 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
 			nc = UINavigationController(rootViewController: fc)
 			let doneBut = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(self.doneVC))
 			doneBut.title = "Share"
+			//doneBut.tintColor = UIColor.white
 			let cancelBut = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(self.cancelVC))
+			//cancelBut.tintColor = UIColor.white
 			fc.navigationItem.rightBarButtonItem = doneBut
 			fc.navigationItem.leftBarButtonItem = cancelBut
 			fc.navigationItem.title = "Add new note"
-
-			self.present(nc!, animated: true, completion: nil)
+			customPresentViewController(presenter, viewController: nc!, animated: true, completion: nil)
+			
+			//self.present(nc!, animated: true, completion: nil)
 		} else {
 			if let note = self.currentPainting?.getNoteForID(nodename) {
-				titleLabel.text = note.title
-				descLabel.text = note.desc
-				imView.image = note.img
-				self.blurView.isHidden = false
-				self.view.layoutIfNeeded()
-				
-				self.leaveAddMode()
-				UIView.animate(withDuration: 0.22, delay: 0.0, options:.curveLinear, animations: {
-					self.blurViewCentered.isActive=true
-					self.blurViewOffscreen.isActive=false
-					self.addButton.alpha = 0.0
-					self.view.layoutIfNeeded()
-				} , completion: { (finished: Bool) in
-					self.addButton.isHidden = true
-				})
+				presentNote(note: note)
 			}
 		}
     }

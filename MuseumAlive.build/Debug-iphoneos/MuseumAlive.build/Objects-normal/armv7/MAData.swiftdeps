@@ -276,7 +276,6 @@ depends-member:
 - ["11MuseumAlive10MAPaintingC", "MANote"]
 - ["11MuseumAlive10MAPaintingC", "MAPainting"]
 - ["11MuseumAlive10MAPaintingC", "String"]
-- ["11MuseumAlive10MAPaintingC", "UInt"]
 - ["11MuseumAlive10MAPaintingC", "artist"]
 - ["11MuseumAlive10MAPaintingC", "deinit"]
 - ["11MuseumAlive10MAPaintingC", "getNoteForID"]
@@ -641,4 +640,4 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
-interface-hash: "d416e8de364b24b074a1af6f5d415174"
+interface-hash: "3cc9c59a075cda34d8db9355ec1c8854"

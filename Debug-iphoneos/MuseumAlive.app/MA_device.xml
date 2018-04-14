@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="great_wave" size="0.378000 0.258042" />
+    <ImageTarget name="starry_night" size="0.841000 0.665774" />
+    <ImageTarget name="sunflowers" size="0.372800 0.488842" />
     <ImageTarget name="lady_squirrel" size="0.310000 0.451895" />
     <ImageTarget name="ambassadors" size="0.840000 0.827668" />
   </Tracking>

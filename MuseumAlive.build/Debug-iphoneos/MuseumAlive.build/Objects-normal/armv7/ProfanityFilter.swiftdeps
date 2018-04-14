@@ -1,0 +1,1108 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfanityResources"
+- "ProfanityDictionary"
+- "ProfanityFilter"
+provides-nominal:
+- "11MuseumAlive18ProfanityResourcesC"
+- "11MuseumAlive19ProfanityDictionaryV"
+- "11MuseumAlive15ProfanityFilterV"
+provides-member:
+- ["11MuseumAlive18ProfanityResourcesC", ""]
+- ["11MuseumAlive19ProfanityDictionaryV", ""]
+- ["11MuseumAlive15ProfanityFilterV", ""]
+- ["SS", ""]
+- ["So8NSStringC", ""]
+- ["So15NSMutableStringC", ""]
+- ["So18NSAttributedStringC", ""]
+- ["SS", "profaneWords"]
+- ["SS", "containsProfanity"]
+- ["SS", "censored"]
+- ["SS", "censor"]
+- ["So8NSStringC", "censored"]
+- ["So15NSMutableStringC", "censor"]
+- ["So18NSAttributedStringC", "censored"]
+provides-dynamic-lookup:
+- "censor"
+- "censored"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "CharacterSet"
+- "Data"
+- "JSONSerialization"
+- "NSAttributedString"
+- "NSData"
+- !private "NSMutableAttributedString"
+- "NSMutableString"
+- !private "NSNotFound"
+- "NSString"
+- "ProfanityDictionary"
+- "ProfanityFilter"
+- "ProfanityResources"
+- "Set"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "CharacterSet"]
+- !private ["s23BidirectionalCollectionP", "ProfanityDictionary"]
+- !private ["s23BidirectionalCollectionP", "ProfanityFilter"]
+- !private ["s23BidirectionalCollectionP", "Set"]
+- !private ["s23BidirectionalCollectionP", "censored"]
+- !private ["s23BidirectionalCollectionP", "characters"]
+- !private ["s23BidirectionalCollectionP", "components"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["s23BidirectionalCollectionP", "padding"]
+- !private ["s23BidirectionalCollectionP", "profaneWords"]
+- !private ["s23BidirectionalCollectionP", "replacingOccurrences"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "init"]
+- !private ["So6BundleC", "url"]
+- !private ["s7CVarArgP", "CharacterSet"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- !private ["s7CVarArgP", "NSMutableAttributedString"]
+- !private ["s7CVarArgP", "NSNotFound"]
+- !private ["s7CVarArgP", "ProfanityDictionary"]
+- !private ["s7CVarArgP", "ProfanityFilter"]
+- !private ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "Set"]
+- !private ["s7CVarArgP", "attributes"]
+- !private ["s7CVarArgP", "censored"]
+- !private ["s7CVarArgP", "characters"]
+- !private ["s7CVarArgP", "components"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intersection"]
+- !private ["s7CVarArgP", "isEmpty"]
+- ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "padding"]
+- !private ["s7CVarArgP", "profaneWords"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "replaceCharacters"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "setString"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "url"]
+- !private ["10Foundation12CharacterSetV", "formUnion"]
+- !private ["10Foundation12CharacterSetV", "init"]
+- !private ["10Foundation12CharacterSetV", "punctuationCharacters"]
+- !private ["10Foundation12CharacterSetV", "whitespacesAndNewlines"]
+- !private ["SS13CharacterViewV", "count"]
+- !private ["s10CollectionP", "CharacterSet"]
+- !private ["s10CollectionP", "ProfanityDictionary"]
+- !private ["s10CollectionP", "ProfanityFilter"]
+- !private ["s10CollectionP", "Set"]
+- !private ["s10CollectionP", "censored"]
+- !private ["s10CollectionP", "characters"]
+- !private ["s10CollectionP", "components"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "intersection"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10CollectionP", "padding"]
+- !private ["s10CollectionP", "profaneWords"]
+- !private ["s10CollectionP", "replacingOccurrences"]
+- !private ["s10ComparableP", "CharacterSet"]
+- !private ["s10ComparableP", "ProfanityDictionary"]
+- !private ["s10ComparableP", "ProfanityFilter"]
+- !private ["s10ComparableP", "Set"]
+- !private ["s10ComparableP", "censored"]
+- !private ["s10ComparableP", "characters"]
+- !private ["s10ComparableP", "components"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["s10ComparableP", "padding"]
+- !private ["s10ComparableP", "profaneWords"]
+- !private ["s10ComparableP", "replacingOccurrences"]
+- !private ["So8NSStringC14CompareOptionsV", "caseInsensitive"]
+- !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotFound"]
+- !private ["s28CustomDebugStringConvertibleP", "ProfanityDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "ProfanityFilter"]
+- !private ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "Set"]
+- !private ["s28CustomDebugStringConvertibleP", "attributes"]
+- !private ["s28CustomDebugStringConvertibleP", "censored"]
+- !private ["s28CustomDebugStringConvertibleP", "characters"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "formUnion"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intersection"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "padding"]
+- !private ["s28CustomDebugStringConvertibleP", "profaneWords"]
+- !private ["s28CustomDebugStringConvertibleP", "punctuationCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "setString"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "whitespacesAndNewlines"]
+- !private ["s29CustomPlaygroundQuickLookableP", "CharacterSet"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ProfanityDictionary"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ProfanityFilter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Set"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "censored"]
+- !private ["s29CustomPlaygroundQuickLookableP", "characters"]
+- !private ["s29CustomPlaygroundQuickLookableP", "components"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "location"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s29CustomPlaygroundQuickLookableP", "padding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "profaneWords"]
+- !private ["s29CustomPlaygroundQuickLookableP", "range"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s29CustomPlaygroundQuickLookableP", "setString"]
+- !private ["s17CustomReflectableP", "CharacterSet"]
+- !private ["s17CustomReflectableP", "ProfanityDictionary"]
+- !private ["s17CustomReflectableP", "ProfanityFilter"]
+- !private ["s17CustomReflectableP", "Set"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "censored"]
+- !private ["s17CustomReflectableP", "characters"]
+- !private ["s17CustomReflectableP", "components"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "intersection"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "location"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "padding"]
+- !private ["s17CustomReflectableP", "profaneWords"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "CharacterSet"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- !private ["s23CustomStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s23CustomStringConvertibleP", "NSNotFound"]
+- !private ["s23CustomStringConvertibleP", "ProfanityDictionary"]
+- !private ["s23CustomStringConvertibleP", "ProfanityFilter"]
+- !private ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "Set"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "attributes"]
+- !private ["s23CustomStringConvertibleP", "censored"]
+- !private ["s23CustomStringConvertibleP", "characters"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "formUnion"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intersection"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "padding"]
+- !private ["s23CustomStringConvertibleP", "profaneWords"]
+- !private ["s23CustomStringConvertibleP", "punctuationCharacters"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "replaceCharacters"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "setString"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "whitespacesAndNewlines"]
+- ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "CharacterSet"]
+- !private ["s9DecodableP", "ProfanityDictionary"]
+- !private ["s9DecodableP", "ProfanityFilter"]
+- !private ["s9DecodableP", "Set"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "censored"]
+- !private ["s9DecodableP", "characters"]
+- !private ["s9DecodableP", "components"]
+- !private ["s9DecodableP", "formUnion"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "intersection"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "location"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9DecodableP", "padding"]
+- !private ["s9DecodableP", "profaneWords"]
+- !private ["s9DecodableP", "punctuationCharacters"]
+- !private ["s9DecodableP", "replacingOccurrences"]
+- !private ["s9DecodableP", "whitespacesAndNewlines"]
+- !private ["s9EncodableP", "CharacterSet"]
+- !private ["s9EncodableP", "ProfanityDictionary"]
+- !private ["s9EncodableP", "ProfanityFilter"]
+- !private ["s9EncodableP", "Set"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "censored"]
+- !private ["s9EncodableP", "characters"]
+- !private ["s9EncodableP", "components"]
+- !private ["s9EncodableP", "formUnion"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "intersection"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "location"]
+- !private ["s9EncodableP", "lowercased"]
+- !private ["s9EncodableP", "padding"]
+- !private ["s9EncodableP", "profaneWords"]
+- !private ["s9EncodableP", "punctuationCharacters"]
+- !private ["s9EncodableP", "replacingOccurrences"]
+- !private ["s9EncodableP", "whitespacesAndNewlines"]
+- !private ["s9EquatableP", "CharacterSet"]
+- !private ["s9EquatableP", "NSAttributedString"]
+- !private ["s9EquatableP", "NSMutableAttributedString"]
+- !private ["s9EquatableP", "NSNotFound"]
+- !private ["s9EquatableP", "ProfanityDictionary"]
+- !private ["s9EquatableP", "ProfanityFilter"]
+- !private ["s9EquatableP", "ReadingOptions"]
+- !private ["s9EquatableP", "Set"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "attributes"]
+- !private ["s9EquatableP", "caseInsensitive"]
+- !private ["s9EquatableP", "censored"]
+- !private ["s9EquatableP", "characters"]
+- !private ["s9EquatableP", "components"]
+- !private ["s9EquatableP", "formUnion"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "intersection"]
+- !private ["s9EquatableP", "isEmpty"]
+- ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "lowercased"]
+- !private ["s9EquatableP", "padding"]
+- !private ["s9EquatableP", "profaneWords"]
+- !private ["s9EquatableP", "punctuationCharacters"]
+- !private ["s9EquatableP", "range"]
+- !private ["s9EquatableP", "replaceCharacters"]
+- !private ["s9EquatableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "setString"]
+- !private ["s9EquatableP", "string"]
+- ["s9EquatableP", "uncached"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "whitespacesAndNewlines"]
+- !private ["s25ExpressibleByArrayLiteralP", "caseInsensitive"]
+- !private ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "intersection"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "punctuationCharacters"]
+- ["s25ExpressibleByArrayLiteralP", "uncached"]
+- !private ["s25ExpressibleByArrayLiteralP", "whitespacesAndNewlines"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "CharacterSet"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ProfanityDictionary"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ProfanityFilter"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Set"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "censored"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "characters"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "padding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "profaneWords"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "setString"]
+- !private ["s26ExpressibleByStringLiteralP", "CharacterSet"]
+- !private ["s26ExpressibleByStringLiteralP", "ProfanityDictionary"]
+- !private ["s26ExpressibleByStringLiteralP", "ProfanityFilter"]
+- !private ["s26ExpressibleByStringLiteralP", "Set"]
+- !private ["s26ExpressibleByStringLiteralP", "censored"]
+- !private ["s26ExpressibleByStringLiteralP", "characters"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "padding"]
+- !private ["s26ExpressibleByStringLiteralP", "profaneWords"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "setString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "CharacterSet"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ProfanityDictionary"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ProfanityFilter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Set"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "censored"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "characters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "padding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "profaneWords"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "setString"]
+- !private ["s8HashableP", "CharacterSet"]
+- !private ["s8HashableP", "NSAttributedString"]
+- !private ["s8HashableP", "NSMutableAttributedString"]
+- !private ["s8HashableP", "NSNotFound"]
+- !private ["s8HashableP", "ProfanityDictionary"]
+- !private ["s8HashableP", "ProfanityFilter"]
+- !private ["s8HashableP", "ReadingOptions"]
+- !private ["s8HashableP", "Set"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "attributes"]
+- !private ["s8HashableP", "censored"]
+- !private ["s8HashableP", "characters"]
+- !private ["s8HashableP", "components"]
+- !private ["s8HashableP", "formUnion"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "intersection"]
+- !private ["s8HashableP", "isEmpty"]
+- ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "location"]
+- !private ["s8HashableP", "lowercased"]
+- !private ["s8HashableP", "padding"]
+- !private ["s8HashableP", "profaneWords"]
+- !private ["s8HashableP", "punctuationCharacters"]
+- !private ["s8HashableP", "range"]
+- !private ["s8HashableP", "replaceCharacters"]
+- !private ["s8HashableP", "replacingOccurrences"]
+- !private ["s8HashableP", "setString"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "whitespacesAndNewlines"]
+- !private ["6Eureka18InputTypeInitiableP", "CharacterSet"]
+- !private ["6Eureka18InputTypeInitiableP", "ProfanityDictionary"]
+- !private ["6Eureka18InputTypeInitiableP", "ProfanityFilter"]
+- !private ["6Eureka18InputTypeInitiableP", "Set"]
+- !private ["6Eureka18InputTypeInitiableP", "censored"]
+- !private ["6Eureka18InputTypeInitiableP", "characters"]
+- !private ["6Eureka18InputTypeInitiableP", "components"]
+- !private ["6Eureka18InputTypeInitiableP", "init"]
+- !private ["6Eureka18InputTypeInitiableP", "lowercased"]
+- !private ["6Eureka18InputTypeInitiableP", "padding"]
+- !private ["6Eureka18InputTypeInitiableP", "profaneWords"]
+- !private ["6Eureka18InputTypeInitiableP", "replacingOccurrences"]
+- ["So17JSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "CharacterSet"]
+- !private ["s25LosslessStringConvertibleP", "ProfanityDictionary"]
+- !private ["s25LosslessStringConvertibleP", "ProfanityFilter"]
+- !private ["s25LosslessStringConvertibleP", "Set"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "censored"]
+- !private ["s25LosslessStringConvertibleP", "characters"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "padding"]
+- !private ["s25LosslessStringConvertibleP", "profaneWords"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "CharacterSet"]
+- !private ["s10MirrorPathP", "ProfanityDictionary"]
+- !private ["s10MirrorPathP", "ProfanityFilter"]
+- !private ["s10MirrorPathP", "Set"]
+- !private ["s10MirrorPathP", "censored"]
+- !private ["s10MirrorPathP", "characters"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s10MirrorPathP", "padding"]
+- !private ["s10MirrorPathP", "profaneWords"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- ["s17MutableCollectionP", "init"]
+- ["So18NSAttributedStringC", "NSAttributedString"]
+- !private ["So18NSAttributedStringC", "NSMutableAttributedString"]
+- !private ["So18NSAttributedStringC", "NSNotFound"]
+- !private ["So18NSAttributedStringC", "NSString"]
+- !private ["So18NSAttributedStringC", "attributes"]
+- ["So18NSAttributedStringC", "censored"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So18NSAttributedStringC", "replaceCharacters"]
+- !private ["So18NSAttributedStringC", "string"]
+- !private ["So8NSCodingP", "NSAttributedString"]
+- !private ["So8NSCodingP", "NSMutableAttributedString"]
+- !private ["So8NSCodingP", "NSNotFound"]
+- !private ["So8NSCodingP", "ProfanityFilter"]
+- !private ["So8NSCodingP", "ReadingOptions"]
+- !private ["So8NSCodingP", "attributes"]
+- !private ["So8NSCodingP", "censored"]
+- !private ["So8NSCodingP", "characters"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "padding"]
+- !private ["So8NSCodingP", "profaneWords"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "replaceCharacters"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "setString"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "NSAttributedString"]
+- !private ["So9NSCopyingP", "NSMutableAttributedString"]
+- !private ["So9NSCopyingP", "NSNotFound"]
+- !private ["So9NSCopyingP", "ProfanityFilter"]
+- !private ["So9NSCopyingP", "ReadingOptions"]
+- !private ["So9NSCopyingP", "attributes"]
+- !private ["So9NSCopyingP", "censored"]
+- !private ["So9NSCopyingP", "characters"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "padding"]
+- !private ["So9NSCopyingP", "profaneWords"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "replaceCharacters"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "setString"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So6NSDataC", "ReadingOptions"]
+- !private ["So21NSItemProviderReadingP", "NSAttributedString"]
+- !private ["So21NSItemProviderReadingP", "NSMutableAttributedString"]
+- !private ["So21NSItemProviderReadingP", "NSNotFound"]
+- !private ["So21NSItemProviderReadingP", "ProfanityFilter"]
+- !private ["So21NSItemProviderReadingP", "attributes"]
+- !private ["So21NSItemProviderReadingP", "censored"]
+- !private ["So21NSItemProviderReadingP", "characters"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "padding"]
+- !private ["So21NSItemProviderReadingP", "profaneWords"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderReadingP", "replaceCharacters"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "setString"]
+- !private ["So21NSItemProviderReadingP", "string"]
+- !private ["So21NSItemProviderWritingP", "NSAttributedString"]
+- !private ["So21NSItemProviderWritingP", "NSMutableAttributedString"]
+- !private ["So21NSItemProviderWritingP", "NSNotFound"]
+- !private ["So21NSItemProviderWritingP", "ProfanityFilter"]
+- !private ["So21NSItemProviderWritingP", "attributes"]
+- !private ["So21NSItemProviderWritingP", "censored"]
+- !private ["So21NSItemProviderWritingP", "characters"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "padding"]
+- !private ["So21NSItemProviderWritingP", "profaneWords"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So21NSItemProviderWritingP", "replaceCharacters"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "setString"]
+- !private ["So21NSItemProviderWritingP", "string"]
+- !private ["So25NSMutableAttributedStringC", "attributes"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So25NSMutableAttributedStringC", "replaceCharacters"]
+- !private ["So25NSMutableAttributedStringC", "string"]
+- !private ["So16NSMutableCopyingP", "NSAttributedString"]
+- !private ["So16NSMutableCopyingP", "NSMutableAttributedString"]
+- !private ["So16NSMutableCopyingP", "NSNotFound"]
+- !private ["So16NSMutableCopyingP", "ProfanityFilter"]
+- !private ["So16NSMutableCopyingP", "ReadingOptions"]
+- !private ["So16NSMutableCopyingP", "attributes"]
+- !private ["So16NSMutableCopyingP", "censored"]
+- !private ["So16NSMutableCopyingP", "characters"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "padding"]
+- !private ["So16NSMutableCopyingP", "profaneWords"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So16NSMutableCopyingP", "replaceCharacters"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "setString"]
+- !private ["So16NSMutableCopyingP", "string"]
+- !private ["So15NSMutableStringC", "ProfanityFilter"]
+- !private ["So15NSMutableStringC", "String"]
+- ["So15NSMutableStringC", "censor"]
+- !private ["So15NSMutableStringC", "setString"]
+- ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "NSMutableAttributedString"]
+- !private ["So8NSObjectC", "NSNotFound"]
+- ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "ProfanityFilter"]
+- !private ["So8NSObjectC", "ReadingOptions"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "attributes"]
+- ["So8NSObjectC", "censor"]
+- ["So8NSObjectC", "censored"]
+- !private ["So8NSObjectC", "characters"]
+- !private ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "padding"]
+- !private ["So8NSObjectC", "profaneWords"]
+- !private ["So8NSObjectC", "range"]
+- !private ["So8NSObjectC", "replaceCharacters"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "setString"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So16NSObjectProtocolP", "NSAttributedString"]
+- !private ["So16NSObjectProtocolP", "NSMutableAttributedString"]
+- !private ["So16NSObjectProtocolP", "NSNotFound"]
+- !private ["So16NSObjectProtocolP", "ProfanityFilter"]
+- !private ["So16NSObjectProtocolP", "ReadingOptions"]
+- !private ["So16NSObjectProtocolP", "attributes"]
+- !private ["So16NSObjectProtocolP", "censored"]
+- !private ["So16NSObjectProtocolP", "characters"]
+- !private ["So16NSObjectProtocolP", "components"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So16NSObjectProtocolP", "padding"]
+- !private ["So16NSObjectProtocolP", "profaneWords"]
+- !private ["So16NSObjectProtocolP", "range"]
+- !private ["So16NSObjectProtocolP", "replaceCharacters"]
+- !private ["So16NSObjectProtocolP", "replacingOccurrences"]
+- !private ["So16NSObjectProtocolP", "setString"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So14NSSecureCodingP", "NSAttributedString"]
+- !private ["So14NSSecureCodingP", "NSMutableAttributedString"]
+- !private ["So14NSSecureCodingP", "NSNotFound"]
+- !private ["So14NSSecureCodingP", "ProfanityFilter"]
+- !private ["So14NSSecureCodingP", "ReadingOptions"]
+- !private ["So14NSSecureCodingP", "attributes"]
+- !private ["So14NSSecureCodingP", "censored"]
+- !private ["So14NSSecureCodingP", "characters"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "padding"]
+- !private ["So14NSSecureCodingP", "profaneWords"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "replaceCharacters"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "setString"]
+- !private ["So14NSSecureCodingP", "string"]
+- ["So8NSStringC", "NSString"]
+- !private ["So8NSStringC", "ProfanityFilter"]
+- !private ["So8NSStringC", "String"]
+- ["So8NSStringC", "censor"]
+- ["So8NSStringC", "censored"]
+- !private ["So8NSStringC", "characters"]
+- !private ["So8NSStringC", "components"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["So8NSStringC", "padding"]
+- !private ["So8NSStringC", "profaneWords"]
+- !private ["So8NSStringC", "range"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So8NSStringC", "setString"]
+- !private ["s9OptionSetP", "caseInsensitive"]
+- ["s9OptionSetP", "uncached"]
+- ["11MuseumAlive19ProfanityDictionaryV", "Data"]
+- ["11MuseumAlive19ProfanityDictionaryV", "JSONSerialization"]
+- ["11MuseumAlive19ProfanityDictionaryV", "NSData"]
+- ["11MuseumAlive19ProfanityDictionaryV", "ProfanityResources"]
+- ["11MuseumAlive19ProfanityDictionaryV", "Set"]
+- ["11MuseumAlive19ProfanityDictionaryV", "String"]
+- ["11MuseumAlive19ProfanityDictionaryV", "init"]
+- ["11MuseumAlive19ProfanityDictionaryV", "profaneWords"]
+- ["11MuseumAlive15ProfanityFilterV", "String"]
+- ["11MuseumAlive15ProfanityFilterV", "censorString"]
+- ["11MuseumAlive15ProfanityFilterV", "init"]
+- !private ["11MuseumAlive18ProfanityResourcesC", "Bundle"]
+- !private ["11MuseumAlive18ProfanityResourcesC", "ProfanityResources"]
+- ["11MuseumAlive18ProfanityResourcesC", "URL"]
+- ["11MuseumAlive18ProfanityResourcesC", "deinit"]
+- ["11MuseumAlive18ProfanityResourcesC", "init"]
+- ["11MuseumAlive18ProfanityResourcesC", "profanityFileURL"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "CharacterSet"]
+- !private ["s26RangeReplaceableCollectionP", "ProfanityDictionary"]
+- !private ["s26RangeReplaceableCollectionP", "ProfanityFilter"]
+- !private ["s26RangeReplaceableCollectionP", "Set"]
+- !private ["s26RangeReplaceableCollectionP", "censored"]
+- !private ["s26RangeReplaceableCollectionP", "characters"]
+- !private ["s26RangeReplaceableCollectionP", "components"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s26RangeReplaceableCollectionP", "padding"]
+- !private ["s26RangeReplaceableCollectionP", "profaneWords"]
+- !private ["s26RangeReplaceableCollectionP", "replacingOccurrences"]
+- !private ["s16RawRepresentableP", "caseInsensitive"]
+- ["s16RawRepresentableP", "uncached"]
+- ["So6NSDataC14ReadingOptionsV", "uncached"]
+- !private ["10Foundation20ReferenceConvertibleP", "formUnion"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "punctuationCharacters"]
+- !private ["10Foundation20ReferenceConvertibleP", "whitespacesAndNewlines"]
+- !private ["s8SequenceP", "CharacterSet"]
+- !private ["s8SequenceP", "ProfanityDictionary"]
+- !private ["s8SequenceP", "ProfanityFilter"]
+- !private ["s8SequenceP", "Set"]
+- !private ["s8SequenceP", "censored"]
+- !private ["s8SequenceP", "characters"]
+- !private ["s8SequenceP", "components"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "intersection"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "padding"]
+- !private ["s8SequenceP", "profaneWords"]
+- !private ["s8SequenceP", "replacingOccurrences"]
+- ["s3SetV", "init"]
+- !private ["s3SetV", "intersection"]
+- !private ["s3SetV", "isEmpty"]
+- !private ["s10SetAlgebraP", "caseInsensitive"]
+- !private ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "intersection"]
+- !private ["s10SetAlgebraP", "isEmpty"]
+- !private ["s10SetAlgebraP", "punctuationCharacters"]
+- ["s10SetAlgebraP", "uncached"]
+- !private ["s10SetAlgebraP", "whitespacesAndNewlines"]
+- ["SS", "Bool"]
+- !private ["SS", "CharacterSet"]
+- !private ["SS", "ProfanityDictionary"]
+- !private ["SS", "ProfanityFilter"]
+- ["SS", "Set"]
+- ["SS", "String"]
+- ["SS", "censor"]
+- ["SS", "censored"]
+- !private ["SS", "characters"]
+- !private ["SS", "components"]
+- ["SS", "containsProfanity"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["SS", "padding"]
+- ["SS", "profaneWords"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["s14StringProtocolP", "CharacterSet"]
+- !private ["s14StringProtocolP", "ProfanityDictionary"]
+- !private ["s14StringProtocolP", "ProfanityFilter"]
+- !private ["s14StringProtocolP", "Set"]
+- !private ["s14StringProtocolP", "censored"]
+- !private ["s14StringProtocolP", "characters"]
+- !private ["s14StringProtocolP", "components"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s14StringProtocolP", "padding"]
+- !private ["s14StringProtocolP", "profaneWords"]
+- !private ["s14StringProtocolP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "CharacterSet"]
+- !private ["s16TextOutputStreamP", "ProfanityDictionary"]
+- !private ["s16TextOutputStreamP", "ProfanityFilter"]
+- !private ["s16TextOutputStreamP", "Set"]
+- !private ["s16TextOutputStreamP", "censored"]
+- !private ["s16TextOutputStreamP", "characters"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "padding"]
+- !private ["s16TextOutputStreamP", "profaneWords"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "CharacterSet"]
+- !private ["s20TextOutputStreamableP", "ProfanityDictionary"]
+- !private ["s20TextOutputStreamableP", "ProfanityFilter"]
+- !private ["s20TextOutputStreamableP", "Set"]
+- !private ["s20TextOutputStreamableP", "censored"]
+- !private ["s20TextOutputStreamableP", "characters"]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "padding"]
+- !private ["s20TextOutputStreamableP", "profaneWords"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["s23_BidirectionalIndexableP", "CharacterSet"]
+- !private ["s23_BidirectionalIndexableP", "ProfanityDictionary"]
+- !private ["s23_BidirectionalIndexableP", "ProfanityFilter"]
+- !private ["s23_BidirectionalIndexableP", "Set"]
+- !private ["s23_BidirectionalIndexableP", "censored"]
+- !private ["s23_BidirectionalIndexableP", "characters"]
+- !private ["s23_BidirectionalIndexableP", "components"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "lowercased"]
+- !private ["s23_BidirectionalIndexableP", "padding"]
+- !private ["s23_BidirectionalIndexableP", "profaneWords"]
+- !private ["s23_BidirectionalIndexableP", "replacingOccurrences"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "CharacterSet"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ProfanityDictionary"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ProfanityFilter"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Set"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "censored"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "characters"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "padding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "profaneWords"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "CharacterSet"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ProfanityDictionary"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ProfanityFilter"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Set"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "censored"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "characters"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "padding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "profaneWords"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "CharacterSet"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ProfanityDictionary"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ProfanityFilter"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Set"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "censored"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "characters"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "components"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "padding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "profaneWords"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "CharacterSet"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ProfanityDictionary"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ProfanityFilter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Set"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "censored"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "characters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "padding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "profaneWords"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33_ExpressibleByStringInterpolationP", "CharacterSet"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ProfanityDictionary"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ProfanityFilter"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Set"]
+- !private ["s33_ExpressibleByStringInterpolationP", "censored"]
+- !private ["s33_ExpressibleByStringInterpolationP", "characters"]
+- !private ["s33_ExpressibleByStringInterpolationP", "components"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "padding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "profaneWords"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ProfanityFilter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ReadingOptions"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "censored"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "characters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "padding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "profaneWords"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "setString"]
+- !private ["s10_IndexableP", "CharacterSet"]
+- !private ["s10_IndexableP", "ProfanityDictionary"]
+- !private ["s10_IndexableP", "ProfanityFilter"]
+- !private ["s10_IndexableP", "Set"]
+- !private ["s10_IndexableP", "censored"]
+- !private ["s10_IndexableP", "characters"]
+- !private ["s10_IndexableP", "components"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "intersection"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s10_IndexableP", "lowercased"]
+- !private ["s10_IndexableP", "padding"]
+- !private ["s10_IndexableP", "profaneWords"]
+- !private ["s10_IndexableP", "replacingOccurrences"]
+- !private ["s14_IndexableBaseP", "CharacterSet"]
+- !private ["s14_IndexableBaseP", "ProfanityDictionary"]
+- !private ["s14_IndexableBaseP", "ProfanityFilter"]
+- !private ["s14_IndexableBaseP", "Set"]
+- !private ["s14_IndexableBaseP", "censored"]
+- !private ["s14_IndexableBaseP", "characters"]
+- !private ["s14_IndexableBaseP", "components"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "intersection"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "lowercased"]
+- !private ["s14_IndexableBaseP", "padding"]
+- !private ["s14_IndexableBaseP", "profaneWords"]
+- !private ["s14_IndexableBaseP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotFound"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProfanityFilter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "censored"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "padding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "profaneWords"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceCharacters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- ["s17_MutableIndexableP", "init"]
+- !private ["SC8_NSRangeV", "location"]
+- !private ["s21_ObjectiveCBridgeableP", "CharacterSet"]
+- !private ["s21_ObjectiveCBridgeableP", "ProfanityDictionary"]
+- !private ["s21_ObjectiveCBridgeableP", "ProfanityFilter"]
+- !private ["s21_ObjectiveCBridgeableP", "Set"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "censored"]
+- !private ["s21_ObjectiveCBridgeableP", "characters"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "formUnion"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "intersection"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "location"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "padding"]
+- !private ["s21_ObjectiveCBridgeableP", "profaneWords"]
+- !private ["s21_ObjectiveCBridgeableP", "punctuationCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "whitespacesAndNewlines"]
+- ["s22_RandomAccessIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "CharacterSet"]
+- !private ["s26_RangeReplaceableIndexableP", "ProfanityDictionary"]
+- !private ["s26_RangeReplaceableIndexableP", "ProfanityFilter"]
+- !private ["s26_RangeReplaceableIndexableP", "Set"]
+- !private ["s26_RangeReplaceableIndexableP", "censored"]
+- !private ["s26_RangeReplaceableIndexableP", "characters"]
+- !private ["s26_RangeReplaceableIndexableP", "components"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "lowercased"]
+- !private ["s26_RangeReplaceableIndexableP", "padding"]
+- !private ["s26_RangeReplaceableIndexableP", "profaneWords"]
+- !private ["s26_RangeReplaceableIndexableP", "replacingOccurrences"]
+- !private ["s16_SwiftStringViewP", "CharacterSet"]
+- !private ["s16_SwiftStringViewP", "ProfanityDictionary"]
+- !private ["s16_SwiftStringViewP", "ProfanityFilter"]
+- !private ["s16_SwiftStringViewP", "Set"]
+- !private ["s16_SwiftStringViewP", "censored"]
+- !private ["s16_SwiftStringViewP", "characters"]
+- !private ["s16_SwiftStringViewP", "components"]
+- !private ["s16_SwiftStringViewP", "count"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+- !private ["s16_SwiftStringViewP", "padding"]
+- !private ["s16_SwiftStringViewP", "profaneWords"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "SS13CharacterViewV"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "So8NSStringC14CompareOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "6Eureka18InputTypeInitiableP"
+- "So17JSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So18NSAttributedStringC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDataC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- "So15NSMutableStringC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s9OptionSetP"
+- "11MuseumAlive19ProfanityDictionaryV"
+- "11MuseumAlive15ProfanityFilterV"
+- "11MuseumAlive18ProfanityResourcesC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "So6NSDataC14ReadingOptionsV"
+- "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "s3SetV"
+- "s10SetAlgebraP"
+- "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- !private "SC8_NSRangeV"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/Eureka.swiftmodule/arm.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/ImageRow.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FirebaseGoogleAuthUI.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FirebaseAuthUI.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FUIGoogleAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/vuforia-sdk-ios-7-0-47/build/include/Vuforia/UIGLViewProtocol.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaSampleSwift-Bridging-Header.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaManager.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthBaseViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordSignInViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordVerificationViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordSignUpViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthPickerViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordRecoveryViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIEmailEntryViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrorUtils.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSetOptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaObjects.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaEAGLView.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
+interface-hash: "63b90181c1a39dd2c69ef940562e9b0c"

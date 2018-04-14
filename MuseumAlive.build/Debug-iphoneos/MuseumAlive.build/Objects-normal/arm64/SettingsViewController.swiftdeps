@@ -1,0 +1,1180 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SettingsViewController"
+provides-nominal:
+- "11MuseumAlive22SettingsViewControllerC"
+provides-member:
+- ["11MuseumAlive22SettingsViewControllerC", ""]
+provides-dynamic-lookup:
+- "authUI"
+- "curatorOnly"
+- "didReceiveMemoryWarning"
+- "didTapDone"
+- "setupText"
+- "signInOut"
+- "signInOutTapped"
+- "signInOutText"
+- "signedIn"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Auth"
+- "BackgroundHighlightedButton"
+- "Bool"
+- "BooleanLiteralType"
+- "Error"
+- "FUIAuth"
+- "FUIAuthDelegate"
+- !private "FUIAuthProvider"
+- !private "FUIGoogleAuth"
+- !private "NSNotification"
+- !private "NotificationCenter"
+- "SettingsViewController"
+- !private "StringLiteralType"
+- "UIBarButtonItem"
+- "UILabel"
+- "UISwitch"
+- "UIViewController"
+- "User"
+- !private "print"
+depends-member:
+- !private ["So4AuthC", "auth"]
+- !private ["So4AuthC", "currentUser"]
+- !private ["So4AuthC", "signOut"]
+- !private ["11MuseumAlive27BackgroundHighlightedButtonC", "setTitle"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "FUIAuth"]
+- !private ["s7CVarArgP", "FUIGoogleAuth"]
+- !private ["s7CVarArgP", "NSNotification"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "auth"]
+- ["s7CVarArgP", "authPickerViewController"]
+- ["s7CVarArgP", "authPickerViewControllerForAuthUI"]
+- ["s7CVarArgP", "authUI"]
+- !private ["s7CVarArgP", "authViewController"]
+- !private ["s7CVarArgP", "currentUser"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "defaultAuthUI"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "displayName"]
+- ["s7CVarArgP", "emailEntryViewController"]
+- ["s7CVarArgP", "emailEntryViewControllerForAuthUI"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "passwordRecoveryViewController"]
+- ["s7CVarArgP", "passwordRecoveryViewControllerForAuthUI"]
+- ["s7CVarArgP", "passwordSignInViewController"]
+- ["s7CVarArgP", "passwordSignInViewControllerForAuthUI"]
+- ["s7CVarArgP", "passwordSignUpViewController"]
+- ["s7CVarArgP", "passwordSignUpViewControllerForAuthUI"]
+- ["s7CVarArgP", "passwordVerificationViewController"]
+- ["s7CVarArgP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "providers"]
+- !private ["s7CVarArgP", "setTitle"]
+- !private ["s7CVarArgP", "setupText"]
+- !private ["s7CVarArgP", "signInOut"]
+- !private ["s7CVarArgP", "signInOutText"]
+- !private ["s7CVarArgP", "signOut"]
+- !private ["s7CVarArgP", "signedIn"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "FUIAuth"]
+- !private ["s28CustomDebugStringConvertibleP", "FUIGoogleAuth"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- ["s28CustomDebugStringConvertibleP", "authPickerViewController"]
+- ["s28CustomDebugStringConvertibleP", "authPickerViewControllerForAuthUI"]
+- ["s28CustomDebugStringConvertibleP", "authUI"]
+- !private ["s28CustomDebugStringConvertibleP", "authViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultAuthUI"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "displayName"]
+- ["s28CustomDebugStringConvertibleP", "emailEntryViewController"]
+- ["s28CustomDebugStringConvertibleP", "emailEntryViewControllerForAuthUI"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "passwordRecoveryViewController"]
+- ["s28CustomDebugStringConvertibleP", "passwordRecoveryViewControllerForAuthUI"]
+- ["s28CustomDebugStringConvertibleP", "passwordSignInViewController"]
+- ["s28CustomDebugStringConvertibleP", "passwordSignInViewControllerForAuthUI"]
+- ["s28CustomDebugStringConvertibleP", "passwordSignUpViewController"]
+- ["s28CustomDebugStringConvertibleP", "passwordSignUpViewControllerForAuthUI"]
+- ["s28CustomDebugStringConvertibleP", "passwordVerificationViewController"]
+- ["s28CustomDebugStringConvertibleP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "providers"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "setupText"]
+- !private ["s28CustomDebugStringConvertibleP", "signInOut"]
+- !private ["s28CustomDebugStringConvertibleP", "signInOutText"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "signedIn"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "FUIAuth"]
+- !private ["s23CustomStringConvertibleP", "FUIGoogleAuth"]
+- !private ["s23CustomStringConvertibleP", "NSNotification"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- ["s23CustomStringConvertibleP", "authPickerViewController"]
+- ["s23CustomStringConvertibleP", "authPickerViewControllerForAuthUI"]
+- ["s23CustomStringConvertibleP", "authUI"]
+- !private ["s23CustomStringConvertibleP", "authViewController"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "defaultAuthUI"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "displayName"]
+- ["s23CustomStringConvertibleP", "emailEntryViewController"]
+- ["s23CustomStringConvertibleP", "emailEntryViewControllerForAuthUI"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "passwordRecoveryViewController"]
+- ["s23CustomStringConvertibleP", "passwordRecoveryViewControllerForAuthUI"]
+- ["s23CustomStringConvertibleP", "passwordSignInViewController"]
+- ["s23CustomStringConvertibleP", "passwordSignInViewControllerForAuthUI"]
+- ["s23CustomStringConvertibleP", "passwordSignUpViewController"]
+- ["s23CustomStringConvertibleP", "passwordSignUpViewControllerForAuthUI"]
+- ["s23CustomStringConvertibleP", "passwordVerificationViewController"]
+- ["s23CustomStringConvertibleP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "providers"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- !private ["s23CustomStringConvertibleP", "setupText"]
+- !private ["s23CustomStringConvertibleP", "signInOut"]
+- !private ["s23CustomStringConvertibleP", "signInOutText"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- !private ["s23CustomStringConvertibleP", "signedIn"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Auth"]
+- !private ["s9EquatableP", "FUIAuth"]
+- !private ["s9EquatableP", "FUIGoogleAuth"]
+- !private ["s9EquatableP", "NSNotification"]
+- !private ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "auth"]
+- ["s9EquatableP", "authPickerViewController"]
+- ["s9EquatableP", "authPickerViewControllerForAuthUI"]
+- ["s9EquatableP", "authUI"]
+- !private ["s9EquatableP", "authViewController"]
+- !private ["s9EquatableP", "currentUser"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "defaultAuthUI"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "displayName"]
+- ["s9EquatableP", "emailEntryViewController"]
+- ["s9EquatableP", "emailEntryViewControllerForAuthUI"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "normal"]
+- ["s9EquatableP", "passwordRecoveryViewController"]
+- ["s9EquatableP", "passwordRecoveryViewControllerForAuthUI"]
+- ["s9EquatableP", "passwordSignInViewController"]
+- ["s9EquatableP", "passwordSignInViewControllerForAuthUI"]
+- ["s9EquatableP", "passwordSignUpViewController"]
+- ["s9EquatableP", "passwordSignUpViewControllerForAuthUI"]
+- ["s9EquatableP", "passwordVerificationViewController"]
+- ["s9EquatableP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["s9EquatableP", "post"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "providers"]
+- !private ["s9EquatableP", "setTitle"]
+- !private ["s9EquatableP", "setupText"]
+- !private ["s9EquatableP", "signInOut"]
+- !private ["s9EquatableP", "signInOutText"]
+- !private ["s9EquatableP", "signOut"]
+- !private ["s9EquatableP", "signedIn"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So7FUIAuthC", "authViewController"]
+- !private ["So7FUIAuthC", "defaultAuthUI"]
+- !private ["So7FUIAuthC", "delegate"]
+- !private ["So7FUIAuthC", "providers"]
+- !private ["So15FUIAuthDelegateP", "Auth"]
+- !private ["So15FUIAuthDelegateP", "FUIAuth"]
+- !private ["So15FUIAuthDelegateP", "FUIGoogleAuth"]
+- !private ["So15FUIAuthDelegateP", "NSNotification"]
+- !private ["So15FUIAuthDelegateP", "NotificationCenter"]
+- ["So15FUIAuthDelegateP", "authPickerViewController"]
+- ["So15FUIAuthDelegateP", "authPickerViewControllerForAuthUI"]
+- ["So15FUIAuthDelegateP", "authUI"]
+- !private ["So15FUIAuthDelegateP", "dismiss"]
+- ["So15FUIAuthDelegateP", "emailEntryViewController"]
+- ["So15FUIAuthDelegateP", "emailEntryViewControllerForAuthUI"]
+- ["So15FUIAuthDelegateP", "passwordRecoveryViewController"]
+- ["So15FUIAuthDelegateP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So15FUIAuthDelegateP", "passwordSignInViewController"]
+- ["So15FUIAuthDelegateP", "passwordSignInViewControllerForAuthUI"]
+- ["So15FUIAuthDelegateP", "passwordSignUpViewController"]
+- ["So15FUIAuthDelegateP", "passwordSignUpViewControllerForAuthUI"]
+- ["So15FUIAuthDelegateP", "passwordVerificationViewController"]
+- ["So15FUIAuthDelegateP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So15FUIAuthDelegateP", "present"]
+- !private ["So15FUIAuthDelegateP", "print"]
+- !private ["So15FUIAuthDelegateP", "setupText"]
+- !private ["So15FUIAuthDelegateP", "signInOut"]
+- !private ["So15FUIAuthDelegateP", "signInOutText"]
+- !private ["So15FUIAuthDelegateP", "signedIn"]
+- ["So15FUIAuthDelegateP", ""]
+- !private ["So15FUIAuthProviderP", "init"]
+- !private ["So13FUIGoogleAuthC", "init"]
+- !private ["s8HashableP", "Auth"]
+- !private ["s8HashableP", "FUIAuth"]
+- !private ["s8HashableP", "FUIGoogleAuth"]
+- !private ["s8HashableP", "NSNotification"]
+- !private ["s8HashableP", "Name"]
+- !private ["s8HashableP", "NotificationCenter"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "auth"]
+- ["s8HashableP", "authPickerViewController"]
+- ["s8HashableP", "authPickerViewControllerForAuthUI"]
+- ["s8HashableP", "authUI"]
+- !private ["s8HashableP", "authViewController"]
+- !private ["s8HashableP", "currentUser"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "defaultAuthUI"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "displayName"]
+- ["s8HashableP", "emailEntryViewController"]
+- ["s8HashableP", "emailEntryViewControllerForAuthUI"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "passwordRecoveryViewController"]
+- ["s8HashableP", "passwordRecoveryViewControllerForAuthUI"]
+- ["s8HashableP", "passwordSignInViewController"]
+- ["s8HashableP", "passwordSignInViewControllerForAuthUI"]
+- ["s8HashableP", "passwordSignUpViewController"]
+- ["s8HashableP", "passwordSignUpViewControllerForAuthUI"]
+- ["s8HashableP", "passwordVerificationViewController"]
+- ["s8HashableP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["s8HashableP", "post"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "providers"]
+- !private ["s8HashableP", "setTitle"]
+- !private ["s8HashableP", "setupText"]
+- !private ["s8HashableP", "signInOut"]
+- !private ["s8HashableP", "signInOutText"]
+- !private ["s8HashableP", "signOut"]
+- !private ["s8HashableP", "signedIn"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["6Eureka18InputTypeInitiableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Auth"]
+- !private ["So8NSCodingP", "FUIAuth"]
+- !private ["So8NSCodingP", "FUIGoogleAuth"]
+- !private ["So8NSCodingP", "NSNotification"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So8NSCodingP", "NotificationCenter"]
+- ["So8NSCodingP", "authPickerViewController"]
+- ["So8NSCodingP", "authPickerViewControllerForAuthUI"]
+- ["So8NSCodingP", "authUI"]
+- !private ["So8NSCodingP", "authViewController"]
+- !private ["So8NSCodingP", "defaultAuthUI"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "dismiss"]
+- ["So8NSCodingP", "emailEntryViewController"]
+- ["So8NSCodingP", "emailEntryViewControllerForAuthUI"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "passwordRecoveryViewController"]
+- ["So8NSCodingP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So8NSCodingP", "passwordSignInViewController"]
+- ["So8NSCodingP", "passwordSignInViewControllerForAuthUI"]
+- ["So8NSCodingP", "passwordSignUpViewController"]
+- ["So8NSCodingP", "passwordSignUpViewControllerForAuthUI"]
+- ["So8NSCodingP", "passwordVerificationViewController"]
+- ["So8NSCodingP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "providers"]
+- !private ["So8NSCodingP", "setTitle"]
+- !private ["So8NSCodingP", "setupText"]
+- !private ["So8NSCodingP", "signInOut"]
+- !private ["So8NSCodingP", "signInOutText"]
+- !private ["So8NSCodingP", "signedIn"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- !private ["So26NSExtensionRequestHandlingP", "FUIAuth"]
+- !private ["So26NSExtensionRequestHandlingP", "FUIGoogleAuth"]
+- !private ["So26NSExtensionRequestHandlingP", "NSNotification"]
+- !private ["So26NSExtensionRequestHandlingP", "NotificationCenter"]
+- ["So26NSExtensionRequestHandlingP", "authPickerViewController"]
+- ["So26NSExtensionRequestHandlingP", "authPickerViewControllerForAuthUI"]
+- ["So26NSExtensionRequestHandlingP", "authUI"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- ["So26NSExtensionRequestHandlingP", "emailEntryViewController"]
+- ["So26NSExtensionRequestHandlingP", "emailEntryViewControllerForAuthUI"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "passwordRecoveryViewController"]
+- ["So26NSExtensionRequestHandlingP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So26NSExtensionRequestHandlingP", "passwordSignInViewController"]
+- ["So26NSExtensionRequestHandlingP", "passwordSignInViewControllerForAuthUI"]
+- ["So26NSExtensionRequestHandlingP", "passwordSignUpViewController"]
+- ["So26NSExtensionRequestHandlingP", "passwordSignUpViewControllerForAuthUI"]
+- ["So26NSExtensionRequestHandlingP", "passwordVerificationViewController"]
+- ["So26NSExtensionRequestHandlingP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "setupText"]
+- !private ["So26NSExtensionRequestHandlingP", "signInOut"]
+- !private ["So26NSExtensionRequestHandlingP", "signInOutText"]
+- !private ["So26NSExtensionRequestHandlingP", "signedIn"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So14NSNotificationC", "Name"]
+- !private ["So8NSObjectC", "Auth"]
+- ["So8NSObjectC", "BackgroundHighlightedButton"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "FUIAuth"]
+- !private ["So8NSObjectC", "FUIAuthProvider"]
+- !private ["So8NSObjectC", "FUIGoogleAuth"]
+- !private ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UISwitch"]
+- ["So8NSObjectC", "User"]
+- !private ["So8NSObjectC", "auth"]
+- ["So8NSObjectC", "authPickerViewController"]
+- ["So8NSObjectC", "authPickerViewControllerForAuthUI"]
+- ["So8NSObjectC", "authUI"]
+- !private ["So8NSObjectC", "authViewController"]
+- ["So8NSObjectC", "curatorOnly"]
+- !private ["So8NSObjectC", "currentUser"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "defaultAuthUI"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "didTapDone"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "displayName"]
+- ["So8NSObjectC", "emailEntryViewController"]
+- ["So8NSObjectC", "emailEntryViewControllerForAuthUI"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "passwordRecoveryViewController"]
+- ["So8NSObjectC", "passwordRecoveryViewControllerForAuthUI"]
+- ["So8NSObjectC", "passwordSignInViewController"]
+- ["So8NSObjectC", "passwordSignInViewControllerForAuthUI"]
+- ["So8NSObjectC", "passwordSignUpViewController"]
+- ["So8NSObjectC", "passwordSignUpViewControllerForAuthUI"]
+- ["So8NSObjectC", "passwordVerificationViewController"]
+- ["So8NSObjectC", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "providers"]
+- !private ["So8NSObjectC", "setTitle"]
+- ["So8NSObjectC", "setupText"]
+- ["So8NSObjectC", "signInOut"]
+- ["So8NSObjectC", "signInOutTapped"]
+- ["So8NSObjectC", "signInOutText"]
+- !private ["So8NSObjectC", "signOut"]
+- ["So8NSObjectC", "signedIn"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "Auth"]
+- !private ["So16NSObjectProtocolP", "FUIAuth"]
+- !private ["So16NSObjectProtocolP", "FUIGoogleAuth"]
+- !private ["So16NSObjectProtocolP", "NSNotification"]
+- !private ["So16NSObjectProtocolP", "Name"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- !private ["So16NSObjectProtocolP", "auth"]
+- ["So16NSObjectProtocolP", "authPickerViewController"]
+- ["So16NSObjectProtocolP", "authPickerViewControllerForAuthUI"]
+- ["So16NSObjectProtocolP", "authUI"]
+- !private ["So16NSObjectProtocolP", "authViewController"]
+- !private ["So16NSObjectProtocolP", "currentUser"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "defaultAuthUI"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "displayName"]
+- ["So16NSObjectProtocolP", "emailEntryViewController"]
+- ["So16NSObjectProtocolP", "emailEntryViewControllerForAuthUI"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "passwordRecoveryViewController"]
+- ["So16NSObjectProtocolP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So16NSObjectProtocolP", "passwordSignInViewController"]
+- ["So16NSObjectProtocolP", "passwordSignInViewControllerForAuthUI"]
+- ["So16NSObjectProtocolP", "passwordSignUpViewController"]
+- ["So16NSObjectProtocolP", "passwordSignUpViewControllerForAuthUI"]
+- ["So16NSObjectProtocolP", "passwordVerificationViewController"]
+- ["So16NSObjectProtocolP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So16NSObjectProtocolP", "post"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "providers"]
+- !private ["So16NSObjectProtocolP", "setTitle"]
+- !private ["So16NSObjectProtocolP", "setupText"]
+- !private ["So16NSObjectProtocolP", "signInOut"]
+- !private ["So16NSObjectProtocolP", "signInOutText"]
+- !private ["So16NSObjectProtocolP", "signOut"]
+- !private ["So16NSObjectProtocolP", "signedIn"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "authViewController"]
+- !private ["So14NSSecureCodingP", "defaultAuthUI"]
+- !private ["So14NSSecureCodingP", "delegate"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "providers"]
+- !private ["So8NSStringC", "init"]
+- !private ["So14NSNotificationC4NameV", "init"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "post"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "normal"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "Auth"]
+- ["11MuseumAlive22SettingsViewControllerC", "BackgroundHighlightedButton"]
+- ["11MuseumAlive22SettingsViewControllerC", "Bool"]
+- ["11MuseumAlive22SettingsViewControllerC", "Error"]
+- ["11MuseumAlive22SettingsViewControllerC", "FUIAuth"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "FUIAuthProvider"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "FUIGoogleAuth"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "NSNotification"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "NotificationCenter"]
+- ["11MuseumAlive22SettingsViewControllerC", "UIBarButtonItem"]
+- ["11MuseumAlive22SettingsViewControllerC", "UILabel"]
+- ["11MuseumAlive22SettingsViewControllerC", "UISwitch"]
+- ["11MuseumAlive22SettingsViewControllerC", "User"]
+- ["11MuseumAlive22SettingsViewControllerC", "authPickerViewController"]
+- ["11MuseumAlive22SettingsViewControllerC", "authPickerViewControllerForAuthUI"]
+- ["11MuseumAlive22SettingsViewControllerC", "authUI"]
+- ["11MuseumAlive22SettingsViewControllerC", "curatorOnly"]
+- ["11MuseumAlive22SettingsViewControllerC", "deinit"]
+- ["11MuseumAlive22SettingsViewControllerC", "didReceiveMemoryWarning"]
+- ["11MuseumAlive22SettingsViewControllerC", "didTapDone"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "dismiss"]
+- ["11MuseumAlive22SettingsViewControllerC", "emailEntryViewController"]
+- ["11MuseumAlive22SettingsViewControllerC", "emailEntryViewControllerForAuthUI"]
+- ["11MuseumAlive22SettingsViewControllerC", "init"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordRecoveryViewController"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordRecoveryViewControllerForAuthUI"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordSignInViewController"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordSignInViewControllerForAuthUI"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordSignUpViewController"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordSignUpViewControllerForAuthUI"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordVerificationViewController"]
+- ["11MuseumAlive22SettingsViewControllerC", "passwordVerificationViewControllerForAuthUI"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "present"]
+- !private ["11MuseumAlive22SettingsViewControllerC", "print"]
+- ["11MuseumAlive22SettingsViewControllerC", "setupText"]
+- ["11MuseumAlive22SettingsViewControllerC", "signInOut"]
+- ["11MuseumAlive22SettingsViewControllerC", "signInOutTapped"]
+- ["11MuseumAlive22SettingsViewControllerC", "signInOutText"]
+- ["11MuseumAlive22SettingsViewControllerC", "signedIn"]
+- ["11MuseumAlive22SettingsViewControllerC", "viewDidLoad"]
+- ["11MuseumAlive22SettingsViewControllerC", "viewWillAppear"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- !private ["So21UIAppearanceContainerP", "FUIAuth"]
+- !private ["So21UIAppearanceContainerP", "FUIGoogleAuth"]
+- !private ["So21UIAppearanceContainerP", "NSNotification"]
+- !private ["So21UIAppearanceContainerP", "NotificationCenter"]
+- ["So21UIAppearanceContainerP", "authPickerViewController"]
+- ["So21UIAppearanceContainerP", "authPickerViewControllerForAuthUI"]
+- ["So21UIAppearanceContainerP", "authUI"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- ["So21UIAppearanceContainerP", "emailEntryViewController"]
+- ["So21UIAppearanceContainerP", "emailEntryViewControllerForAuthUI"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "passwordRecoveryViewController"]
+- ["So21UIAppearanceContainerP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So21UIAppearanceContainerP", "passwordSignInViewController"]
+- ["So21UIAppearanceContainerP", "passwordSignInViewControllerForAuthUI"]
+- ["So21UIAppearanceContainerP", "passwordSignUpViewController"]
+- ["So21UIAppearanceContainerP", "passwordSignUpViewControllerForAuthUI"]
+- ["So21UIAppearanceContainerP", "passwordVerificationViewController"]
+- ["So21UIAppearanceContainerP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "setupText"]
+- !private ["So21UIAppearanceContainerP", "signInOut"]
+- !private ["So21UIAppearanceContainerP", "signInOutText"]
+- !private ["So21UIAppearanceContainerP", "signedIn"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "setTitle"]
+- !private ["So18UIContentContainerP", "Auth"]
+- !private ["So18UIContentContainerP", "FUIAuth"]
+- !private ["So18UIContentContainerP", "FUIGoogleAuth"]
+- !private ["So18UIContentContainerP", "NSNotification"]
+- !private ["So18UIContentContainerP", "NotificationCenter"]
+- ["So18UIContentContainerP", "authPickerViewController"]
+- ["So18UIContentContainerP", "authPickerViewControllerForAuthUI"]
+- ["So18UIContentContainerP", "authUI"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- ["So18UIContentContainerP", "emailEntryViewController"]
+- ["So18UIContentContainerP", "emailEntryViewControllerForAuthUI"]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "passwordRecoveryViewController"]
+- ["So18UIContentContainerP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So18UIContentContainerP", "passwordSignInViewController"]
+- ["So18UIContentContainerP", "passwordSignInViewControllerForAuthUI"]
+- ["So18UIContentContainerP", "passwordSignUpViewController"]
+- ["So18UIContentContainerP", "passwordSignUpViewControllerForAuthUI"]
+- ["So18UIContentContainerP", "passwordVerificationViewController"]
+- ["So18UIContentContainerP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "setupText"]
+- !private ["So18UIContentContainerP", "signInOut"]
+- !private ["So18UIContentContainerP", "signInOutText"]
+- !private ["So18UIContentContainerP", "signedIn"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["SC14UIControlStateV", "normal"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- !private ["So18UIFocusEnvironmentP", "FUIAuth"]
+- !private ["So18UIFocusEnvironmentP", "FUIGoogleAuth"]
+- !private ["So18UIFocusEnvironmentP", "NSNotification"]
+- !private ["So18UIFocusEnvironmentP", "NotificationCenter"]
+- ["So18UIFocusEnvironmentP", "authPickerViewController"]
+- ["So18UIFocusEnvironmentP", "authPickerViewControllerForAuthUI"]
+- ["So18UIFocusEnvironmentP", "authUI"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- ["So18UIFocusEnvironmentP", "emailEntryViewController"]
+- ["So18UIFocusEnvironmentP", "emailEntryViewControllerForAuthUI"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "passwordRecoveryViewController"]
+- ["So18UIFocusEnvironmentP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So18UIFocusEnvironmentP", "passwordSignInViewController"]
+- ["So18UIFocusEnvironmentP", "passwordSignInViewControllerForAuthUI"]
+- ["So18UIFocusEnvironmentP", "passwordSignUpViewController"]
+- ["So18UIFocusEnvironmentP", "passwordSignUpViewControllerForAuthUI"]
+- ["So18UIFocusEnvironmentP", "passwordVerificationViewController"]
+- ["So18UIFocusEnvironmentP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "setupText"]
+- !private ["So18UIFocusEnvironmentP", "signInOut"]
+- !private ["So18UIFocusEnvironmentP", "signInOutText"]
+- !private ["So18UIFocusEnvironmentP", "signedIn"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "setTitle"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So30UIPasteConfigurationSupportingP", "FUIAuth"]
+- !private ["So30UIPasteConfigurationSupportingP", "FUIGoogleAuth"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
+- ["So30UIPasteConfigurationSupportingP", "authPickerViewController"]
+- ["So30UIPasteConfigurationSupportingP", "authPickerViewControllerForAuthUI"]
+- ["So30UIPasteConfigurationSupportingP", "authUI"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- ["So30UIPasteConfigurationSupportingP", "emailEntryViewController"]
+- ["So30UIPasteConfigurationSupportingP", "emailEntryViewControllerForAuthUI"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "passwordRecoveryViewController"]
+- ["So30UIPasteConfigurationSupportingP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So30UIPasteConfigurationSupportingP", "passwordSignInViewController"]
+- ["So30UIPasteConfigurationSupportingP", "passwordSignInViewControllerForAuthUI"]
+- ["So30UIPasteConfigurationSupportingP", "passwordSignUpViewController"]
+- ["So30UIPasteConfigurationSupportingP", "passwordSignUpViewControllerForAuthUI"]
+- ["So30UIPasteConfigurationSupportingP", "passwordVerificationViewController"]
+- ["So30UIPasteConfigurationSupportingP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupText"]
+- !private ["So30UIPasteConfigurationSupportingP", "signInOut"]
+- !private ["So30UIPasteConfigurationSupportingP", "signInOutText"]
+- !private ["So30UIPasteConfigurationSupportingP", "signedIn"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Auth"]
+- ["So11UIResponderC", "BackgroundHighlightedButton"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "FUIAuth"]
+- !private ["So11UIResponderC", "FUIAuthProvider"]
+- !private ["So11UIResponderC", "FUIGoogleAuth"]
+- !private ["So11UIResponderC", "NSNotification"]
+- !private ["So11UIResponderC", "NotificationCenter"]
+- ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UISwitch"]
+- ["So11UIResponderC", "User"]
+- ["So11UIResponderC", "authPickerViewController"]
+- ["So11UIResponderC", "authPickerViewControllerForAuthUI"]
+- ["So11UIResponderC", "authUI"]
+- ["So11UIResponderC", "curatorOnly"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "didTapDone"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "emailEntryViewController"]
+- ["So11UIResponderC", "emailEntryViewControllerForAuthUI"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "passwordRecoveryViewController"]
+- ["So11UIResponderC", "passwordRecoveryViewControllerForAuthUI"]
+- ["So11UIResponderC", "passwordSignInViewController"]
+- ["So11UIResponderC", "passwordSignInViewControllerForAuthUI"]
+- ["So11UIResponderC", "passwordSignUpViewController"]
+- ["So11UIResponderC", "passwordSignUpViewControllerForAuthUI"]
+- ["So11UIResponderC", "passwordVerificationViewController"]
+- ["So11UIResponderC", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "setTitle"]
+- ["So11UIResponderC", "setupText"]
+- ["So11UIResponderC", "signInOut"]
+- ["So11UIResponderC", "signInOutTapped"]
+- ["So11UIResponderC", "signInOutText"]
+- ["So11UIResponderC", "signedIn"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "FUIAuth"]
+- !private ["So30UIResponderStandardEditActionsP", "FUIGoogleAuth"]
+- !private ["So30UIResponderStandardEditActionsP", "NSNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
+- ["So30UIResponderStandardEditActionsP", "authPickerViewController"]
+- ["So30UIResponderStandardEditActionsP", "authPickerViewControllerForAuthUI"]
+- ["So30UIResponderStandardEditActionsP", "authUI"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- ["So30UIResponderStandardEditActionsP", "emailEntryViewController"]
+- ["So30UIResponderStandardEditActionsP", "emailEntryViewControllerForAuthUI"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "passwordRecoveryViewController"]
+- ["So30UIResponderStandardEditActionsP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So30UIResponderStandardEditActionsP", "passwordSignInViewController"]
+- ["So30UIResponderStandardEditActionsP", "passwordSignInViewControllerForAuthUI"]
+- ["So30UIResponderStandardEditActionsP", "passwordSignUpViewController"]
+- ["So30UIResponderStandardEditActionsP", "passwordSignUpViewControllerForAuthUI"]
+- ["So30UIResponderStandardEditActionsP", "passwordVerificationViewController"]
+- ["So30UIResponderStandardEditActionsP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "setupText"]
+- !private ["So30UIResponderStandardEditActionsP", "signInOut"]
+- !private ["So30UIResponderStandardEditActionsP", "signInOutText"]
+- !private ["So30UIResponderStandardEditActionsP", "signedIn"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- !private ["So16UIStateRestoringP", "FUIAuth"]
+- !private ["So16UIStateRestoringP", "FUIGoogleAuth"]
+- !private ["So16UIStateRestoringP", "NSNotification"]
+- !private ["So16UIStateRestoringP", "NotificationCenter"]
+- ["So16UIStateRestoringP", "authPickerViewController"]
+- ["So16UIStateRestoringP", "authPickerViewControllerForAuthUI"]
+- ["So16UIStateRestoringP", "authUI"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- ["So16UIStateRestoringP", "emailEntryViewController"]
+- ["So16UIStateRestoringP", "emailEntryViewControllerForAuthUI"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "passwordRecoveryViewController"]
+- ["So16UIStateRestoringP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So16UIStateRestoringP", "passwordSignInViewController"]
+- ["So16UIStateRestoringP", "passwordSignInViewControllerForAuthUI"]
+- ["So16UIStateRestoringP", "passwordSignUpViewController"]
+- ["So16UIStateRestoringP", "passwordSignUpViewControllerForAuthUI"]
+- ["So16UIStateRestoringP", "passwordVerificationViewController"]
+- ["So16UIStateRestoringP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "setupText"]
+- !private ["So16UIStateRestoringP", "signInOut"]
+- !private ["So16UIStateRestoringP", "signInOutText"]
+- !private ["So16UIStateRestoringP", "signedIn"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- !private ["So18UITraitEnvironmentP", "FUIAuth"]
+- !private ["So18UITraitEnvironmentP", "FUIGoogleAuth"]
+- !private ["So18UITraitEnvironmentP", "NSNotification"]
+- !private ["So18UITraitEnvironmentP", "NotificationCenter"]
+- ["So18UITraitEnvironmentP", "authPickerViewController"]
+- ["So18UITraitEnvironmentP", "authPickerViewControllerForAuthUI"]
+- ["So18UITraitEnvironmentP", "authUI"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- ["So18UITraitEnvironmentP", "emailEntryViewController"]
+- ["So18UITraitEnvironmentP", "emailEntryViewControllerForAuthUI"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "passwordRecoveryViewController"]
+- ["So18UITraitEnvironmentP", "passwordRecoveryViewControllerForAuthUI"]
+- ["So18UITraitEnvironmentP", "passwordSignInViewController"]
+- ["So18UITraitEnvironmentP", "passwordSignInViewControllerForAuthUI"]
+- ["So18UITraitEnvironmentP", "passwordSignUpViewController"]
+- ["So18UITraitEnvironmentP", "passwordSignUpViewControllerForAuthUI"]
+- ["So18UITraitEnvironmentP", "passwordVerificationViewController"]
+- ["So18UITraitEnvironmentP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- !private ["So18UITraitEnvironmentP", "setupText"]
+- !private ["So18UITraitEnvironmentP", "signInOut"]
+- !private ["So18UITraitEnvironmentP", "signInOutText"]
+- !private ["So18UITraitEnvironmentP", "signedIn"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "setTitle"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Auth"]
+- ["So16UIViewControllerC", "BackgroundHighlightedButton"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "Error"]
+- ["So16UIViewControllerC", "FUIAuth"]
+- !private ["So16UIViewControllerC", "FUIAuthProvider"]
+- !private ["So16UIViewControllerC", "FUIGoogleAuth"]
+- !private ["So16UIViewControllerC", "NSNotification"]
+- !private ["So16UIViewControllerC", "NotificationCenter"]
+- ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UISwitch"]
+- ["So16UIViewControllerC", "User"]
+- ["So16UIViewControllerC", "authPickerViewController"]
+- ["So16UIViewControllerC", "authPickerViewControllerForAuthUI"]
+- ["So16UIViewControllerC", "authUI"]
+- ["So16UIViewControllerC", "curatorOnly"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "didTapDone"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "emailEntryViewController"]
+- ["So16UIViewControllerC", "emailEntryViewControllerForAuthUI"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "passwordRecoveryViewController"]
+- ["So16UIViewControllerC", "passwordRecoveryViewControllerForAuthUI"]
+- ["So16UIViewControllerC", "passwordSignInViewController"]
+- ["So16UIViewControllerC", "passwordSignInViewControllerForAuthUI"]
+- ["So16UIViewControllerC", "passwordSignUpViewController"]
+- ["So16UIViewControllerC", "passwordSignUpViewControllerForAuthUI"]
+- ["So16UIViewControllerC", "passwordVerificationViewController"]
+- ["So16UIViewControllerC", "passwordVerificationViewControllerForAuthUI"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "setupText"]
+- ["So16UIViewControllerC", "signInOut"]
+- ["So16UIViewControllerC", "signInOutTapped"]
+- ["So16UIViewControllerC", "signInOutText"]
+- ["So16UIViewControllerC", "signedIn"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", ""]
+- !private ["So4UserC", "displayName"]
+- !private ["So8UserInfoP", "displayName"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FUIAuth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FUIGoogleAuth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "authPickerViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "authPickerViewControllerForAuthUI"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "authUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultAuthUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "emailEntryViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "emailEntryViewControllerForAuthUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordRecoveryViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordRecoveryViewControllerForAuthUI"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordSignInViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordSignInViewControllerForAuthUI"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordSignUpViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordSignUpViewControllerForAuthUI"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordVerificationViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "passwordVerificationViewControllerForAuthUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "providers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signInOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signInOutText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signedIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So4AuthC"
+- !private "11MuseumAlive27BackgroundHighlightedButtonC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So7FUIAuthC"
+- "So15FUIAuthDelegateP"
+- !private "So15FUIAuthProviderP"
+- !private "So13FUIGoogleAuthC"
+- "s8HashableP"
+- !private "6Eureka18InputTypeInitiableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So14NSNotificationC4NameV"
+- !private "So18NotificationCenterC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "11MuseumAlive22SettingsViewControllerC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "SC14UIControlStateV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So4UserC"
+- !private "So8UserInfoP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/ImageRow.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FirebaseGoogleAuthUI.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FirebaseAuthUI.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FUIGoogleAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/vuforia-sdk-ios-7-0-47/build/include/Vuforia/UIGLViewProtocol.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaSampleSwift-Bridging-Header.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaManager.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthBaseViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordSignInViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordVerificationViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordSignUpViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthPickerViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIPasswordRecoveryViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIEmailEntryViewController.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrorUtils.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSetOptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaObjects.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaEAGLView.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
+interface-hash: "aa139b7f8629acfaeb10029e01f73b1c"

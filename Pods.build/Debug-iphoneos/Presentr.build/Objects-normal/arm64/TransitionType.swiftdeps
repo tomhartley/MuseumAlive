@@ -1,0 +1,75 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransitionType"
+provides-nominal:
+- "8Presentr14TransitionTypeO"
+provides-member:
+- ["8Presentr14TransitionTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- !private "CoverHorizontalAnimation"
+- !private "CoverVerticalAnimation"
+- !private "CoverVerticalFromTopAnimation"
+- !private "CrossDissolveAnimation"
+- "PresentrAnimation"
+- "TransitionType"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["8Presentr24CoverHorizontalAnimationC", "init"]
+- !private ["8Presentr22CoverVerticalAnimationC", "init"]
+- !private ["8Presentr29CoverVerticalFromTopAnimationC", "init"]
+- !private ["8Presentr22CrossDissolveAnimationC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9EquatableP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["8Presentr0A9AnimationC", "init"]
+- !private ["8Presentr14TransitionTypeO", "CoverHorizontalAnimation"]
+- !private ["8Presentr14TransitionTypeO", "CoverVerticalAnimation"]
+- !private ["8Presentr14TransitionTypeO", "CoverVerticalFromTopAnimation"]
+- !private ["8Presentr14TransitionTypeO", "CrossDissolveAnimation"]
+- ["8Presentr14TransitionTypeO", "PresentrAnimation"]
+- ["8Presentr14TransitionTypeO", "animation"]
+- ["8Presentr14TransitionTypeO", "coverHorizontalFromLeft"]
+- ["8Presentr14TransitionTypeO", "coverHorizontalFromRight"]
+- ["8Presentr14TransitionTypeO", "coverVertical"]
+- ["8Presentr14TransitionTypeO", "coverVerticalFromTop"]
+- ["8Presentr14TransitionTypeO", "crossDissolve"]
+- ["8Presentr14TransitionTypeO", "custom"]
+- !private ["So37UIViewControllerAnimatedTransitioningP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "8Presentr24CoverHorizontalAnimationC"
+- !private "8Presentr22CoverVerticalAnimationC"
+- !private "8Presentr29CoverVerticalFromTopAnimationC"
+- !private "8Presentr22CrossDissolveAnimationC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So16NSObjectProtocolP"
+- !private "8Presentr0A9AnimationC"
+- "8Presentr14TransitionTypeO"
+- !private "So37UIViewControllerAnimatedTransitioningP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Target Support Files/Presentr/Presentr-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods.build/Debug-iphoneos/Presentr.build/unextended-module.modulemap"
+interface-hash: "ef044f8f2d3be17e02fc44bc520f70d2"

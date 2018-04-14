@@ -218,6 +218,21 @@ SWIFT_CLASS("_TtC11MuseumAlive14FormController")
 @end
 
 
+@interface NSAttributedString (SWIFT_EXTENSION(MuseumAlive))
+- (NSAttributedString * _Nonnull)censored SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface NSMutableString (SWIFT_EXTENSION(MuseumAlive))
+- (void)censor;
+@end
+
+
+@interface NSString (SWIFT_EXTENSION(MuseumAlive))
+- (NSString * _Nonnull)censored SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 @interface SCNGeometry (SWIFT_EXTENSION(MuseumAlive))
 + (SCNGeometry * _Nonnull)lineFromVector:(SCNVector3)vector1 toVector:(SCNVector3)vector2 SWIFT_WARN_UNUSED_RESULT;
 @end

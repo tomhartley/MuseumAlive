@@ -15,12 +15,9 @@ class FormController: FormViewController {
 		let titleRow : TextRow? = form.rowBy(tag: "title")
 		let descRow :TextAreaRow? = form.rowBy(tag: "desc")
 		if ((titleRow?.value ?? "") != "" && (descRow?.value ?? "") != "") {
-			let x = titleRow?.value
-			print(x ?? "banter")
 			self.navigationItem.rightBarButtonItem?.isEnabled=true
 		} else {
 			self.navigationItem.rightBarButtonItem?.isEnabled=false
-			
 		}
 	}
 	
@@ -34,14 +31,14 @@ class FormController: FormViewController {
 				$0.tag = "title"
 				$0.placeholder = "A brief title for the note"
 				$0.cell.titleLabel?.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
-				} .cellUpdate { cell, row in
+				} .onChange { row in
 					self.enableDone()
 			}
 			+++ Section ("Description")
 			<<< TextAreaRow() {
 				$0.tag = "desc"
 				$0.placeholder = "A longer description of the interesting features of this area of the artwork"
-				} .cellUpdate { cell, row in
+				} .onChange { row in
 					self.enableDone()
 			}
 			+++ Section (footer: "Optionally include an image to add detail to your note")

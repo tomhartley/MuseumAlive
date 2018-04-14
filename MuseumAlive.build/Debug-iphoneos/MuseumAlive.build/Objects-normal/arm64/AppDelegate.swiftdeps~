@@ -16,29 +16,37 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "??"
 - "AppDelegate"
-- !private "Auth"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
+- "DataConnector"
+- !private "Dictionary"
 - !private "FUIAuth"
 - !private "FirebaseApp"
+- !private "NSForegroundColorAttributeName"
 - !private "String"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
 - "UIApplicationOpenURLOptionsKey"
+- !private "UIColor"
+- !private "UINavigationBar"
 - "UIResponder"
 - "UIWindow"
 - "URL"
 depends-member:
-- !private ["11MuseumAlive11AppDelegateC", "Auth"]
 - ["11MuseumAlive11AppDelegateC", "Bool"]
+- ["11MuseumAlive11AppDelegateC", "DataConnector"]
 - !private ["11MuseumAlive11AppDelegateC", "FUIAuth"]
 - !private ["11MuseumAlive11AppDelegateC", "FirebaseApp"]
+- !private ["11MuseumAlive11AppDelegateC", "NSForegroundColorAttributeName"]
 - !private ["11MuseumAlive11AppDelegateC", "String"]
 - ["11MuseumAlive11AppDelegateC", "UIApplication"]
 - ["11MuseumAlive11AppDelegateC", "UIApplicationLaunchOptionsKey"]
 - ["11MuseumAlive11AppDelegateC", "UIApplicationOpenURLOptionsKey"]
+- !private ["11MuseumAlive11AppDelegateC", "UIColor"]
+- !private ["11MuseumAlive11AppDelegateC", "UINavigationBar"]
 - ["11MuseumAlive11AppDelegateC", "UIWindow"]
 - ["11MuseumAlive11AppDelegateC", "URL"]
 - ["11MuseumAlive11AppDelegateC", "application"]
@@ -53,16 +61,23 @@ depends-member:
 - ["11MuseumAlive11AppDelegateC", "applicationWillEnterForeground"]
 - ["11MuseumAlive11AppDelegateC", "applicationWillResignActive"]
 - ["11MuseumAlive11AppDelegateC", "applicationWillTerminate"]
+- ["11MuseumAlive11AppDelegateC", "dataConn"]
 - ["11MuseumAlive11AppDelegateC", "deinit"]
 - ["11MuseumAlive11AppDelegateC", "init"]
 - ["11MuseumAlive11AppDelegateC", "window"]
-- !private ["So4AuthC", "auth"]
-- !private ["So4AuthC", "signOut"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["s7CVarArgP", "Auth"]
+- !private ["So15CALayerDelegateP", "appearance"]
+- !private ["So15CALayerDelegateP", "barTintColor"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["So15CALayerDelegateP", "titleTextAttributes"]
+- !private ["s7CVarArgP", "DataConnector"]
 - !private ["s7CVarArgP", "FUIAuth"]
 - !private ["s7CVarArgP", "FirebaseApp"]
+- !private ["s7CVarArgP", "NSForegroundColorAttributeName"]
 - !private ["s7CVarArgP", "UIApplicationOpenURLOptionsKey"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UINavigationBar"]
+- !private ["s7CVarArgP", "appearance"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -75,20 +90,28 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
-- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "barTintColor"]
 - !private ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "dataConn"]
 - !private ["s7CVarArgP", "defaultAuthUI"]
+- !private ["s7CVarArgP", "flatPurple"]
 - !private ["s7CVarArgP", "handleOpen"]
 - !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "signOut"]
 - !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "titleTextAttributes"]
+- !private ["s7CVarArgP", "white"]
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "subscript"]
-- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "DataConnector"]
 - !private ["s28CustomDebugStringConvertibleP", "FUIAuth"]
 - !private ["s28CustomDebugStringConvertibleP", "FirebaseApp"]
+- !private ["s28CustomDebugStringConvertibleP", "NSForegroundColorAttributeName"]
 - !private ["s28CustomDebugStringConvertibleP", "UIApplicationOpenURLOptionsKey"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "appearance"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -101,23 +124,31 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
-- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "barTintColor"]
 - !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "dataConn"]
 - !private ["s28CustomDebugStringConvertibleP", "defaultAuthUI"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPurple"]
 - !private ["s28CustomDebugStringConvertibleP", "handleOpen"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "signOut"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "titleTextAttributes"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "subscript"]
-- !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "DataConnector"]
 - !private ["s23CustomStringConvertibleP", "FUIAuth"]
 - !private ["s23CustomStringConvertibleP", "FirebaseApp"]
+- !private ["s23CustomStringConvertibleP", "NSForegroundColorAttributeName"]
 - !private ["s23CustomStringConvertibleP", "UIApplicationOpenURLOptionsKey"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UINavigationBar"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appearance"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -130,25 +161,34 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
-- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "barTintColor"]
 - !private ["s23CustomStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "dataConn"]
 - !private ["s23CustomStringConvertibleP", "defaultAuthUI"]
+- !private ["s23CustomStringConvertibleP", "flatPurple"]
 - !private ["s23CustomStringConvertibleP", "handleOpen"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "signOut"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "titleTextAttributes"]
+- !private ["s23CustomStringConvertibleP", "white"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["11MuseumAlive13DataConnectorC", "init"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s10DictionaryV", "subscript"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "subscript"]
-- !private ["s9EquatableP", "Auth"]
+- !private ["s9EquatableP", "DataConnector"]
 - !private ["s9EquatableP", "FUIAuth"]
 - !private ["s9EquatableP", "FirebaseApp"]
+- !private ["s9EquatableP", "NSForegroundColorAttributeName"]
 - !private ["s9EquatableP", "UIApplicationOpenURLOptionsKey"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UINavigationBar"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "appearance"]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
 - ["s9EquatableP", "applicationDidEnterBackground"]
@@ -161,13 +201,17 @@ depends-member:
 - ["s9EquatableP", "applicationWillEnterForeground"]
 - ["s9EquatableP", "applicationWillResignActive"]
 - ["s9EquatableP", "applicationWillTerminate"]
-- !private ["s9EquatableP", "auth"]
+- !private ["s9EquatableP", "barTintColor"]
 - !private ["s9EquatableP", "configure"]
+- !private ["s9EquatableP", "dataConn"]
 - !private ["s9EquatableP", "defaultAuthUI"]
+- !private ["s9EquatableP", "flatPurple"]
 - !private ["s9EquatableP", "handleOpen"]
 - !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "signOut"]
 - !private ["s9EquatableP", "sourceApplication"]
+- !private ["s9EquatableP", "tintColor"]
+- !private ["s9EquatableP", "titleTextAttributes"]
+- !private ["s9EquatableP", "white"]
 - ["s9EquatableP", "window"]
 - ["s9EquatableP", ""]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
@@ -175,11 +219,15 @@ depends-member:
 - !private ["So7FUIAuthC", "defaultAuthUI"]
 - !private ["So7FUIAuthC", "handleOpen"]
 - !private ["So11FirebaseAppC", "configure"]
-- !private ["s8HashableP", "Auth"]
+- !private ["s8HashableP", "DataConnector"]
 - !private ["s8HashableP", "FUIAuth"]
 - !private ["s8HashableP", "FirebaseApp"]
+- !private ["s8HashableP", "NSForegroundColorAttributeName"]
 - !private ["s8HashableP", "UIApplicationOpenURLOptionsKey"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UINavigationBar"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "appearance"]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
 - ["s8HashableP", "applicationDidEnterBackground"]
@@ -192,28 +240,48 @@ depends-member:
 - ["s8HashableP", "applicationWillEnterForeground"]
 - ["s8HashableP", "applicationWillResignActive"]
 - ["s8HashableP", "applicationWillTerminate"]
-- !private ["s8HashableP", "auth"]
+- !private ["s8HashableP", "barTintColor"]
 - !private ["s8HashableP", "configure"]
+- !private ["s8HashableP", "dataConn"]
 - !private ["s8HashableP", "defaultAuthUI"]
+- !private ["s8HashableP", "flatPurple"]
 - !private ["s8HashableP", "handleOpen"]
 - !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "signOut"]
 - !private ["s8HashableP", "sourceApplication"]
+- !private ["s8HashableP", "tintColor"]
+- !private ["s8HashableP", "titleTextAttributes"]
+- !private ["s8HashableP", "white"]
 - ["s8HashableP", "window"]
 - ["s8HashableP", ""]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "appearance"]
+- !private ["So8NSCodingP", "barTintColor"]
 - !private ["So8NSCodingP", "defaultAuthUI"]
+- !private ["So8NSCodingP", "flatPurple"]
 - !private ["So8NSCodingP", "handleOpen"]
-- !private ["So8NSObjectC", "Auth"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "titleTextAttributes"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "flatPurple"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "flatPurple"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "flatPurple"]
+- !private ["So21NSItemProviderWritingP", "white"]
 - ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DataConnector"]
 - !private ["So8NSObjectC", "FUIAuth"]
 - !private ["So8NSObjectC", "FirebaseApp"]
+- !private ["So8NSObjectC", "NSForegroundColorAttributeName"]
 - !private ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
 - ["So8NSObjectC", "UIApplicationOpenURLOptionsKey"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UINavigationBar"]
 - ["So8NSObjectC", "UIWindow"]
 - ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "appearance"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
 - ["So8NSObjectC", "applicationDidEnterBackground"]
@@ -226,17 +294,25 @@ depends-member:
 - ["So8NSObjectC", "applicationWillEnterForeground"]
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
-- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "barTintColor"]
 - !private ["So8NSObjectC", "configure"]
+- ["So8NSObjectC", "dataConn"]
 - !private ["So8NSObjectC", "defaultAuthUI"]
+- !private ["So8NSObjectC", "flatPurple"]
 - !private ["So8NSObjectC", "handleOpen"]
 - ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "signOut"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "titleTextAttributes"]
+- !private ["So8NSObjectC", "white"]
 - ["So8NSObjectC", "window"]
-- !private ["So16NSObjectProtocolP", "Auth"]
+- !private ["So16NSObjectProtocolP", "DataConnector"]
 - !private ["So16NSObjectProtocolP", "FUIAuth"]
 - !private ["So16NSObjectProtocolP", "FirebaseApp"]
+- !private ["So16NSObjectProtocolP", "NSForegroundColorAttributeName"]
 - !private ["So16NSObjectProtocolP", "UIApplicationOpenURLOptionsKey"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UINavigationBar"]
+- !private ["So16NSObjectProtocolP", "appearance"]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
@@ -249,22 +325,43 @@ depends-member:
 - ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
 - ["So16NSObjectProtocolP", "applicationWillResignActive"]
 - ["So16NSObjectProtocolP", "applicationWillTerminate"]
-- !private ["So16NSObjectProtocolP", "auth"]
+- !private ["So16NSObjectProtocolP", "barTintColor"]
 - !private ["So16NSObjectProtocolP", "configure"]
+- !private ["So16NSObjectProtocolP", "dataConn"]
 - !private ["So16NSObjectProtocolP", "defaultAuthUI"]
+- !private ["So16NSObjectProtocolP", "flatPurple"]
 - !private ["So16NSObjectProtocolP", "handleOpen"]
 - !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "signOut"]
+- !private ["So16NSObjectProtocolP", "tintColor"]
+- !private ["So16NSObjectProtocolP", "titleTextAttributes"]
+- !private ["So16NSObjectProtocolP", "white"]
 - ["So16NSObjectProtocolP", "window"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "defaultAuthUI"]
+- !private ["So14NSSecureCodingP", "flatPurple"]
 - !private ["So14NSSecureCodingP", "handleOpen"]
+- !private ["So14NSSecureCodingP", "white"]
 - !private ["s16RawRepresentableP", "sourceApplication"]
 - !private ["s8SequenceP", "subscript"]
-- !private ["So21UIApplicationDelegateP", "Auth"]
+- !private ["So29UIAccessibilityIdentificationP", "appearance"]
+- !private ["So29UIAccessibilityIdentificationP", "barTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "titleTextAttributes"]
+- !private ["So12UIAppearanceP", "appearance"]
+- !private ["So12UIAppearanceP", "barTintColor"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So12UIAppearanceP", "titleTextAttributes"]
+- !private ["So21UIAppearanceContainerP", "appearance"]
+- !private ["So21UIAppearanceContainerP", "barTintColor"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "titleTextAttributes"]
+- !private ["So21UIApplicationDelegateP", "DataConnector"]
 - !private ["So21UIApplicationDelegateP", "FUIAuth"]
 - !private ["So21UIApplicationDelegateP", "FirebaseApp"]
+- !private ["So21UIApplicationDelegateP", "NSForegroundColorAttributeName"]
 - !private ["So21UIApplicationDelegateP", "UIApplicationOpenURLOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "UIColor"]
+- !private ["So21UIApplicationDelegateP", "UINavigationBar"]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -277,13 +374,44 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "dataConn"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So21UIApplicationDelegateP", ""]
 - !private ["SC30UIApplicationOpenURLOptionsKeyV", "sourceApplication"]
-- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So16UIBarPositioningP", "appearance"]
+- !private ["So16UIBarPositioningP", "barTintColor"]
+- !private ["So16UIBarPositioningP", "tintColor"]
+- !private ["So16UIBarPositioningP", "titleTextAttributes"]
+- !private ["So7UIColorC", "flatPurple"]
+- !private ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "appearance"]
+- !private ["So17UICoordinateSpaceP", "barTintColor"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So17UICoordinateSpaceP", "titleTextAttributes"]
+- !private ["So13UIDynamicItemP", "appearance"]
+- !private ["So13UIDynamicItemP", "barTintColor"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So13UIDynamicItemP", "titleTextAttributes"]
+- !private ["So18UIFocusEnvironmentP", "appearance"]
+- !private ["So18UIFocusEnvironmentP", "barTintColor"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "titleTextAttributes"]
+- !private ["So11UIFocusItemP", "appearance"]
+- !private ["So11UIFocusItemP", "barTintColor"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So11UIFocusItemP", "titleTextAttributes"]
+- !private ["So15UINavigationBarC", "appearance"]
+- !private ["So15UINavigationBarC", "barTintColor"]
+- !private ["So15UINavigationBarC", "tintColor"]
+- !private ["So15UINavigationBarC", "titleTextAttributes"]
+- !private ["So30UIPasteConfigurationSupportingP", "DataConnector"]
 - !private ["So30UIPasteConfigurationSupportingP", "FUIAuth"]
 - !private ["So30UIPasteConfigurationSupportingP", "FirebaseApp"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSForegroundColorAttributeName"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplicationOpenURLOptionsKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "appearance"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -296,19 +424,27 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "barTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataConn"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleTextAttributes"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "DataConnector"]
 - !private ["So11UIResponderC", "FUIAuth"]
 - !private ["So11UIResponderC", "FirebaseApp"]
+- !private ["So11UIResponderC", "NSForegroundColorAttributeName"]
 - !private ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
 - ["So11UIResponderC", "UIApplicationOpenURLOptionsKey"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UINavigationBar"]
 - ["So11UIResponderC", "UIWindow"]
 - ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "appearance"]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
 - ["So11UIResponderC", "applicationDidEnterBackground"]
@@ -321,13 +457,21 @@ depends-member:
 - ["So11UIResponderC", "applicationWillEnterForeground"]
 - ["So11UIResponderC", "applicationWillResignActive"]
 - ["So11UIResponderC", "applicationWillTerminate"]
+- !private ["So11UIResponderC", "barTintColor"]
+- ["So11UIResponderC", "dataConn"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "titleTextAttributes"]
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", ""]
-- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "DataConnector"]
 - !private ["So30UIResponderStandardEditActionsP", "FUIAuth"]
 - !private ["So30UIResponderStandardEditActionsP", "FirebaseApp"]
+- !private ["So30UIResponderStandardEditActionsP", "NSForegroundColorAttributeName"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplicationOpenURLOptionsKey"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "appearance"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -340,16 +484,38 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "barTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "dataConn"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "titleTextAttributes"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "appearance"]
+- !private ["So18UITraitEnvironmentP", "barTintColor"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "titleTextAttributes"]
+- !private ["So6UIViewC", "appearance"]
+- !private ["So6UIViewC", "barTintColor"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["So6UIViewC", "titleTextAttributes"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "appearance"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "barTintColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleTextAttributes"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPurple"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s10_IndexableP", "subscript"]
 - !private ["s14_IndexableBaseP", "subscript"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataConnector"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FUIAuth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseApp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSForegroundColorAttributeName"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplicationOpenURLOptionsKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appearance"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -362,12 +528,16 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barTintColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataConn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultAuthUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPurple"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "handleOpen"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleTextAttributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
@@ -376,14 +546,15 @@ depends-member:
 - !private ["s20_SwiftNewtypeWrapperP", "sourceApplication"]
 depends-nominal:
 - "11MuseumAlive11AppDelegateC"
-- !private "So4AuthC"
 - !private "Sb"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "s10CollectionP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "11MuseumAlive13DataConnectorC"
 - !private "s9DecodableP"
 - !private "s10DictionaryV"
 - !private "s9EncodableP"
@@ -395,17 +566,34 @@ depends-nominal:
 - "s8HashableP"
 - !private "s25LosslessStringConvertibleP"
 - !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
 - !private "s16RawRepresentableP"
 - !private "s8SequenceP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
 - "So21UIApplicationDelegateP"
 - !private "SC30UIApplicationOpenURLOptionsKeyV"
+- !private "So16UIBarPositioningP"
+- !private "So7UIColorC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So15UINavigationBarC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
 - !private "s10_IndexableP"
 - !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -415,6 +603,9 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Modules/Eureka.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Modules/Presentr.swiftmodule/arm64.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/SwiftMessages.swiftmodule/arm64.swiftmodule"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/ImageRow.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
@@ -437,7 +628,11 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks/FirebaseGoogleAuthUI.framework/Headers/FirebaseGoogleAuthUI.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FirebaseAuthUI.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Headers/Presentr-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-umbrella.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
@@ -459,6 +654,9 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Firebase/Core/Sources/Firebase.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
@@ -475,6 +673,13 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/vuforia-sdk-ios-7-0-47/build/include/Vuforia/UIGLViewProtocol.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
@@ -512,15 +717,22 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrorUtils.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSetOptions.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/Headers/FUIAuthErrors.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/VuforiaManager/VuforiaObjects.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/Eureka.framework/Headers/Eureka-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Headers/Presentr-Swift.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Headers/SwiftMessages-Swift.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Headers/ImageRow-Swift.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
@@ -549,6 +761,9 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/Presentr/Presentr.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
-interface-hash: "cb5b159499fa42c9ea1693ac5ca15475"
+interface-hash: "977f7c07c19a023b7193a1a1ce0a0dab"

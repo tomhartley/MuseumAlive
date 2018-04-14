@@ -1,0 +1,617 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WindowViewController"
+provides-nominal:
+- "13SwiftMessages20WindowViewControllerC"
+provides-member:
+- ["13SwiftMessages20WindowViewControllerC", ""]
+provides-dynamic-lookup:
+- "install"
+- "preferredStatusBarStyle"
+- "prefersStatusBarHidden"
+- "shouldAutorotate"
+- "uninstall"
+- "windowLevel"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "NSCoder"
+- !private "PassthroughView"
+- !private "PassthroughWindow"
+- !private "StringLiteralType"
+- "SwiftMessages"
+- !private "UIApplication"
+- !private "UIScreen"
+- "UIStatusBarStyle"
+- "UIViewController"
+- "UIWindow"
+- "UIWindowLevel"
+- !private "UIWindowLevelNormal"
+- "WindowViewController"
+- !private "fatalError"
+depends-member:
+- ["13SwiftMessages17AnimationDelegateP", "Config"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So15CALayerDelegateP", "windowLevel"]
+- !private ["s7CVarArgP", "PassthroughView"]
+- !private ["s7CVarArgP", "PassthroughWindow"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIScreen"]
+- !private ["s7CVarArgP", "UIWindowLevelNormal"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "config"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "isStatusBarHidden"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusBarStyle"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "window"]
+- !private ["s7CVarArgP", "windowLevel"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["13SwiftMessagesAAC6ConfigV", "preferredStatusBarStyle"]
+- !private ["13SwiftMessagesAAC6ConfigV", "shouldAutorotate"]
+- !private ["s28CustomDebugStringConvertibleP", "PassthroughView"]
+- !private ["s28CustomDebugStringConvertibleP", "PassthroughWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "UIWindowLevelNormal"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "config"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "isStatusBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "statusBarStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s28CustomDebugStringConvertibleP", "windowLevel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "PassthroughView"]
+- !private ["s23CustomStringConvertibleP", "PassthroughWindow"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- !private ["s23CustomStringConvertibleP", "UIWindowLevelNormal"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "config"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "isStatusBarHidden"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusBarStyle"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "window"]
+- !private ["s23CustomStringConvertibleP", "windowLevel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "PassthroughView"]
+- !private ["s9EquatableP", "PassthroughWindow"]
+- !private ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "UIScreen"]
+- !private ["s9EquatableP", "UIWindowLevelNormal"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "config"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "isStatusBarHidden"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "makeKeyAndVisible"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "statusBarStyle"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "window"]
+- !private ["s9EquatableP", "windowLevel"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "PassthroughView"]
+- !private ["s8HashableP", "PassthroughWindow"]
+- !private ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "UIScreen"]
+- !private ["s8HashableP", "UIWindowLevelNormal"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "config"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHidden"]
+- !private ["s8HashableP", "isStatusBarHidden"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "makeKeyAndVisible"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "statusBarStyle"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "window"]
+- !private ["s8HashableP", "windowLevel"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "PassthroughView"]
+- !private ["So8NSCodingP", "PassthroughWindow"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "UIScreen"]
+- !private ["So8NSCodingP", "UIWindowLevelNormal"]
+- !private ["So8NSCodingP", "config"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "window"]
+- !private ["So8NSCodingP", "windowLevel"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "PassthroughView"]
+- !private ["So26NSExtensionRequestHandlingP", "PassthroughWindow"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "UIScreen"]
+- !private ["So26NSExtensionRequestHandlingP", "UIWindowLevelNormal"]
+- !private ["So26NSExtensionRequestHandlingP", "config"]
+- !private ["So26NSExtensionRequestHandlingP", "fatalError"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "window"]
+- !private ["So26NSExtensionRequestHandlingP", "windowLevel"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "PassthroughView"]
+- !private ["So8NSObjectC", "PassthroughWindow"]
+- ["So8NSObjectC", "SwiftMessages"]
+- !private ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", "UIStatusBarStyle"]
+- ["So8NSObjectC", "UIWindow"]
+- ["So8NSObjectC", "UIWindowLevel"]
+- !private ["So8NSObjectC", "UIWindowLevelNormal"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "config"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "install"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "isStatusBarHidden"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- ["So8NSObjectC", "preferredStatusBarStyle"]
+- ["So8NSObjectC", "prefersStatusBarHidden"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "shouldAutorotate"]
+- !private ["So8NSObjectC", "statusBarStyle"]
+- ["So8NSObjectC", "uninstall"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "window"]
+- ["So8NSObjectC", "windowLevel"]
+- !private ["So16NSObjectProtocolP", "PassthroughView"]
+- !private ["So16NSObjectProtocolP", "PassthroughWindow"]
+- !private ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "UIScreen"]
+- !private ["So16NSObjectProtocolP", "UIWindowLevelNormal"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "config"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isHidden"]
+- !private ["So16NSObjectProtocolP", "isStatusBarHidden"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "makeKeyAndVisible"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "statusBarStyle"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "window"]
+- !private ["So16NSObjectProtocolP", "windowLevel"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["13SwiftMessages15PassthroughViewC", "init"]
+- !private ["13SwiftMessages17PassthroughWindowC", "init"]
+- !private ["13SwiftMessages17PassthroughWindowC", "rootViewController"]
+- !private ["13SwiftMessages17PassthroughWindowC", "windowLevel"]
+- ["13SwiftMessages17PresenterDelegateP", "Config"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["13SwiftMessagesAAC", "Config"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "windowLevel"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So12UIAppearanceP", "windowLevel"]
+- !private ["So21UIAppearanceContainerP", "PassthroughView"]
+- !private ["So21UIAppearanceContainerP", "PassthroughWindow"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "UIScreen"]
+- !private ["So21UIAppearanceContainerP", "UIWindowLevelNormal"]
+- !private ["So21UIAppearanceContainerP", "config"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "window"]
+- !private ["So21UIAppearanceContainerP", "windowLevel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So13UIApplicationC", "isStatusBarHidden"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So13UIApplicationC", "statusBarStyle"]
+- !private ["So18UIContentContainerP", "PassthroughView"]
+- !private ["So18UIContentContainerP", "PassthroughWindow"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "UIScreen"]
+- !private ["So18UIContentContainerP", "UIWindowLevelNormal"]
+- !private ["So18UIContentContainerP", "config"]
+- !private ["So18UIContentContainerP", "fatalError"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "window"]
+- !private ["So18UIContentContainerP", "windowLevel"]
+- ["So18UIContentContainerP", ""]
+- !private ["So9UIControlC", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "windowLevel"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "windowLevel"]
+- !private ["So18UIFocusEnvironmentP", "PassthroughView"]
+- !private ["So18UIFocusEnvironmentP", "PassthroughWindow"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "UIScreen"]
+- !private ["So18UIFocusEnvironmentP", "UIWindowLevelNormal"]
+- !private ["So18UIFocusEnvironmentP", "config"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "window"]
+- !private ["So18UIFocusEnvironmentP", "windowLevel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So11UIFocusItemP", "windowLevel"]
+- !private ["So30UIPasteConfigurationSupportingP", "PassthroughView"]
+- !private ["So30UIPasteConfigurationSupportingP", "PassthroughWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindowLevelNormal"]
+- !private ["So30UIPasteConfigurationSupportingP", "config"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "isStatusBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusBarStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "window"]
+- !private ["So30UIPasteConfigurationSupportingP", "windowLevel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "PassthroughView"]
+- !private ["So11UIResponderC", "PassthroughWindow"]
+- ["So11UIResponderC", "SwiftMessages"]
+- !private ["So11UIResponderC", "UIApplication"]
+- !private ["So11UIResponderC", "UIScreen"]
+- ["So11UIResponderC", "UIStatusBarStyle"]
+- ["So11UIResponderC", "UIWindow"]
+- ["So11UIResponderC", "UIWindowLevel"]
+- !private ["So11UIResponderC", "UIWindowLevelNormal"]
+- ["So11UIResponderC", "config"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "install"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "isStatusBarHidden"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- ["So11UIResponderC", "preferredStatusBarStyle"]
+- ["So11UIResponderC", "prefersStatusBarHidden"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "shouldAutorotate"]
+- !private ["So11UIResponderC", "statusBarStyle"]
+- ["So11UIResponderC", "uninstall"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", "windowLevel"]
+- !private ["So30UIResponderStandardEditActionsP", "PassthroughView"]
+- !private ["So30UIResponderStandardEditActionsP", "PassthroughWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindowLevelNormal"]
+- !private ["So30UIResponderStandardEditActionsP", "config"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "isStatusBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "statusBarStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "windowLevel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So16UIStateRestoringP", "PassthroughView"]
+- !private ["So16UIStateRestoringP", "PassthroughWindow"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "UIScreen"]
+- !private ["So16UIStateRestoringP", "UIWindowLevelNormal"]
+- !private ["So16UIStateRestoringP", "config"]
+- !private ["So16UIStateRestoringP", "fatalError"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "window"]
+- !private ["So16UIStateRestoringP", "windowLevel"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "PassthroughView"]
+- !private ["So18UITraitEnvironmentP", "PassthroughWindow"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "UIScreen"]
+- !private ["So18UITraitEnvironmentP", "UIWindowLevelNormal"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "config"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "window"]
+- !private ["So18UITraitEnvironmentP", "windowLevel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So6UIViewC", "windowLevel"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "NSCoder"]
+- !private ["So16UIViewControllerC", "PassthroughView"]
+- !private ["So16UIViewControllerC", "PassthroughWindow"]
+- ["So16UIViewControllerC", "SwiftMessages"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- !private ["So16UIViewControllerC", "UIScreen"]
+- ["So16UIViewControllerC", "UIStatusBarStyle"]
+- ["So16UIViewControllerC", "UIWindow"]
+- ["So16UIViewControllerC", "UIWindowLevel"]
+- !private ["So16UIViewControllerC", "UIWindowLevelNormal"]
+- ["So16UIViewControllerC", "config"]
+- !private ["So16UIViewControllerC", "fatalError"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "install"]
+- ["So16UIViewControllerC", "preferredStatusBarStyle"]
+- ["So16UIViewControllerC", "prefersStatusBarHidden"]
+- ["So16UIViewControllerC", "shouldAutorotate"]
+- ["So16UIViewControllerC", "uninstall"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "window"]
+- ["So16UIViewControllerC", "windowLevel"]
+- ["So16UIViewControllerC", ""]
+- !private ["So8UIWindowC", "init"]
+- !private ["So8UIWindowC", "isHidden"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["So8UIWindowC", "windowLevel"]
+- ["13SwiftMessages20WindowViewControllerC", "Bool"]
+- ["13SwiftMessages20WindowViewControllerC", "NSCoder"]
+- !private ["13SwiftMessages20WindowViewControllerC", "PassthroughView"]
+- !private ["13SwiftMessages20WindowViewControllerC", "PassthroughWindow"]
+- ["13SwiftMessages20WindowViewControllerC", "SwiftMessages"]
+- !private ["13SwiftMessages20WindowViewControllerC", "UIApplication"]
+- !private ["13SwiftMessages20WindowViewControllerC", "UIScreen"]
+- ["13SwiftMessages20WindowViewControllerC", "UIStatusBarStyle"]
+- ["13SwiftMessages20WindowViewControllerC", "UIWindow"]
+- ["13SwiftMessages20WindowViewControllerC", "UIWindowLevel"]
+- !private ["13SwiftMessages20WindowViewControllerC", "UIWindowLevelNormal"]
+- ["13SwiftMessages20WindowViewControllerC", "config"]
+- ["13SwiftMessages20WindowViewControllerC", "deinit"]
+- !private ["13SwiftMessages20WindowViewControllerC", "fatalError"]
+- ["13SwiftMessages20WindowViewControllerC", "init"]
+- ["13SwiftMessages20WindowViewControllerC", "install"]
+- ["13SwiftMessages20WindowViewControllerC", "preferredStatusBarStyle"]
+- ["13SwiftMessages20WindowViewControllerC", "prefersStatusBarHidden"]
+- ["13SwiftMessages20WindowViewControllerC", "shouldAutorotate"]
+- ["13SwiftMessages20WindowViewControllerC", "uninstall"]
+- !private ["13SwiftMessages20WindowViewControllerC", "view"]
+- !private ["13SwiftMessages20WindowViewControllerC", "window"]
+- ["13SwiftMessages20WindowViewControllerC", "windowLevel"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "windowLevel"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PassthroughView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PassthroughWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindowLevelNormal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "config"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isStatusBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusBarStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windowLevel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13SwiftMessages17AnimationDelegateP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "13SwiftMessagesAAC6ConfigV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "13SwiftMessages15PassthroughViewC"
+- !private "13SwiftMessages17PassthroughWindowC"
+- "13SwiftMessages17PresenterDelegateP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "13SwiftMessagesAAC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- "13SwiftMessages20WindowViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/Target Support Files/SwiftMessages/SwiftMessages-umbrella.h"
+- "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods.build/Debug-iphoneos/SwiftMessages.build/unextended-module.modulemap"
+interface-hash: "4c95d0ad0e5d9d97be816451f351ef01"

@@ -8,8 +8,11 @@ target 'MuseumAlive' do
   use_frameworks!
 
   # Pods for MuseumAlive
+  pod 'Presentr'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'FirebaseUI'
+  pod 'SwiftMessages'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 end

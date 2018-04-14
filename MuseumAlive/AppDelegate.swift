@@ -15,17 +15,25 @@ import FirebaseGoogleAuthUI
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 	
-
+	var dataConn : DataConnector?
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		FirebaseApp.configure()
-		do {
+		/*do {
 			try Auth.auth().signOut()
 		}catch let error {
 			print("\(error)")
-		}
+		}*/
+		dataConn = DataConnector()
+		
+		let navigationBarAppearace = UINavigationBar.appearance()
+		
+		navigationBarAppearace.tintColor = UIColor.white  // Back buttons and such
+		navigationBarAppearace.barTintColor = UIColor.flatPurple  // Bar's background color
+		
+		navigationBarAppearace.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]  // Title's text color
 
 		
         // Override point for customization after application launch.
