@@ -1,11 +1,11 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "36747584c8a8d74526fd28a50bde29e6"
-build_time: [1523590856, 275517000]
+build_time: [1523590932, 576665000]
 inputs:
   "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/GoshDarnIt/ProfanityFilter.swift": [1476184418, 0]
   "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ScaleAspectFitImageView.swift": [1522738653, 0]
   "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/MAData.swift": [1523381901, 0]
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ViewController.swift": [1523590758, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ViewController.swift": [1523590928, 0]
   "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/AppDelegate.swift": [1523528139, 0]
   "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/MAButton.swift": [1523364093, 0]
   "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/FormController.swift": [1523353254, 0]

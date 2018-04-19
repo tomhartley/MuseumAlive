@@ -36,7 +36,7 @@ class ViewController: UIViewController, FUIAuthDelegate {
 	var isAdding = false
 	var savedPoint : SCNVector3? = nil
 	
-	let vuforiaLicenseKey = "***REMOVED***"
+	let vuforiaLicenseKey = ADD_KEY_HERE
 	
 	let vuforiaDataSetFile = "MA_device.xml"
 	//let vuforiaDataSetFile = "StonesAndChips.xml"

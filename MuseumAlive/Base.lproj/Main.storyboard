@@ -74,7 +74,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="2y2-rX-IHS"/>
                                 </constraints>
-                                <string key="text">Welcome to the National Gallery of Singapore and the Museum Alive experience. 
+                                <string key="text">Welcome to the National University of Singapore and the Museum Alive experience. 
 
 To use this app, point your phone at any painting in the gallery.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -87,7 +87,7 @@ To use this app, point your phone at any painting in the gallery.</string>
                                     <constraint firstAttribute="width" secondItem="wtm-02-Pfn" secondAttribute="height" multiplier="320:147" id="meF-rb-1FR"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="498" placeholderIntrinsicHeight="500" image="nat_gal_logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oFi-FJ-52P">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="498" placeholderIntrinsicHeight="500" image="NUS_logo_full-horizontal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oFi-FJ-52P">
                                 <rect key="frame" x="40" y="187" width="240" height="87.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oFi-FJ-52P" secondAttribute="height" multiplier="107:39" id="VGV-rz-0uj"/>
@@ -368,8 +368,8 @@ To use this app, point your phone at any painting in the gallery.</string>
         </scene>
     </scenes>
     <resources>
+        <image name="NUS_logo_full-horizontal.jpg" width="1390" height="862"/>
         <image name="brooch.jpg" width="712" height="713"/>
         <image name="nag_gal_header.jpg" width="1680" height="786"/>
-        <image name="nat_gal_logo.jpg" width="700" height="407"/>
     </resources>
 </document>

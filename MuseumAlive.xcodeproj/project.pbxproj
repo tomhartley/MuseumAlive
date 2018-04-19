@@ -50,6 +50,7 @@
 		E25DA34B207C70430080A2FA /* Profanity.json in Resources */ = {isa = PBXBuildFile; fileRef = E25DA34A207C70430080A2FA /* Profanity.json */; };
 		E27C9557207FAFEE00904615 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C9555207FAFEE00904615 /* SettingsViewController.swift */; };
 		E27C9558207FAFEE00904615 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27C9556207FAFEE00904615 /* SettingsViewController.xib */; };
+		E28A780A2085EF33001A7559 /* NUS_logo_full-horizontal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E28A78092085EF33001A7559 /* NUS_logo_full-horizontal.jpg */; };
 		E29BD716207BAB40008F0957 /* nat_gal_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E29BD714207BAB40008F0957 /* nat_gal_logo.jpg */; };
 		E29BD717207BAB40008F0957 /* nag_gal_header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E29BD715207BAB40008F0957 /* nag_gal_header.jpg */; };
 		E29F5C552074BCC200BD7A7C /* MAData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29F5C542074BCC200BD7A7C /* MAData.swift */; };
@@ -211,6 +212,7 @@
 		E25DA34A207C70430080A2FA /* Profanity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Profanity.json; sourceTree = "<group>"; };
 		E27C9555207FAFEE00904615 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E27C9556207FAFEE00904615 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		E28A78092085EF33001A7559 /* NUS_logo_full-horizontal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NUS_logo_full-horizontal.jpg"; sourceTree = "<group>"; };
 		E29BD714207BAB40008F0957 /* nat_gal_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nat_gal_logo.jpg; sourceTree = "<group>"; };
 		E29BD715207BAB40008F0957 /* nag_gal_header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nag_gal_header.jpg; sourceTree = "<group>"; };
 		E29F5C542074BCC200BD7A7C /* MAData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAData.swift; sourceTree = "<group>"; };
@@ -559,6 +561,7 @@
 		E2FFF1CA207357330016A3BB /* MuseumAssets */ = {
 			isa = PBXGroup;
 			children = (
+				E28A78092085EF33001A7559 /* NUS_logo_full-horizontal.jpg */,
 				E2F4C3612074F7270003BC71 /* nat_gal_black_png.png */,
 				E29BD715207BAB40008F0957 /* nag_gal_header.jpg */,
 				E29BD714207BAB40008F0957 /* nat_gal_logo.jpg */,
@@ -654,6 +657,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A804D22071BB7900743D27 /* Background.fragsh in Resources */,
+				E28A780A2085EF33001A7559 /* NUS_logo_full-horizontal.jpg in Resources */,
 				92DCE9BF1E37CEA400E0DE1C /* Tarmac.dat in Resources */,
 				E29BD717207BAB40008F0957 /* nag_gal_header.jpg in Resources */,
 				928C34361EAF69EB00BC07DE /* Vuforia.dat in Resources */,

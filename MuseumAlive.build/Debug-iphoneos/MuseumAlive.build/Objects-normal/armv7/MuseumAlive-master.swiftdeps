@@ -1,10 +1,12 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "e4432022ef079a0c15c372e401f30ddb"
-build_time: [1523349617, 135937000]
+options: "fada98e721ad7199c5a47eccf06cca71"
+build_time: [1524150658, 962442000]
 inputs:
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/GoshDarnIt/ProfanityFilter.swift": [1476184418, 0]
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ScaleAspectFitImageView.swift": [1522738653, 0]
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/MAData.swift": [1523276797, 0]
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ViewController.swift": [1523349614, 0]
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/AppDelegate.swift": [1522850709, 0]
-  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/FormController.swift": [1522900973, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/GoshDarnIt/ProfanityFilter.swift": !dirty [1476184418, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ScaleAspectFitImageView.swift": !dirty [1522738653, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/MAData.swift": !dirty [1523381901, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/ViewController.swift": !dirty [1523590928, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/AppDelegate.swift": !dirty [1523528139, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/MAButton.swift": !dirty [1523364093, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/FormController.swift": !dirty [1523353254, 0]
+  "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/MuseumAlive/SettingsViewController.swift": !dirty [1523590853, 0]
