@@ -48,7 +48,6 @@ provides-dynamic-lookup:
 - "viewWillDisappear"
 - "vuforiaDataSetFile"
 - "vuforiaEAGLView"
-- "vuforiaLicenseKey"
 - "vuforiaManager"
 - "vuforiaManagerDidFinishPreparing"
 depends-top-level:
@@ -63,6 +62,7 @@ depends-top-level:
 - !private "=="
 - !private ">"
 - !private "??"
+- "ADD_KEY_HERE"
 - !private "AnyObject"
 - !private "AppDelegate"
 - !private "Array"
@@ -177,6 +177,7 @@ depends-member:
 - !private ["SC6CGRectV", "size"]
 - !private ["SC6CGSizeV", "height"]
 - !private ["SC6CGSizeV", "width"]
+- ["s7CVarArgP", "ADD_KEY_HERE"]
 - !private ["s7CVarArgP", "Auth"]
 - !private ["s7CVarArgP", "CGFloat"]
 - !private ["s7CVarArgP", "CGPoint"]
@@ -352,6 +353,7 @@ depends-member:
 - !private ["s10ComparableP", "censored"]
 - !private ["s10ComparableP", "hashValue"]
 - ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "ADD_KEY_HERE"]
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
 - !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
@@ -538,6 +540,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "width"]
 - !private ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "ADD_KEY_HERE"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
 - !private ["s23CustomStringConvertibleP", "CGFloat"]
 - !private ["s23CustomStringConvertibleP", "CGPoint"]
@@ -733,6 +736,7 @@ depends-member:
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EncodableP", "width"]
 - !private ["s9EncodableP", "zero"]
+- ["s9EquatableP", "ADD_KEY_HERE"]
 - !private ["s9EquatableP", "Auth"]
 - !private ["s9EquatableP", "CGFloat"]
 - !private ["s9EquatableP", "CGPoint"]
@@ -946,6 +950,7 @@ depends-member:
 - !private ["So7FUIAuthC", "defaultAuthUI"]
 - !private ["So7FUIAuthC", "delegate"]
 - !private ["So7FUIAuthC", "providers"]
+- ["So15FUIAuthDelegateP", "ADD_KEY_HERE"]
 - !private ["So15FUIAuthDelegateP", "Auth"]
 - !private ["So15FUIAuthDelegateP", "CGFloat"]
 - !private ["So15FUIAuthDelegateP", "CGPoint"]
@@ -1054,6 +1059,7 @@ depends-member:
 - !private ["6Eureka26FormViewControllerProtocolP", "form"]
 - !private ["6Eureka26FormViewControllerProtocolP", "init"]
 - !private ["6Eureka26FormViewControllerProtocolP", "navigationItem"]
+- ["s8HashableP", "ADD_KEY_HERE"]
 - !private ["s8HashableP", "Auth"]
 - !private ["s8HashableP", "CGFloat"]
 - !private ["s8HashableP", "CGPoint"]
@@ -1269,6 +1275,7 @@ depends-member:
 - !private ["s10MirrorPathP", "hashValue"]
 - ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "values"]
+- ["So8NSCodingP", "ADD_KEY_HERE"]
 - !private ["So8NSCodingP", "Auth"]
 - !private ["So8NSCodingP", "CGFloat"]
 - !private ["So8NSCodingP", "CGPoint"]
@@ -1434,6 +1441,7 @@ depends-member:
 - !private ["So9NSCopyingP", "position"]
 - !private ["So9NSCopyingP", "scale"]
 - !private ["So9NSCopyingP", "transparency"]
+- ["So26NSExtensionRequestHandlingP", "ADD_KEY_HERE"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - !private ["So26NSExtensionRequestHandlingP", "CGFloat"]
 - !private ["So26NSExtensionRequestHandlingP", "CGPoint"]
@@ -1549,6 +1557,7 @@ depends-member:
 - !private ["So16NSMutableCopyingP", "hashValue"]
 - ["So16NSMutableCopyingP", "init"]
 - !private ["So14NSNotificationC", "Name"]
+- ["So8NSObjectC", "ADD_KEY_HERE"]
 - !private ["So8NSObjectC", "AnyObject"]
 - !private ["So8NSObjectC", "AppDelegate"]
 - !private ["So8NSObjectC", "Auth"]
@@ -1735,10 +1744,11 @@ depends-member:
 - !private ["So8NSObjectC", "visibleViewController"]
 - ["So8NSObjectC", "vuforiaDataSetFile"]
 - ["So8NSObjectC", "vuforiaEAGLView"]
-- ["So8NSObjectC", "vuforiaLicenseKey"]
+- !private ["So8NSObjectC", "vuforiaLicenseKey"]
 - ["So8NSObjectC", "vuforiaManager"]
 - ["So8NSObjectC", "vuforiaManagerDidFinishPreparing"]
 - !private ["So8NSObjectC", "withRenderingMode"]
+- ["So16NSObjectProtocolP", "ADD_KEY_HERE"]
 - !private ["So16NSObjectProtocolP", "Auth"]
 - !private ["So16NSObjectProtocolP", "CGFloat"]
 - !private ["So16NSObjectProtocolP", "CGPoint"]
@@ -2121,6 +2131,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "title"]
 - !private ["So12UIAppearanceP", "viewFromNib"]
+- ["So21UIAppearanceContainerP", "ADD_KEY_HERE"]
 - !private ["So21UIAppearanceContainerP", "Auth"]
 - !private ["So21UIAppearanceContainerP", "CGFloat"]
 - !private ["So21UIAppearanceContainerP", "CGPoint"]
@@ -2253,6 +2264,7 @@ depends-member:
 - !private ["So8UIButtonC", "alpha"]
 - !private ["So8UIButtonC", "isHidden"]
 - !private ["So8UIButtonC", "setTitle"]
+- ["So18UIContentContainerP", "ADD_KEY_HERE"]
 - !private ["So18UIContentContainerP", "Auth"]
 - !private ["So18UIContentContainerP", "CGFloat"]
 - !private ["So18UIContentContainerP", "CGPoint"]
@@ -2401,6 +2413,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "superview"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "viewFromNib"]
+- ["So18UIFocusEnvironmentP", "ADD_KEY_HERE"]
 - !private ["So18UIFocusEnvironmentP", "Auth"]
 - !private ["So18UIFocusEnvironmentP", "CGFloat"]
 - !private ["So18UIFocusEnvironmentP", "CGPoint"]
@@ -2580,6 +2593,7 @@ depends-member:
 - !private ["So16UINavigationItemC", "leftBarButtonItem"]
 - !private ["So16UINavigationItemC", "rightBarButtonItem"]
 - !private ["So16UINavigationItemC", "title"]
+- ["So30UIPasteConfigurationSupportingP", "ADD_KEY_HERE"]
 - !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
@@ -2701,6 +2715,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "vuforiaManager"]
 - ["So30UIPasteConfigurationSupportingP", "vuforiaManagerDidFinishPreparing"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "ADD_KEY_HERE"]
 - !private ["So11UIResponderC", "AnyObject"]
 - !private ["So11UIResponderC", "AppDelegate"]
 - !private ["So11UIResponderC", "Auth"]
@@ -2841,9 +2856,10 @@ depends-member:
 - !private ["So11UIResponderC", "visibleViewController"]
 - ["So11UIResponderC", "vuforiaDataSetFile"]
 - ["So11UIResponderC", "vuforiaEAGLView"]
-- ["So11UIResponderC", "vuforiaLicenseKey"]
+- !private ["So11UIResponderC", "vuforiaLicenseKey"]
 - ["So11UIResponderC", "vuforiaManager"]
 - ["So11UIResponderC", "vuforiaManagerDidFinishPreparing"]
+- ["So30UIResponderStandardEditActionsP", "ADD_KEY_HERE"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
 - !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
@@ -2973,6 +2989,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "isHidden"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "title"]
+- ["So16UIStateRestoringP", "ADD_KEY_HERE"]
 - !private ["So16UIStateRestoringP", "Auth"]
 - !private ["So16UIStateRestoringP", "CGFloat"]
 - !private ["So16UIStateRestoringP", "CGPoint"]
@@ -3079,6 +3096,7 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "form"]
 - !private ["So19UITableViewDelegateP", "init"]
 - !private ["So19UITableViewDelegateP", "navigationItem"]
+- ["So18UITraitEnvironmentP", "ADD_KEY_HERE"]
 - !private ["So18UITraitEnvironmentP", "Auth"]
 - !private ["So18UITraitEnvironmentP", "CGFloat"]
 - !private ["So18UITraitEnvironmentP", "CGPoint"]
@@ -3222,6 +3240,7 @@ depends-member:
 - !private ["So6UIViewC", "viewFromNib"]
 - !private ["SC22UIViewAnimationOptionsV", "curveEaseInOut"]
 - !private ["SC22UIViewAnimationOptionsV", "curveLinear"]
+- ["So16UIViewControllerC", "ADD_KEY_HERE"]
 - !private ["So16UIViewControllerC", "AnyObject"]
 - !private ["So16UIViewControllerC", "AppDelegate"]
 - !private ["So16UIViewControllerC", "Auth"]
@@ -3340,7 +3359,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "visibleViewController"]
 - ["So16UIViewControllerC", "vuforiaDataSetFile"]
 - ["So16UIViewControllerC", "vuforiaEAGLView"]
-- ["So16UIViewControllerC", "vuforiaLicenseKey"]
+- !private ["So16UIViewControllerC", "vuforiaLicenseKey"]
 - ["So16UIViewControllerC", "vuforiaManager"]
 - ["So16UIViewControllerC", "vuforiaManagerDidFinishPreparing"]
 - ["So16UIViewControllerC", ""]
@@ -3349,6 +3368,7 @@ depends-member:
 - !private ["So18UIVisualEffectViewC", "isHidden"]
 - !private ["So4UserC", "uid"]
 - !private ["So8UserInfoP", "uid"]
+- ["11MuseumAlive14ViewControllerC", "ADD_KEY_HERE"]
 - !private ["11MuseumAlive14ViewControllerC", "AnyObject"]
 - !private ["11MuseumAlive14ViewControllerC", "AppDelegate"]
 - !private ["11MuseumAlive14ViewControllerC", "Auth"]
@@ -3463,7 +3483,7 @@ depends-member:
 - ["11MuseumAlive14ViewControllerC", "viewWillDisappear"]
 - ["11MuseumAlive14ViewControllerC", "vuforiaDataSetFile"]
 - ["11MuseumAlive14ViewControllerC", "vuforiaEAGLView"]
-- ["11MuseumAlive14ViewControllerC", "vuforiaLicenseKey"]
+- !private ["11MuseumAlive14ViewControllerC", "vuforiaLicenseKey"]
 - ["11MuseumAlive14ViewControllerC", "vuforiaManager"]
 - ["11MuseumAlive14ViewControllerC", "vuforiaManagerDidFinishPreparing"]
 - !private ["So15VuforiaEAGLViewC", "delegate"]
@@ -3472,6 +3492,7 @@ depends-member:
 - !private ["So15VuforiaEAGLViewC", "sceneSource"]
 - !private ["So15VuforiaEAGLViewC", "setNeedsChangeSceneWithUserInfo"]
 - !private ["So15VuforiaEAGLViewC", "setupRenderer"]
+- ["So23VuforiaEAGLViewDelegateP", "ADD_KEY_HERE"]
 - !private ["So23VuforiaEAGLViewDelegateP", "Auth"]
 - !private ["So23VuforiaEAGLViewDelegateP", "CGFloat"]
 - !private ["So23VuforiaEAGLViewDelegateP", "CGPoint"]
@@ -3561,6 +3582,7 @@ depends-member:
 - ["So23VuforiaEAGLViewDelegateP", "vuforiaManager"]
 - ["So23VuforiaEAGLViewDelegateP", "vuforiaManagerDidFinishPreparing"]
 - ["So23VuforiaEAGLViewDelegateP", ""]
+- ["So26VuforiaEAGLViewSceneSourceP", "ADD_KEY_HERE"]
 - !private ["So26VuforiaEAGLViewSceneSourceP", "Auth"]
 - !private ["So26VuforiaEAGLViewSceneSourceP", "CGFloat"]
 - !private ["So26VuforiaEAGLViewSceneSourceP", "CGPoint"]
@@ -3659,6 +3681,7 @@ depends-member:
 - !private ["So14VuforiaManagerC", "setContinuousAutofocusEnabled"]
 - !private ["So14VuforiaManagerC", "setExtendedTrackingEnabled"]
 - !private ["So14VuforiaManagerC", "start"]
+- ["So22VuforiaManagerDelegateP", "ADD_KEY_HERE"]
 - !private ["So22VuforiaManagerDelegateP", "Auth"]
 - !private ["So22VuforiaManagerDelegateP", "CGFloat"]
 - !private ["So22VuforiaManagerDelegateP", "CGPoint"]
@@ -3813,6 +3836,7 @@ depends-member:
 - ["s14_IndexableBaseP", "init"]
 - !private ["s14_IndexableBaseP", "subscript"]
 - !private ["s14_IndexableBaseP", "values"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ADD_KEY_HERE"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
@@ -4353,4 +4377,4 @@ depends-external:
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Debug-iphoneos/SwiftMessages/SwiftMessages.framework/Modules/module.modulemap"
 - "/Users/tom/Documents/FYP/AR/Vuforia_SceneKit/VuforiaSampleSwift-master/Carthage/Build/iOS/ImageRow.framework/Modules/module.modulemap"
-interface-hash: "297f29747a1fe2725f48aacd86b504f7"
+interface-hash: "beadd87275cb363aacbce0ec92ea047b"

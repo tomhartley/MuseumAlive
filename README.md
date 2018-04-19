@@ -1,65 +1,15 @@
-# VuforiaSampleSwift
+# Museum Alive
 
-Vuforia sample code with SceneKit using Swift.
+A tool for creating interactive experiences and dialogues within a museum context. The app allows users to read annotations on paintings (notes), as well as adding their own notes to paintings.
 
-## Requirement
+## Requirements
 
-* Xcode 9.2
-* iOS 11.1
-* Vuforia SDK for iOS v7.0.43
+iOS device, Xcode developer account to install.
 
-## Setup
+## Installation Instructions
 
-* Download Vuforia SDK for iOS.  
-  [Vuforia SDK](https://developer.vuforia.com/downloads/sdk)
-* Put the SDK on your path as like bellow:  
-  `VuforiaSampleSwift/VuforiaSampleSwift/vuforia-sdk-ios-7-0-43`
-* Download Vuforiat Sample Targets.  
-  [Vuforiat Sample](https://developer.vuforia.com/downloads/samples)
-* Put your targets on your path as like bellow:  
-  `VuforiaSampleSwift/VuforiaSampleSwift/VuforiaAssets/ImageTargets`
-* If you needs to fix to links to these files and settings in project, fix it.  
-  If you failed to build, check `Header Search Paths` and `Libarary Search Paths` in Build Settings.
-* Set your `lincenseKey` and `dataSetFile` in ViewController.swift.
-
-
-## Usage
-
-See ViewController.swift.
-
-``` swift
-
-vuforiaManager = VuforiaManager(licenseKey: "your license key", dataSetFile: "your target xml file")
-if let manager = vuforiaManager {
-    manager.delegate = self
-    manager.eaglView.sceneSource = self
-    manager.eaglView.delegate = self
-    manager.eaglView.setupRenderer()
-    self.view = manager.eaglView
-}
-
-vuforiaManager?.prepareWithOrientation(.Portrait)
-
-...
-
-do {
-    try vuforiaManager?.start()
-}catch let error {
-    print("\(error)")
-}
-
-```
-
-## ScreenShot
-
-![screenshot](https://github.com/yshrkt/VuforiaSampleSwift/blob/master/screenshot.jpg)
+Coming soon.
 
 ## License
 
-MIT license. [See LICENSE](https://github.com/yshrkt/VuforiaSampleSwift/blob/master/LICENSE) for details.
-
-## Thanks
-
-I am referring to the following page.
-
-* [Making Augmented Reality app easily with Scenekit + Vuforia (in English)](http://qiita.com/akira108/items/a743138fca532ee193fe)
+MIT license. [See LICENSE](https://github.com/tomhartley/MuseumAlive/blob/master/LICENSE) for details.
